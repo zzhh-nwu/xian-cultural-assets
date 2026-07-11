@@ -662,16 +662,157 @@ function DetailPage({ projects, setPage, setChatQuery }) {
 
 // ==================== KNOWLEDGE GRAPH ====================
 function KnowledgeGraph({ kgStats }) {
+  const containerRef = useRef(null)
+  const networkRef = useRef(null)
+  const [graphData, setGraphData] = useState(null)
+  const [loading, setLoading] = useState(true)
+  const [selectedNode, setSelectedNode] = useState(null)
+  const [searchText, setSearchText] = useState('')
+  const [searchResult, setSearchResult] = useState(null)
+  const [searching, setSearching] = useState(false)
+  const [error, setError] = useState(null)
+
+  // 加载全量数据
+  useEffect(() => {
+    fetch(`${API}/kg/full`)
+      .then(r => r.json())
+      .then(d => { setGraphData(d); setLoading(false) })
+      .catch(e => { console.error('KG load error:', e); setError('知识图谱数据加载失败'); setLoading(false) })
+  }, [])
+
+  // 初始化 vis-network
+  useEffect(() => {
+    if (!graphData || !containerRef.current || networkRef.current) return
+    const nodes = new vis.DataSet(graphData.nodes.map(n => ({
+      id: n.id,
+      label: n.label,
+      group: n.group,
+      title: `<b>${n.label}</b><br/>类型: ${n.type_cn}<br/>${n.tags?.slice(0,3).join(' / ')||''}`,
+      color: n.color,
+      font: { size: 11, face: 'Microsoft YaHei, sans-serif' },
+    })))
+    const edges = new vis.DataSet(graphData.edges.map(e => ({
+      id: e.from + '__' + e.to,
+      from: e.from,
+      to: e.to,
+      label: e.label,
+      font: { size: 8, color: '#888' },
+      arrows: { to: { enabled: true, scaleFactor: 0.5 } },
+      color: { color: 'rgba(201,169,110,0.25)', highlight: '#C9A96E', hover: '#C9A96E' },
+      width: 0.6,
+    })))
+    const options = {
+      nodes: {
+        shape: 'dot',
+        size: 14,
+        borderWidth: 1.5,
+        borderWidthSelected: 3,
+        color: { border: '#1A1A2E', background: '#8B3A3A' },
+        font: { color: '#E8E0D5', strokeWidth: 0 },
+      },
+      edges: {
+        smooth: { type: 'continuous' },
+        hoverWidth: 1.5,
+        selectionWidth: 1,
+      },
+      physics: {
+        enabled: true,
+        solver: 'barnesHut',
+        barnesHut: { gravitationalConstant: -1800, centralGravity: 0.2, springLength: 120, springConstant: 0.02 },
+        stabilization: { iterations: 200, updateInterval: 10 },
+      },
+      interaction: {
+        hover: true,
+        tooltipDelay: 200,
+        zoomView: true,
+        dragView: true,
+        navigationButtons: false,
+      },
+      groups: graphData.type_colors ? {} : undefined,
+    }
+    // 设置分组颜色
+    if (graphData.type_colors) {
+      for (const [g, c] of Object.entries(graphData.type_colors)) {
+        options.groups[g] = { color: { background: c, border: c, highlight: { background: c, border: '#fff' } } }
+      }
+    }
+    const network = new vis.Network(containerRef.current, { nodes, edges }, options)
+    networkRef.current = network
+
+    // 点击节点
+    network.on('click', function (params) {
+      if (params.nodes.length > 0) {
+        const nodeId = params.nodes[0]
+        const node = graphData.nodes.find(n => n.id === nodeId)
+        setSelectedNode(node)
+        // 高亮：关联节点和边彩色，其余变暗
+        const connected = new Set(network.getConnectedNodes(nodeId))
+        connected.add(nodeId)
+        const connectedEdges = new Set(network.getConnectedEdges(nodeId))
+        nodes.update(graphData.nodes.map(n => ({
+          id: n.id,
+          color: connected.has(n.id) ? n.color : 'rgba(100,100,100,0.15)',
+          font: { color: connected.has(n.id) ? '#E8E0D5' : 'rgba(150,150,150,0.2)' },
+        })))
+        edges.update(graphData.edges.map(e => ({
+          id: e.from + '__' + e.to,
+          color: connectedEdges.has(e.from + '__' + e.to)
+            ? { color: '#C9A96E', highlight: '#fff' }
+            : { color: 'rgba(100,100,100,0.04)' },
+          width: connectedEdges.has(e.from + '__' + e.to) ? 1.2 : 0.3,
+        })))
+      } else {
+        setSelectedNode(null)
+        // 恢复全部
+        nodes.update(graphData.nodes.map(n => ({ id: n.id, color: n.color, font: { color: '#E8E0D5' } })))
+        edges.update(graphData.edges.map(e => ({
+          id: e.from + '__' + e.to,
+          color: { color: 'rgba(201,169,110,0.25)', highlight: '#C9A96E', hover: '#C9A96E' },
+          width: 0.6,
+        })))
+      }
+    })
+
+    // 双击重置视图
+    network.on('doubleClick', () => {
+      setSelectedNode(null)
+      nodes.update(graphData.nodes.map(n => ({ id: n.id, color: n.color, font: { color: '#E8E0D5' } })))
+      edges.update(graphData.edges.map(e => ({
+        id: e.from + '__' + e.to,
+        color: { color: 'rgba(201,169,110,0.25)', highlight: '#C9A96E', hover: '#C9A96E' },
+        width: 0.6,
+      })))
+      network.fit({ animation: { duration: 800, easingFunction: 'easeInOutQuad' } })
+    })
+  }, [graphData])
+
+  // 搜索
+  const doSearch = async () => {
+    if (!searchText.trim()) return
+    setSearching(true); setSearchResult(null)
+    try {
+      const r = await fetch(`${API}/kg/query?entity_name=${encodeURIComponent(searchText)}&max_depth=2`)
+      if (!r.ok) { setSearchResult({ error: `未找到与"${searchText}"相关的实体` }); setSearching(false); return }
+      const d = await r.json()
+      setSearchResult(d)
+      // 在图里定位第一个结果
+      if (d.results?.[0] && networkRef.current) {
+        networkRef.current.selectNodes([d.results[0].node_id])
+        networkRef.current.focus(d.results[0].node_id, { animation: true, scale: 1.5 })
+      }
+    } catch (e) { setSearchResult({ error: '搜索失败' }) }
+    setSearching(false)
+  }
+
   const nt = kgStats?.node_types || {}
   const et = kgStats?.edge_types || {}
-  const ntColors = {'cultural_relic':'#8B3A3A','intangible_heritage':'#C9A96E','cultural_tourism':'#D4A574','传承人/历史人物':'#f59e0b','工艺技术':'#A78BFA','时间时期':'#6366f1','地理区位':'#14b8a6','展览活动/历史事件':'#f97316','数字资产':'#8b5cf6'}
   const cnNames = {related_to:'相关人物',uses_technique:'使用技艺',created_in:'创作时期',located_in:'位于',participates_in:'参与事件',derived_digital_asset:'衍生数字资产',cultural_link:'文化关联',contains:'层级包含'}
   const ntCn = {cultural_relic:'文物',cultural_tourism:'文旅',intangible_heritage:'非遗','传承人/历史人物':'传承人/人物','工艺技术':'工艺技术','时间时期':'时间时期','地理区位':'地理区位','展览活动/历史事件':'展览/事件','数字资产':'数字资产'}
   const maxV = Math.max(1,...Object.values(et))
 
   return (
     <div className="py-12">
-      <div className="text-center mb-10">
+      <div className="text-center mb-8">
         <span className="text-xs font-bold tracking-[0.25em] text-[#C9A96E] uppercase">Knowledge Graph</span>
         <h1 className="text-4xl md:text-5xl font-black text-[#E8E0D5] mt-3 mb-2" style={{fontFamily:"'Noto Serif SC',serif"}}>知识图谱</h1>
         <p className="text-sm text-[#B8A99A]">{kgStats?.total_nodes||"…"} 节点 · {kgStats?.total_edges||"…"} 条边 · {Object.keys(nt).length||"…"} 种实体 · {Object.keys(et).length||"…"} 种关系</p>
@@ -679,7 +820,7 @@ function KnowledgeGraph({ kgStats }) {
 
       {/* 统计卡片 */}
       {kgStats && (
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
           {[
             ['🔵','节点总数',kgStats.total_nodes,'#C9A96E'],
             ['🔗','边总数',kgStats.total_edges,'#8B3A3A'],
@@ -695,69 +836,105 @@ function KnowledgeGraph({ kgStats }) {
         </div>
       )}
 
-      {/* 实体类型分布 */}
-      <div className="glass p-6 md:p-8 mb-8">
-        <h3 className="text-lg font-black text-[#C9A96E] mb-6">实体类型分布</h3>
-        <div className="flex flex-wrap gap-3">
-          {Object.entries(nt).map(([k,v])=>(
-            <div key={k} className="flex items-center gap-2.5 rounded-xl px-4 py-3 glass-light">
-              <span className="w-3 h-3 rounded-full" style={{backgroundColor:ntColors[k]||'#64748b'}} />
-              <span className="text-xs font-semibold text-[#B8A99A]">{ntCn[k]||k}</span>
-              <span className="text-lg font-black text-[#C9A96E]" style={{fontFamily:"'JetBrains Mono',monospace"}}>{v}</span>
-            </div>
-          ))}
-        </div>
+      {/* 搜索栏 */}
+      <div className="glass p-4 mb-6 flex items-center gap-3">
+        <input
+          type="text" value={searchText} onChange={e=>setSearchText(e.target.value)}
+          onKeyDown={e=>e.key==='Enter'&&doSearch()}
+          placeholder="搜索实体名称，如「兵马俑」「西安鼓乐」…"
+          className="flex-1 bg-transparent border border-[#C9A96E]/20 rounded-lg px-4 py-2.5 text-sm text-[#E8E0D5] placeholder-[#B8A99A]/50 outline-none focus:border-[#C9A96E]/50 transition-colors"
+        />
+        <button onClick={doSearch} disabled={searching}
+          className="px-5 py-2.5 rounded-lg text-sm font-bold transition-all duration-300"
+          style={{background:'linear-gradient(135deg,#8B3A3A,#C9A96E)',color:'#1A1A2E'}}>
+          {searching ? '搜索中…' : '🔍 搜索'}
+        </button>
+        <span className="text-xs text-[#B8A99A]/60">双击图谱空白处可重置视图</span>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-8">
-        {/* 关系类型 */}
-        <div className="glass p-6 md:p-8">
-          <h3 className="text-lg font-black text-[#C9A96E] mb-6">关系类型</h3>
-          <div className="space-y-4">
-            {Object.entries(et).map(([k,v])=>(
-              <div key={k} className="flex items-center gap-3">
-                <span className="text-xs font-semibold text-[#B8A99A] w-24 shrink-0">{cnNames[k]||k}</span>
-                <div className="flex-1 h-6 rounded-full overflow-hidden" style={{background:'rgba(201,169,110,0.06)'}}>
-                  <div className="h-full rounded-full transition-all duration-700" style={{width:`${(v/maxV)*100}%`,background:'linear-gradient(90deg, #8B3A3A, #C9A96E)'}} />
-                </div>
-                <span className="text-xs font-bold text-[#C9A96E] font-mono w-8 text-right">{v}</span>
-              </div>
-            ))}
-          </div>
+      <div className="grid lg:grid-cols-3 gap-6">
+        {/* 图谱主区域 */}
+        <div className="lg:col-span-2 glass overflow-hidden relative" style={{minHeight:'600px'}}>
+          {loading && (
+            <div className="absolute inset-0 flex items-center justify-center z-10 bg-[#1A1A2E]/80">
+              <div className="text-center"><div className="text-3xl mb-3 animate-bounce">🔮</div><p className="text-[#C9A96E] text-sm">知识图谱加载中…</p></div>
+            </div>
+          )}
+          {error && (
+            <div className="absolute inset-0 flex items-center justify-center z-10 bg-[#1A1A2E]/80">
+              <p className="text-red-400 text-sm">{error}</p>
+            </div>
+          )}
+          <div ref={containerRef} style={{width:'100%',height:'600px'}} />
         </div>
 
-        {/* 星图网络图 */}
-        <div className="glass p-6 md:p-8 flex items-center justify-center relative overflow-hidden">
-          <svg viewBox="0 0 420 380" className="w-full max-w-sm">
-            {[
-              [210,40,290,120],[210,40,130,120],[290,120,350,230],[130,120,70,230],
-              [210,40,210,190],[290,120,210,190],[130,120,210,190],
-              [350,230,270,310],[70,230,150,310],[210,190,210,310],
-              [270,310,210,190],[150,310,210,190],
-            ].map(([x1,y1,x2,y2],i)=>(
-              <line key={i} x1={x1} y1={y1} x2={x2} y2={y2} stroke="#C9A96E" strokeWidth="0.8" opacity="0.12" />
-            ))}
-            {[
-              [210,40,'文物资产',24,'#8B3A3A'],
-              [290,120,'非遗传承',28,'#C9A96E'],
-              [130,120,'文旅景区',26,'#D4A574'],
-              [350,230,'人物',20,'#f59e0b'],
-              [70,230,'工艺',20,'#A78BFA'],
-              [270,310,'时期',22,'#6366f1'],
-              [150,310,'区位',22,'#14b8a6'],
-              [210,310,'数字资产',30,'#8b5cf6'],
-            ].map(([cx,cy,label,r,color],i)=>(
-              <g key={i}>
-                <circle cx={cx} cy={cy} r={r} fill={color} opacity="0.12" />
-                <circle cx={cx} cy={cy} r={r} fill="none" stroke={color} strokeWidth="1.5" opacity="0.5" />
-                <text x={cx} y={cy+4} textAnchor="middle" fontSize="10" fontWeight="700" fill={color}>{label}</text>
-              </g>
-            ))}
-            <circle cx="210" cy="190" r="42" fill="#8B3A3A" opacity="0.08" />
-            <circle cx="210" cy="190" r="42" fill="none" stroke="#C9A96E" strokeWidth="2" opacity="0.6" />
-            <text x="210" y="185" textAnchor="middle" fontSize="12" fontWeight="900" fill="#C9A96E" style={{fontFamily:"'Noto Serif SC',serif"}}>文化数字</text>
-            <text x="210" y="201" textAnchor="middle" fontSize="12" fontWeight="900" fill="#C9A96E" style={{fontFamily:"'Noto Serif SC',serif"}}>资产图谱</text>
-          </svg>
+        {/* 右侧面板 */}
+        <div className="space-y-4">
+          {/* 选中节点详情 */}
+          {selectedNode ? (
+            <div className="glass p-5 animate-in">
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-sm font-bold text-[#C9A96E] uppercase tracking-wider">节点详情</h3>
+                <button onClick={()=>setSelectedNode(null)} className="text-xs text-[#B8A99A] hover:text-[#E8E0D5]">✕ 关闭</button>
+              </div>
+              <div className="w-3 h-3 rounded-full mb-3" style={{backgroundColor:selectedNode.color}} />
+              <p className="text-lg font-black text-[#E8E0D5] mb-1">{selectedNode.label}</p>
+              <p className="text-xs text-[#B8A99A] mb-3">{selectedNode.type_cn} · {selectedNode.id}</p>
+              {selectedNode.tags?.length > 0 && (
+                <div className="flex flex-wrap gap-1.5">
+                  {selectedNode.tags.map(t=><span key={t} className="text-xs px-2 py-0.5 rounded-full border border-[#C9A96E]/20 text-[#B8A99A]">{t}</span>)}
+                </div>
+              )}
+              <p className="text-xs text-[#B8A99A]/50 mt-4">点击图谱节点查看关联 · 双击空白重置</p>
+            </div>
+          ) : (
+            <div className="glass p-5 text-center">
+              <p className="text-sm text-[#B8A99A]">👆 点击图谱中的节点<br/>查看详细信息</p>
+            </div>
+          )}
+
+          {/* 搜索结果 */}
+          {searchResult && (
+            <div className="glass p-5 animate-in max-h-80 overflow-y-auto">
+              <h3 className="text-sm font-bold text-[#C9A96E] mb-3 uppercase tracking-wider">
+                搜索结果 {searchResult.total_matches ? `(${searchResult.total_matches})` : ''}
+              </h3>
+              {searchResult.error ? (
+                <p className="text-xs text-red-400">{searchResult.error}</p>
+              ) : (
+                searchResult.results?.map((r,i)=>(
+                  <div key={i} className="mb-3 pb-3 border-b border-[#C9A96E]/10 last:border-0 last:pb-0 last:mb-0">
+                    <p className="text-sm font-bold text-[#E8E0D5] mb-1">{r.entity}</p>
+                    <p className="text-xs text-[#B8A99A] mb-2">{r.type} · {r.direct_relations?.length||0} 条关联</p>
+                    {r.direct_relations?.slice(0,5).map((rel,j)=>(
+                      <div key={j} className="text-xs flex items-center gap-1.5 mb-0.5">
+                        <span className="text-[#8B3A3A]">{rel.direction==='outgoing' ? '→' : '←'}</span>
+                        <span className="text-[#C9A96E]">{rel.relation}</span>
+                        <span className="text-[#B8A99A]">{rel.target}</span>
+                      </div>
+                    ))}
+                  </div>
+                ))
+              )}
+            </div>
+          )}
+
+          {/* 图例 */}
+          <div className="glass p-5">
+            <h3 className="text-sm font-bold text-[#C9A96E] mb-3 uppercase tracking-wider">图例</h3>
+            <div className="grid grid-cols-2 gap-2">
+              {[
+                ['文物','#8B3A3A'],['非遗','#C9A96E'],['文旅','#D4A574'],
+                ['传承人/人物','#f59e0b'],['工艺技术','#A78BFA'],['时间时期','#6366f1'],
+                ['地理区位','#14b8a6'],['展览/事件','#f97316'],['数字资产','#8b5cf6'],
+              ].map(([label,color])=>(
+                <div key={label} className="flex items-center gap-2 text-xs">
+                  <span className="w-2.5 h-2.5 rounded-full shrink-0" style={{backgroundColor:color}} />
+                  <span className="text-[#B8A99A] truncate">{label}</span>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </div>

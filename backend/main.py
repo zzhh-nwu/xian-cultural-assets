@@ -411,6 +411,66 @@ def kg_query(entity_name: str = Query(...), max_depth: int = Query(2)):
     return {'query': entity_name, 'results': results, 'total_matches': len(results)}
 
 
+@app.get('/api/kg/full')
+def kg_full():
+    """返回全量知识图谱数据（节点+边），供前端可视化使用"""
+    if not KG_DATA:
+        raise HTTPException(404, '知识图谱未构建')
+
+    # 节点类型 → 颜色映射
+    type_colors = {
+        'cultural_relic': '#8B3A3A',
+        'intangible_heritage': '#C9A96E',
+        'cultural_tourism': '#D4A574',
+        '传承人/历史人物': '#f59e0b',
+        '工艺技术': '#A78BFA',
+        '时间时期': '#6366f1',
+        '地理区位': '#14b8a6',
+        '展览活动/历史事件': '#f97316',
+        '数字资产': '#8b5cf6',
+    }
+    type_cn = {
+        'cultural_relic': '文物',
+        'intangible_heritage': '非遗',
+        'cultural_tourism': '文旅',
+        '传承人/历史人物': '传承人/人物',
+        '工艺技术': '工艺技术',
+        '时间时期': '时间时期',
+        '地理区位': '地理区位',
+        '展览活动/历史事件': '展览/事件',
+        '数字资产': '数字资产',
+    }
+
+    nodes = []
+    for n in KG_DATA['nodes']:
+        t = n.get('type', '')
+        nodes.append({
+            'id': n['id'],
+            'label': n['name'],
+            'group': t,
+            'title': n.get('label', n['name']),
+            'color': type_colors.get(t, '#64748b'),
+            'tags': n.get('tags', []),
+            'type_cn': type_cn.get(t, t),
+        })
+
+    edges = []
+    for e in KG_DATA['edges']:
+        edges.append({
+            'from': e['source'],
+            'to': e['target'],
+            'label': e.get('label', e.get('relation', '')),
+            'relation': e.get('relation', ''),
+        })
+
+    return {
+        'nodes': nodes,
+        'edges': edges,
+        'meta': KG_DATA['metadata'],
+        'type_colors': type_colors,
+    }
+
+
 # ===== 联网搜索API =====
 def _load_national():
     """每次调用时动态加载全国数据集，确保数据始终最新"""
@@ -832,9 +892,27 @@ async def admin_review(request: Request):
 
 
 # ===== 前端静态文件服务 =====
+# 挂载静态资源（JS/CSS/图片），不拦截 /api 路由
 STATIC_DIR = os.path.join(BASE_DIR, 'static')
 if os.path.exists(STATIC_DIR):
-    app.mount('/', StaticFiles(directory=STATIC_DIR, html=True), name='static')
+    app.mount('/assets', StaticFiles(directory=os.path.join(STATIC_DIR, 'assets')), name='static_assets')
+    app.mount('/images', StaticFiles(directory=os.path.join(STATIC_DIR, 'images')), name='static_images')
+    # 根路径返回前端首页
+    @app.get('/')
+    @app.get('/{full_path:path}')
+    async def serve_frontend(full_path: str = ''):
+        from fastapi.responses import FileResponse
+        # API 路径不拦截（已被上方路由处理，这里做兜底）
+        if full_path.startswith('api/'):
+            raise HTTPException(404)
+        file_path = os.path.join(STATIC_DIR, full_path) if full_path else os.path.join(STATIC_DIR, 'index.html')
+        if os.path.isfile(file_path):
+            return FileResponse(file_path)
+        # SPA fallback: 非文件请求返回 index.html
+        index_path = os.path.join(STATIC_DIR, 'index.html')
+        if os.path.exists(index_path):
+            return FileResponse(index_path)
+        raise HTTPException(404)
 
 
 # ===== 启动入口 =====
