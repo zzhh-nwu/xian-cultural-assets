@@ -2,8 +2,8 @@ import { useState, useEffect, useRef, useMemo } from 'react'
 import { motion } from 'framer-motion'
 import * as echarts from 'echarts'
 
-// CDN加载陕西省市级GeoJSON
-const MAP_URL = 'https://geo.datav.aliyun.com/areas_v3/bound/610000_full.json'
+// 本地加载陕西省市级GeoJSON（不再依赖外部CDN）
+const MAP_URL = '/shaanxi_geo.json'
 
 const CITY_SHORT = {
   '西安市':'西安','铜川市':'铜川','宝鸡市':'宝鸡','咸阳市':'咸阳',

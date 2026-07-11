@@ -2,10 +2,10 @@ import { useState, useEffect, useRef, useMemo } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import * as echarts from 'echarts'
 
-// CDN加载中国地图GeoJSON
-const CHINA_URL = 'https://geo.datav.aliyun.com/areas_v3/bound/100000_full.json'
+// 本地加载中国地图GeoJSON（不再依赖外部CDN）
+const CHINA_URL = '/china_geo.json'
 // 陕西省市级GeoJSON
-const SHAANXI_URL = 'https://geo.datav.aliyun.com/areas_v3/bound/610000_full.json'
+const SHAANXI_URL = '/shaanxi_geo.json'
 
 const NAME_MAP = {
   '黑龙江省':'黑龙江','吉林省':'吉林','辽宁省':'辽宁',
@@ -95,10 +95,11 @@ export default function ChinaMap({ projects, onEnter, inline }) {
       echarts.registerMap('shaanxi', shaanxiGeo)
       setMapsReady(true)
     }).catch(() => {
-      fetch('https://geo.datav.aliyun.com/areas_v3/bound/geojson/china.json').then(r=>r.json()).then(geo=>{
+      // 备用：尝试旧格式路径
+      fetch('/china_geo.json').then(r=>r.json()).then(geo=>{
         echarts.registerMap('china', geo)
         setMapsReady(true)
-      })
+      }).catch(() => console.warn('中国地图GeoJSON加载失败'))
     })
   }, [])
 
