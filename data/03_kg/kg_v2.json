@@ -2779,7 +2779,7 @@
       "label": "📍 花山岩画"
     },
     {
-      "id": "LOC_6716",
+      "id": "LOC_6716_1",
       "name": "黎族传统纺染织绣",
       "type": "地理区位",
       "label": "📍 黎族传统纺染织绣"
@@ -4792,7 +4792,7 @@
     },
     {
       "source": "CN-TOUR-019",
-      "target": "LOC_6716",
+      "target": "LOC_6716_1",
       "relation": "located_in",
       "label": "位于"
     },
@@ -4954,7 +4954,7 @@
     },
     {
       "source": "CN-ICH-035",
-      "target": "LOC_6716",
+      "target": "LOC_6716_1",
       "relation": "located_in",
       "label": "位于"
     },
