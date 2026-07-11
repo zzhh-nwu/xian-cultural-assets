@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:9f05d4dd2e4fbfeb506505b3f4a481c49bd168e289f30f249469572787b0131e",
+  "schema:identifier": "SA-YL-REL-002",
+  "schema:name": "镇北台",
+  "schema:description": "镇北台位于榆林市榆阳区，是全国重点文物保护单位，建于明万历三十五年（1607年），是万里长城中最大的烽火台，号称“长城第一台”。它高约30米，共四层，扼守蒙汉交界，曾是军事瞭望和边贸监控的要塞，体现了明代边防体系的智慧。已完成台体三维扫描，建立了精确的数字模型，并构建了明长城数字档案，通过虚拟展示让观众探索其军事布局和历史功能，感受长城文化的雄伟。",
+  "schema:keywords": [
+    "镇北台",
+    "长城第一台",
+    "明代",
+    "三维扫描",
+    "长城档案"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "明",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "榆林市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "榆林市文物局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "榆林市文物局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:9f05d4dd2e4fbfeb506505b3f4a481c49bd168e289f30f249469572787b0131e",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

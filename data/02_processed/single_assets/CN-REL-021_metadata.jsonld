@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:4955d28b9d6138ae4bb567a195bcdf6c7ba4b1962921d8ba9263dc1365182c42",
+  "schema:identifier": "CN-REL-021",
+  "schema:name": "殷墟",
+  "schema:description": "殷墟位于河南省安阳市，是中国商代晚期的都城遗址，发现于20世纪初，因出土大量甲骨文而闻名于世。作为世界文化遗产，它揭示了中华文明早期历史的关键篇章，甲骨文记录了商王占卜、祭祀、农事等活动，是汉字起源的直接证据，具有极高的文字学、历史学和考古学价值。目前，殷墟已完成全域数字测绘，建立了甲骨文数字字库和大数据库，借助AI技术进行甲骨缀合研究，取得突破性进展，有效提升了文物保护和学术研究效率。",
+  "schema:keywords": [
+    "殷墟",
+    "甲骨文",
+    "AI缀合",
+    "数字字库",
+    "商代"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "商",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "河南",
+    "schema:addressLocality": "安阳市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "殷墟博物馆/中国社会科学院"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "殷墟博物馆/中国社会科学院"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:4955d28b9d6138ae4bb567a195bcdf6c7ba4b1962921d8ba9263dc1365182c42",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

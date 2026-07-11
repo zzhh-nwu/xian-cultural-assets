@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:4e0860141e1dc96789a42e3d5e4f9040399f77b01504913ae96952dfdd1847d5",
+  "schema:identifier": "CN-ICH-040",
+  "schema:name": "茅台酒酿制技艺",
+  "schema:description": "茅台酒酿制技艺起源于明代，沿袭至清代已形成独特体系，依托贵州茅台镇的地理环境与赤水河水质，历经数百年传承。作为国家级非物质文化遗产，它代表了中国酱香型白酒的巅峰，其“九次蒸煮、八次发酵、七次取酒”的古法工艺，蕴含着天人合一的酿造哲学与地方文化认同。目前，该技艺已完成全流程数字化记录，涵盖制曲、堆集、窖藏等环节，并借助AI优化微生物发酵研究，通过传感器与算法提升品质稳定性，为传统工艺的现代保护与创新提供了科技支撑。",
+  "schema:keywords": [
+    "茅台",
+    "酿制技艺",
+    "数字化记录",
+    "AI发酵"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "千年传承",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "贵州",
+    "schema:addressLocality": "仁怀市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "贵州省非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "贵州省非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:4e0860141e1dc96789a42e3d5e4f9040399f77b01504913ae96952dfdd1847d5",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

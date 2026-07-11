@@ -1,0 +1,15 @@
+{
+  "processing_date": "2026-06-25 11:27:20",
+  "steps": [
+    "文本清洗完成：去除多余空格、规范化括号",
+    "去重完成：当前唯一记录数 54",
+    "字段标准化完成：统一数字资产登记格式",
+    "质量验证完成：发现 0 个问题"
+  ],
+  "quality": {
+    "total_records": 54,
+    "errors_found": 0,
+    "is_qualified": true,
+    "validation_date": "2026-06-25"
+  }
+}

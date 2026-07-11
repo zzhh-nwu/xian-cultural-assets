@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalTourism",
+  "@id": "urn:sha256:fe6bf57340f1bb6dc08cc5456f181ef39ce12fe05e4d2bda3b726fdb54f67eda",
+  "schema:identifier": "CN-TOUR-005",
+  "schema:name": "长城数字化保护工程",
+  "schema:description": "长城始建于春秋战国时期，历经两千余年修筑，是世界文化遗产中规模最大的防御工程。其文化价值不仅体现在军事策略与建筑智慧，更承载着中华民族的坚韧精神与多元融合历史。目前，由国家文物局主导的数字化保护工程已完成全线数字测绘，通过卫星遥感、无人机航拍与AI自动识别技术，精准记录墙体、烽燧等遗迹的现状，建立动态数据库，为预防性保护与虚拟修复提供科学依据，实现了文化遗产的永续传承。",
+  "schema:keywords": [
+    "长城",
+    "卫星遥感",
+    "无人机",
+    "AI识别",
+    "数字测绘",
+    "国家文物局"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "春秋至明",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "多省",
+    "schema:addressLocality": "",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "国家文物局/中国文化遗产研究院"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "国家文物局/中国文化遗产研究院"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:fe6bf57340f1bb6dc08cc5456f181ef39ce12fe05e4d2bda3b726fdb54f67eda",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

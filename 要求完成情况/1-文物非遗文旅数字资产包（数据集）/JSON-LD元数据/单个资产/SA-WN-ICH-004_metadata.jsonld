@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:aed5b839d5a5e4c409be0e233fd82aaf4893ad47417983218824d485fe1839ed",
+  "schema:identifier": "SA-WN-ICH-004",
+  "schema:name": "渭北面花",
+  "schema:description": "渭北面花是陕西渭北地区的民间面塑艺术，以面粉为原料，通过捏、剪、刻等技法制作出造型多样的花馍，主要用于祭祀、节庆和婚丧嫁娶，寓意吉祥。作为国家级非遗，它反映了关中农耕社会的民俗信仰和审美情趣。数字化方面，已完成面花制作过程的全程记录，并建立了纹样数据库，收录数百种传统图案，为文化研究和现代设计提供数字资源。",
+  "schema:keywords": [
+    "面花",
+    "国家级非遗",
+    "面塑",
+    "祭祀",
+    "纹样数据库"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "千年传承",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "渭南市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "渭南市非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "渭南市非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:aed5b839d5a5e4c409be0e233fd82aaf4893ad47417983218824d485fe1839ed",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalTourism",
+  "@id": "urn:sha256:85784374b63ec8f3db058deef6c0d0d448211745e656b0015b3113f7f41c28da",
+  "schema:identifier": "CN-TOUR-031",
+  "schema:name": "大理古城",
+  "schema:description": "大理古城位于云南大理白族自治州，始建于明洪武十五年（1382年），曾是南诏国和大理国的政治文化中心。古城内保存完好的白族传统建筑、青石板街道和古城墙，体现了汉文化与白族文化的交融，具有极高的历史与民族学价值。目前，古城已完成三维扫描和白族建筑数字档案建设，并推出VR古城漫游系统，游客可通过数字化技术沉浸式体验古城风貌，实现文化遗产的可持续保护与传播。",
+  "schema:keywords": [
+    "大理古城",
+    "白族建筑",
+    "三维扫描",
+    "VR漫游"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "唐代至今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "云南",
+    "schema:addressLocality": "大理州",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "大理市文旅局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "大理市文旅局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:85784374b63ec8f3db058deef6c0d0d448211745e656b0015b3113f7f41c28da",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

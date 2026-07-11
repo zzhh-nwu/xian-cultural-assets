@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalTourism",
+  "@id": "urn:sha256:30c448f1d000dcd0d6579b7f4294c3c3ff8090078b8f55bff13fd07ba222ff2a",
+  "schema:identifier": "SA-YA-TOUR-003",
+  "schema:name": "梁家河",
+  "schema:description": "梁家河位于陕西省延安市，是上世纪六七十年代知青下乡的重要地点，见证了中国青年与农村结合的独特历史。这里承载着丰富的红色文化，反映了知青艰苦奋斗的精神。目前，景区已完成知青文化数字档案的整理，并开发了陕北乡村生活VR体验项目，让游客通过虚拟现实技术身临其境感受当年生活场景，数字化手段极大地增强了历史教育的互动性和感染力。",
+  "schema:keywords": [
+    "梁家河",
+    "知青文化",
+    "红色旅游",
+    "VR体验"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "当代",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "延安市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "延川县文旅局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "延川县文旅局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:30c448f1d000dcd0d6579b7f4294c3c3ff8090078b8f55bff13fd07ba222ff2a",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

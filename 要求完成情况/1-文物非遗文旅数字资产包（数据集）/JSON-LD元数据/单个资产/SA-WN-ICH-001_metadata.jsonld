@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:1a112b05345a7231f68c79a2b78aa8c2ff56cb6ea9789047332b8fff530539dd",
+  "schema:identifier": "SA-WN-ICH-001",
+  "schema:name": "华阴迷胡",
+  "schema:description": "华阴迷胡是陕西地方戏曲的瑰宝，源于明清时期的民间说唱艺术，以月琴为主奏乐器，唱腔婉转悠长、情感细腻，被誉为“关中戏曲的明珠”。作为国家级非物质文化遗产，它承载着关中地区的历史记忆和民俗风情，是研究地方戏曲演变的重要活态资料。目前，已完成经典剧目的数字化录制，并引入AI唱腔分析技术，通过声学模型解析其独特韵味，为传承与创新提供科技支撑。",
+  "schema:keywords": [
+    "华阴迷胡",
+    "国家级非遗",
+    "月琴",
+    "AI唱腔",
+    "数字化录制"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "明清至今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "渭南市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "渭南市非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "渭南市非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:1a112b05345a7231f68c79a2b78aa8c2ff56cb6ea9789047332b8fff530539dd",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

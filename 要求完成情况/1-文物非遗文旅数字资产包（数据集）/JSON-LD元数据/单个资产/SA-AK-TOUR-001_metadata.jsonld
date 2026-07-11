@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalTourism",
+  "@id": "urn:sha256:3759911e93f5fa3adeae2c8a1513340b29a8bae2fd86ba6af58e49052b173f1d",
+  "schema:identifier": "SA-AK-TOUR-001",
+  "schema:name": "瀛湖",
+  "schema:description": "瀛湖是西北地区最大的人工湖，为国家4A级旅游景区，建于20世纪70年代，依托汉江水资源形成。其历史背景与水利工程和生态保护紧密相连，湖光山色与岛屿星布构成独特景观。文化价值在于作为陕南生态旅游核心，承载了水域文明与休闲体验的融合。数字化现状方面，已完成湖区数字测绘，并开发水域生态VR体验，让游客身临其境感受湖景之美，提升互动与教育功能。",
+  "schema:keywords": [
+    "瀛湖",
+    "西北最大人工湖",
+    "数字测绘",
+    "VR生态"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "古今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "安康市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "瀛湖景区管委会"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "瀛湖景区管委会"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:3759911e93f5fa3adeae2c8a1513340b29a8bae2fd86ba6af58e49052b173f1d",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

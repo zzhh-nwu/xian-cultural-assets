@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:4efb8a58adcf6557fbbb9b8e920ce921d20a5b7684a3b4655d4a0d321965b2cd",
+  "schema:identifier": "SA-XY-ICH-003",
+  "schema:name": "三原蓼花糖制作技艺",
+  "schema:description": "三原蓼花糖制作技艺是国家级非物质文化遗产，源自陕西三原县，历史悠久，以其酥脆香甜、形似蓼花而闻名，是传统名点中的珍品。制作工艺复杂，需经选料、熬糖、拉条等多道工序。如今，通过全流程数字化记录，将每一环节转化为可复现的数据模型，并建立配方数据库，精准保存传统风味。这不仅保护了濒危技艺，还为现代食品研发提供了科学依据，助力非遗走向市场。",
+  "schema:keywords": [
+    "蓼花糖",
+    "国家级非遗",
+    "传统名点",
+    "配方数据库"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "明代至今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "咸阳市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "三原县非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "三原县非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:4efb8a58adcf6557fbbb9b8e920ce921d20a5b7684a3b4655d4a0d321965b2cd",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

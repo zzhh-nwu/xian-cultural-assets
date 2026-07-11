@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:9f406ee18be188ecd64c55afdf8733704ff8d24714d7920a085d0559df03c545",
+  "schema:identifier": "SA-XA-ICH-006",
+  "schema:name": "蓝田玉雕",
+  "schema:description": "蓝田玉雕是中国四大名玉之一蓝田玉的雕刻工艺，起源于新石器时代，盛于汉代，以细腻温润的玉质和精湛技法著称。该工艺承载了中华玉文化的精髓，从祭祀礼器到现代艺术品，体现了天人合一的哲学思想。数字化方面，已完成玉雕技法师徒传承的数字化记录，并建立了蓝田玉矿地质数字档案，成为中国玉雕工艺数字化的典范，有助于保护这一濒危技艺并促进其创新。",
+  "schema:keywords": [
+    "蓝田玉",
+    "玉雕",
+    "四大名玉",
+    "传承记录"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "新石器时代至今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "西安市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "蓝田县非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "蓝田县非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:9f406ee18be188ecd64c55afdf8733704ff8d24714d7920a085d0559df03c545",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

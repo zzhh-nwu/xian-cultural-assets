@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:d28b86361c3f6c62c71a1431ba34f0a435a5ec548f9f9ac7f97d61f7d7e2f3e1",
+  "schema:identifier": "SA-HZ-REL-002",
+  "schema:name": "张骞墓",
+  "schema:description": "张骞墓位于陕西省汉中市，是世界文化遗产“丝绸之路”的重要组成部分，安葬着被誉为“丝绸之路开拓者”的汉代外交家张骞。该墓区不仅记录了张骞出使西域的壮举，还见证了中西文化交流的悠久历史。目前，已完成墓区数字测绘，并建立了中西交流文化数字档案，通过多媒体手段展示张骞的贡献，数字化成果为丝绸之路研究提供了直观的史料支撑。",
+  "schema:keywords": [
+    "张骞墓",
+    "丝绸之路",
+    "世界遗产",
+    "中西交流",
+    "数字档案"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "汉",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "汉中市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "城固县文物局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "城固县文物局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:d28b86361c3f6c62c71a1431ba34f0a435a5ec548f9f9ac7f97d61f7d7e2f3e1",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

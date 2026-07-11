@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:8e9f4ae1baee07dad56d6fa2d1d275d0b70ec55298f5e2aa21fa15a1e8e7f4b1",
+  "schema:identifier": "SA-SL-ICH-002",
+  "schema:name": "洛南静板书",
+  "schema:description": "洛南静板书是国家级非物质文化遗产，起源于陕西洛南地区，由盲艺人世代传承的一种独特说唱艺术。历史可追溯至明清时期，以“静板击节”为特色，表演者手持竹板或木块，通过节奏鲜明的敲击配合唱词，讲述民间故事或历史传奇。其文化价值在于保留了陕南山区的原生态音乐形式，体现了民间艺术的朴素与智慧。数字化方面，已完成传承人全量录音和AI说唱分析，为这一濒危艺术提供了永久性记录和研究基础。",
+  "schema:keywords": [
+    "静板书",
+    "国家级非遗",
+    "盲艺人",
+    "AI说唱"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "汉代至今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "商洛市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "洛南县非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "洛南县非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:8e9f4ae1baee07dad56d6fa2d1d275d0b70ec55298f5e2aa21fa15a1e8e7f4b1",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

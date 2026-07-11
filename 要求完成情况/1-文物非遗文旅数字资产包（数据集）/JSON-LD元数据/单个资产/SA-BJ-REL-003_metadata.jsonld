@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:48aa57f97956edae0e9a9b016eac5a9075a70aedbdf5a4ca87b9fa0ae608e19e",
+  "schema:identifier": "SA-BJ-REL-003",
+  "schema:name": "周原遗址",
+  "schema:description": "周原遗址位于陕西省宝鸡市，是西周王朝的重要发祥地，被列为全国重点文物保护单位。这里曾是周人早期的政治、文化中心，见证了西周文明的兴起。遗址出土了大量珍贵文物，包括万余片甲骨文和数百件青铜器，为研究西周社会、礼制和文字提供了关键实物资料，具有极高的历史和文化价值。目前，遗址已完成全域数字测绘，并实现了宗庙建筑的三维复原，数字化技术为遗产保护与展示开辟了新路径，使公众能更直观地感受其历史风貌。",
+  "schema:keywords": [
+    "周原",
+    "西周",
+    "甲骨文",
+    "青铜器",
+    "数字测绘"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "西周",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "宝鸡市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "周原博物馆"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "周原博物馆"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:48aa57f97956edae0e9a9b016eac5a9075a70aedbdf5a4ca87b9fa0ae608e19e",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

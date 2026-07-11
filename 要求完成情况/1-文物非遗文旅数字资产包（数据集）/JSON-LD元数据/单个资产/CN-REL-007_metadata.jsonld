@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:cfd9c1a67200d8437b0af77fde392e196986c382240e972fdac46a6bb7129243",
+  "schema:identifier": "CN-REL-007",
+  "schema:name": "平遥双林寺与镇国寺",
+  "schema:description": "平遥双林寺与镇国寺，是世界文化遗产平遥古城的重要组成部分。双林寺始建于北齐，以明代彩塑闻名，被誉为“东方彩塑艺术宝库”；镇国寺则以五代时期的万佛殿为特色，是中国现存最古老的木结构建筑之一。这些寺庙不仅展示了中国古代建筑与雕塑艺术的巅峰，还承载着丰富的宗教文化内涵。在数字化保护方面，浙江大学团队仅对菩萨殿就拍摄了57787张图像（约2.5TB数据），截至2024年底已完成220余个文物数字化项目，积累超过500TB的高清数据，为这些脆弱的彩塑与建筑提供了永久性数字备份。",
+  "schema:keywords": [
+    "平遥",
+    "双林寺",
+    "镇国寺",
+    "57787张",
+    "2.5TB",
+    "500TB"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "北齐至明",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "山西",
+    "schema:addressLocality": "平遥县",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "浙江大学文化遗产研究院"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "浙江大学文化遗产研究院"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:cfd9c1a67200d8437b0af77fde392e196986c382240e972fdac46a6bb7129243",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

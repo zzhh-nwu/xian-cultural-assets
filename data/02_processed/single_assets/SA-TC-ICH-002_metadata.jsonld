@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:0085acbd2b1788be68b78354b89325d1a5671d8ac174306f8d84440aa728ea10",
+  "schema:identifier": "SA-TC-ICH-002",
+  "schema:name": "陈炉古镇窑神庙会",
+  "schema:description": "陈炉古镇窑神庙会是伴随耀州窑发展而兴起的千年民俗活动，源自古代窑工对窑神的崇拜，具有深厚的宗教与文化背景。它不仅是陶瓷文化的活态遗产，还承载了当地社区的情感与信仰，反映了中国手工业社会的精神世界。数字化现状上，已完成庙会仪式全流程数字化记录，并建立了窑神信仰文化数据库，为研究中国陶瓷文化信仰提供了宝贵数据，同时促进了这一非遗的可持续保护。",
+  "schema:keywords": [
+    "陈炉古镇",
+    "窑神庙会",
+    "千年民俗",
+    "数字化记录"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "宋代至今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "铜川市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "陈炉古镇景区管委会"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "陈炉古镇景区管委会"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:0085acbd2b1788be68b78354b89325d1a5671d8ac174306f8d84440aa728ea10",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

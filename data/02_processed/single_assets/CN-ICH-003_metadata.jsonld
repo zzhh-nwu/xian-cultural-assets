@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:aa2bbec5c1a09c000e26ebbf9b6c35c0f5ea470c62b7dcff2c3f42044927c69d",
+  "schema:identifier": "CN-ICH-003",
+  "schema:name": "瑞昌竹编",
+  "schema:description": "瑞昌竹编起源于唐代，已有千年历史，是江西瑞昌地区民间手工艺的瑰宝。它利用当地丰富的竹资源，通过精湛的编织技艺，创造出生活用具与艺术品，承载着农耕文化的智慧与审美情趣。2008年被列入国家级非物质文化遗产名录，体现了其在传统工艺中的独特价值。2024年，完成了数字化保护研究，建立了数字档案和数字媒体保护方案，通过高清影像、三维建模等技术记录编织过程与纹样，并探索与现代设计结合的传承路径，以适应当代社会的需求，推动这项技艺的活态延续。",
+  "schema:keywords": [
+    "瑞昌竹编",
+    "数字档案",
+    "数字媒体",
+    "数字化保护"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "传统",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "江西",
+    "schema:addressLocality": "瑞昌市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "中国知网/艺术大观"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "中国知网/艺术大观"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:aa2bbec5c1a09c000e26ebbf9b6c35c0f5ea470c62b7dcff2c3f42044927c69d",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

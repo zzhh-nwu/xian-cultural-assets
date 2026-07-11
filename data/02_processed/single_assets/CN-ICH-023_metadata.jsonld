@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:3e8878f4ca461cdce146a0cf6879871694f3378e8a17b9567c3e1779383e5d56",
+  "schema:identifier": "CN-ICH-023",
+  "schema:name": "赫哲族伊玛堪",
+  "schema:description": "赫哲族伊玛堪是赫哲族世代传承的说唱艺术，起源于黑龙江流域的渔猎文化，以口传心授的方式记录民族历史、神话与生活智慧。作为人类非物质文化遗产代表作，它承载着赫哲族独特的语言、音乐和叙事传统，是研究北方少数民族文化的重要活态遗产。目前，已完成伊玛堪传承人的全量数字化记录，并通过AI辅助语言保护技术，将濒危的赫哲语语音、词汇与唱腔转化为可交互的数据资源，有效促进这一口述艺术的系统性保存与传播。",
+  "schema:keywords": [
+    "伊玛堪",
+    "赫哲族",
+    "人类非遗",
+    "语言保护"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "千年传承",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "黑龙江",
+    "schema:addressLocality": "佳木斯市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "黑龙江省非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "黑龙江省非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:3e8878f4ca461cdce146a0cf6879871694f3378e8a17b9567c3e1779383e5d56",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

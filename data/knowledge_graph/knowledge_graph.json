@@ -1,0 +1,1432 @@
+{
+  "metadata": {
+    "title": "西安文化知识图谱",
+    "description": "西安文物、非遗、文旅资源知识图谱，涵盖实体间层级、时序、空间和文化关联",
+    "node_count": 75,
+    "edge_count": 77,
+    "created": "2026-06-25",
+    "version": "1.0.0"
+  },
+  "nodes": [
+    {
+      "id": "XA-REL-001",
+      "name": "秦始皇兵马俑",
+      "type": "文物",
+      "attributes": {
+        "category": "世界文化遗产",
+        "era": "秦",
+        "keywords": [
+          "兵马俑",
+          "秦始皇",
+          "陶俑",
+          "世界八大奇迹"
+        ]
+      }
+    },
+    {
+      "id": "XA-REL-002",
+      "name": "大雁塔",
+      "type": "文物",
+      "attributes": {
+        "category": "全国重点文物保护单位",
+        "era": "唐",
+        "keywords": [
+          "大雁塔",
+          "大慈恩寺",
+          "玄奘",
+          "佛塔",
+          "丝绸之路"
+        ]
+      }
+    },
+    {
+      "id": "XA-REL-003",
+      "name": "小雁塔",
+      "type": "文物",
+      "attributes": {
+        "category": "全国重点文物保护单位",
+        "era": "唐",
+        "keywords": [
+          "小雁塔",
+          "荐福寺",
+          "佛塔",
+          "关中八景"
+        ]
+      }
+    },
+    {
+      "id": "XA-REL-004",
+      "name": "西安城墙",
+      "type": "文物",
+      "attributes": {
+        "category": "全国重点文物保护单位",
+        "era": "明",
+        "keywords": [
+          "城墙",
+          "明代",
+          "古城",
+          "防御体系"
+        ]
+      }
+    },
+    {
+      "id": "XA-REL-005",
+      "name": "钟楼",
+      "type": "文物",
+      "attributes": {
+        "category": "全国重点文物保护单位",
+        "era": "明",
+        "keywords": [
+          "钟楼",
+          "明代",
+          "地标",
+          "市中心"
+        ]
+      }
+    },
+    {
+      "id": "XA-REL-006",
+      "name": "鼓楼",
+      "type": "文物",
+      "attributes": {
+        "category": "全国重点文物保护单位",
+        "era": "明",
+        "keywords": [
+          "鼓楼",
+          "明代",
+          "地标",
+          "晨钟暮鼓"
+        ]
+      }
+    },
+    {
+      "id": "XA-REL-007",
+      "name": "大明宫遗址",
+      "type": "文物",
+      "attributes": {
+        "category": "全国重点文物保护单位",
+        "era": "唐",
+        "keywords": [
+          "大明宫",
+          "唐代",
+          "皇宫",
+          "遗址公园"
+        ]
+      }
+    },
+    {
+      "id": "XA-REL-008",
+      "name": "华清宫",
+      "type": "文物",
+      "attributes": {
+        "category": "全国重点文物保护单位",
+        "era": "唐",
+        "keywords": [
+          "华清宫",
+          "华清池",
+          "温泉",
+          "长恨歌"
+        ]
+      }
+    },
+    {
+      "id": "XA-REL-009",
+      "name": "碑林博物馆",
+      "type": "文物",
+      "attributes": {
+        "category": "全国重点文物保护单位",
+        "era": "多朝代",
+        "keywords": [
+          "碑林",
+          "石刻",
+          "书法",
+          "石碑"
+        ]
+      }
+    },
+    {
+      "id": "XA-REL-010",
+      "name": "陕西历史博物馆",
+      "type": "文物",
+      "attributes": {
+        "category": "国家一级博物馆",
+        "era": "多朝代",
+        "keywords": [
+          "历史博物馆",
+          "文物",
+          "周秦汉唐"
+        ]
+      }
+    },
+    {
+      "id": "XA-REL-011",
+      "name": "半坡遗址",
+      "type": "文物",
+      "attributes": {
+        "category": "全国重点文物保护单位",
+        "era": "新石器时代",
+        "keywords": [
+          "半坡",
+          "仰韶文化",
+          "史前",
+          "遗址"
+        ]
+      }
+    },
+    {
+      "id": "XA-REL-012",
+      "name": "汉长安城遗址",
+      "type": "文物",
+      "attributes": {
+        "category": "全国重点文物保护单位",
+        "era": "汉",
+        "keywords": [
+          "汉长安城",
+          "未央宫",
+          "汉代",
+          "丝绸之路起点"
+        ]
+      }
+    },
+    {
+      "id": "XA-REL-013",
+      "name": "阿房宫遗址",
+      "type": "文物",
+      "attributes": {
+        "category": "全国重点文物保护单位",
+        "era": "秦",
+        "keywords": [
+          "阿房宫",
+          "秦代",
+          "宫殿",
+          "遗址"
+        ]
+      }
+    },
+    {
+      "id": "XA-REL-014",
+      "name": "兴教寺塔",
+      "type": "文物",
+      "attributes": {
+        "category": "世界文化遗产",
+        "era": "唐",
+        "keywords": [
+          "兴教寺",
+          "玄奘",
+          "佛塔",
+          "丝绸之路"
+        ]
+      }
+    },
+    {
+      "id": "XA-REL-015",
+      "name": "西安清真大寺",
+      "type": "文物",
+      "attributes": {
+        "category": "全国重点文物保护单位",
+        "era": "明",
+        "keywords": [
+          "清真寺",
+          "伊斯兰",
+          "化觉巷",
+          "古建筑"
+        ]
+      }
+    },
+    {
+      "id": "XA-REL-016",
+      "name": "大兴善寺",
+      "type": "文物",
+      "attributes": {
+        "category": "全国重点文物保护单位",
+        "era": "隋唐",
+        "keywords": [
+          "大兴善寺",
+          "密宗",
+          "佛教",
+          "祖庭"
+        ]
+      }
+    },
+    {
+      "id": "XA-REL-017",
+      "name": "青龙寺",
+      "type": "文物",
+      "attributes": {
+        "category": "全国重点文物保护单位",
+        "era": "唐",
+        "keywords": [
+          "青龙寺",
+          "樱花",
+          "密宗",
+          "空海"
+        ]
+      }
+    },
+    {
+      "id": "XA-REL-018",
+      "name": "西安博物院",
+      "type": "文物",
+      "attributes": {
+        "category": "国家一级博物馆",
+        "era": "多朝代",
+        "keywords": [
+          "博物院",
+          "小雁塔",
+          "文物",
+          "西安历史"
+        ]
+      }
+    },
+    {
+      "id": "XA-REL-019",
+      "name": "大唐西市博物馆",
+      "type": "文物",
+      "attributes": {
+        "category": "国家二级博物馆",
+        "era": "唐",
+        "keywords": [
+          "大唐西市",
+          "丝绸之路",
+          "商贸",
+          "唐代"
+        ]
+      }
+    },
+    {
+      "id": "XA-REL-020",
+      "name": "曲江池遗址",
+      "type": "文物",
+      "attributes": {
+        "category": "省级文物保护单位",
+        "era": "唐",
+        "keywords": [
+          "曲江",
+          "唐代",
+          "园林",
+          "遗址公园"
+        ]
+      }
+    },
+    {
+      "id": "XA-ICH-001",
+      "name": "西安鼓乐",
+      "type": "非遗",
+      "attributes": {
+        "category": "传统音乐",
+        "level": "人类非物质文化遗产代表作名录",
+        "origin": "西安",
+        "keywords": [
+          "鼓乐",
+          "唐代燕乐",
+          "传统音乐",
+          "活化石"
+        ]
+      }
+    },
+    {
+      "id": "XA-ICH-002",
+      "name": "秦腔",
+      "type": "非遗",
+      "attributes": {
+        "category": "传统戏剧",
+        "level": "国家级非物质文化遗产",
+        "origin": "陕西",
+        "keywords": [
+          "秦腔",
+          "梆子腔",
+          "戏曲",
+          "西北"
+        ]
+      }
+    },
+    {
+      "id": "XA-ICH-003",
+      "name": "皮影戏（陕西皮影）",
+      "type": "非遗",
+      "attributes": {
+        "category": "传统戏剧",
+        "level": "人类非物质文化遗产代表作名录",
+        "origin": "陕西",
+        "keywords": [
+          "皮影",
+          "华县皮影",
+          "傀儡戏",
+          "民间艺术"
+        ]
+      }
+    },
+    {
+      "id": "XA-ICH-004",
+      "name": "西安剪纸",
+      "type": "非遗",
+      "attributes": {
+        "category": "传统美术",
+        "level": "省级非物质文化遗产",
+        "origin": "西安",
+        "keywords": [
+          "剪纸",
+          "民间美术",
+          "窗花",
+          "手工艺"
+        ]
+      }
+    },
+    {
+      "id": "XA-ICH-005",
+      "name": "唐三彩烧制技艺",
+      "type": "非遗",
+      "attributes": {
+        "category": "传统技艺",
+        "level": "国家级非物质文化遗产",
+        "origin": "陕西",
+        "keywords": [
+          "唐三彩",
+          "陶瓷",
+          "烧制",
+          "唐代"
+        ]
+      }
+    },
+    {
+      "id": "XA-ICH-006",
+      "name": "陕北民歌",
+      "type": "非遗",
+      "attributes": {
+        "category": "传统音乐",
+        "level": "国家级非物质文化遗产",
+        "origin": "陕北",
+        "keywords": [
+          "陕北民歌",
+          "信天游",
+          "民歌",
+          "黄土高原"
+        ]
+      }
+    },
+    {
+      "id": "XA-ICH-007",
+      "name": "安塞腰鼓",
+      "type": "非遗",
+      "attributes": {
+        "category": "传统舞蹈",
+        "level": "国家级非物质文化遗产",
+        "origin": "安塞",
+        "keywords": [
+          "腰鼓",
+          "安塞",
+          "民间舞蹈",
+          "黄土风情"
+        ]
+      }
+    },
+    {
+      "id": "XA-ICH-008",
+      "name": "西安面塑",
+      "type": "非遗",
+      "attributes": {
+        "category": "传统美术",
+        "level": "省级非物质文化遗产",
+        "origin": "西安",
+        "keywords": [
+          "面塑",
+          "面花",
+          "民间工艺",
+          "食用艺术"
+        ]
+      }
+    },
+    {
+      "id": "XA-ICH-009",
+      "name": "户县农民画",
+      "type": "非遗",
+      "attributes": {
+        "category": "传统美术",
+        "level": "省级非物质文化遗产",
+        "origin": "户县",
+        "keywords": [
+          "农民画",
+          "户县",
+          "民间绘画",
+          "乡土"
+        ]
+      }
+    },
+    {
+      "id": "XA-ICH-010",
+      "name": "西安羊肉泡馍制作技艺",
+      "type": "非遗",
+      "attributes": {
+        "category": "传统技艺",
+        "level": "国家级非物质文化遗产",
+        "origin": "西安",
+        "keywords": [
+          "羊肉泡馍",
+          "美食",
+          "小吃",
+          "清真"
+        ]
+      }
+    },
+    {
+      "id": "XA-ICH-011",
+      "name": "德发长饺子制作技艺",
+      "type": "非遗",
+      "attributes": {
+        "category": "传统技艺",
+        "level": "省级非物质文化遗产",
+        "origin": "西安",
+        "keywords": [
+          "饺子宴",
+          "德发长",
+          "面点",
+          "美食"
+        ]
+      }
+    },
+    {
+      "id": "XA-ICH-012",
+      "name": "蓝田玉雕",
+      "type": "非遗",
+      "attributes": {
+        "category": "传统美术",
+        "level": "省级非物质文化遗产",
+        "origin": "蓝田",
+        "keywords": [
+          "玉雕",
+          "蓝田玉",
+          "雕刻",
+          "手工艺"
+        ]
+      }
+    },
+    {
+      "id": "XA-ICH-013",
+      "name": "马勺脸谱",
+      "type": "非遗",
+      "attributes": {
+        "category": "传统美术",
+        "level": "省级非物质文化遗产",
+        "origin": "陕西",
+        "keywords": [
+          "马勺",
+          "脸谱",
+          "社火",
+          "民间艺术"
+        ]
+      }
+    },
+    {
+      "id": "XA-ICH-014",
+      "name": "凤翔泥塑",
+      "type": "非遗",
+      "attributes": {
+        "category": "传统美术",
+        "level": "国家级非物质文化遗产",
+        "origin": "凤翔",
+        "keywords": [
+          "泥塑",
+          "凤翔",
+          "彩绘",
+          "民间工艺"
+        ]
+      }
+    },
+    {
+      "id": "XA-ICH-015",
+      "name": "西秦刺绣",
+      "type": "非遗",
+      "attributes": {
+        "category": "传统美术",
+        "level": "国家级非物质文化遗产",
+        "origin": "陕西",
+        "keywords": [
+          "刺绣",
+          "秦绣",
+          "布艺",
+          "民间工艺"
+        ]
+      }
+    },
+    {
+      "id": "XA-ICH-016",
+      "name": "西安古建筑营造技艺",
+      "type": "非遗",
+      "attributes": {
+        "category": "传统技艺",
+        "level": "省级非物质文化遗产",
+        "origin": "西安",
+        "keywords": [
+          "古建筑",
+          "营造",
+          "木结构",
+          "修复"
+        ]
+      }
+    },
+    {
+      "id": "XA-ICH-017",
+      "name": "同盛祥牛羊肉泡馍制作技艺",
+      "type": "非遗",
+      "attributes": {
+        "category": "传统技艺",
+        "level": "国家级非物质文化遗产",
+        "origin": "西安",
+        "keywords": [
+          "同盛祥",
+          "牛羊肉泡馍",
+          "老字号",
+          "美食"
+        ]
+      }
+    },
+    {
+      "id": "XA-ICH-018",
+      "name": "西安风筝制作技艺",
+      "type": "非遗",
+      "attributes": {
+        "category": "传统技艺",
+        "level": "省级非物质文化遗产",
+        "origin": "西安",
+        "keywords": [
+          "风筝",
+          "民间工艺",
+          "张天伟",
+          "动态风筝"
+        ]
+      }
+    },
+    {
+      "id": "XA-TOUR-001",
+      "name": "大唐不夜城",
+      "type": "文旅",
+      "attributes": {
+        "scenic_type": "特色街区",
+        "district": "雁塔区",
+        "keywords": [
+          "大唐不夜城",
+          "盛唐",
+          "步行街",
+          "夜游",
+          "不倒翁小姐姐"
+        ]
+      }
+    },
+    {
+      "id": "XA-TOUR-002",
+      "name": "回民街",
+      "type": "文旅",
+      "attributes": {
+        "scenic_type": "特色街区",
+        "district": "莲湖区",
+        "keywords": [
+          "回民街",
+          "美食",
+          "小吃",
+          "清真",
+          "回坊"
+        ]
+      }
+    },
+    {
+      "id": "XA-TOUR-003",
+      "name": "永兴坊",
+      "type": "文旅",
+      "attributes": {
+        "scenic_type": "特色街区",
+        "district": "新城区",
+        "keywords": [
+          "永兴坊",
+          "非遗美食",
+          "摔碗酒",
+          "陕西小吃"
+        ]
+      }
+    },
+    {
+      "id": "XA-TOUR-004",
+      "name": "易俗社文化街区",
+      "type": "文旅",
+      "attributes": {
+        "scenic_type": "特色街区",
+        "district": "新城区",
+        "keywords": [
+          "易俗社",
+          "秦腔",
+          "文化街区",
+          "百年老社"
+        ]
+      }
+    },
+    {
+      "id": "XA-TOUR-005",
+      "name": "西安城墙景区",
+      "type": "文旅",
+      "attributes": {
+        "scenic_type": "AAAAA级景区",
+        "district": "碑林区",
+        "keywords": [
+          "城墙",
+          "骑行",
+          "灯会",
+          "古城"
+        ]
+      }
+    },
+    {
+      "id": "XA-TOUR-006",
+      "name": "大唐芙蓉园",
+      "type": "文旅",
+      "attributes": {
+        "scenic_type": "AAAAA级景区",
+        "district": "雁塔区",
+        "keywords": [
+          "大唐芙蓉园",
+          "唐代园林",
+          "水幕电影",
+          "灯会"
+        ]
+      }
+    },
+    {
+      "id": "XA-TOUR-007",
+      "name": "秦岭野生动物园",
+      "type": "文旅",
+      "attributes": {
+        "scenic_type": "AAAA级景区",
+        "district": "长安区",
+        "keywords": [
+          "动物园",
+          "秦岭",
+          "大熊猫",
+          "金丝猴"
+        ]
+      }
+    },
+    {
+      "id": "XA-TOUR-008",
+      "name": "翠华山",
+      "type": "文旅",
+      "attributes": {
+        "scenic_type": "AAAA级景区",
+        "district": "长安区",
+        "keywords": [
+          "翠华山",
+          "终南山",
+          "地质公园",
+          "山崩"
+        ]
+      }
+    },
+    {
+      "id": "XA-TOUR-009",
+      "name": "白鹿原·白鹿仓",
+      "type": "文旅",
+      "attributes": {
+        "scenic_type": "AAAA级景区",
+        "district": "灞桥区",
+        "keywords": [
+          "白鹿原",
+          "白鹿仓",
+          "民俗",
+          "民国风情"
+        ]
+      }
+    },
+    {
+      "id": "XA-TOUR-010",
+      "name": "西安世博园",
+      "type": "文旅",
+      "attributes": {
+        "scenic_type": "AAAA级景区",
+        "district": "灞桥区",
+        "keywords": [
+          "世博园",
+          "长安塔",
+          "园林",
+          "生态"
+        ]
+      }
+    },
+    {
+      "id": "XA-TOUR-011",
+      "name": "昆明池·七夕公园",
+      "type": "文旅",
+      "attributes": {
+        "scenic_type": "AAA级景区",
+        "district": "长安区",
+        "keywords": [
+          "昆明池",
+          "七夕",
+          "汉武帝",
+          "爱情"
+        ]
+      }
+    },
+    {
+      "id": "XA-TOUR-012",
+      "name": "诗经里",
+      "type": "文旅",
+      "attributes": {
+        "scenic_type": "AAA级景区",
+        "district": "长安区",
+        "keywords": [
+          "诗经里",
+          "诗经",
+          "沣河",
+          "文化小镇"
+        ]
+      }
+    },
+    {
+      "id": "XA-TOUR-013",
+      "name": "长安十二时辰",
+      "type": "文旅",
+      "attributes": {
+        "scenic_type": "特色文旅项目",
+        "district": "雁塔区",
+        "keywords": [
+          "长安十二时辰",
+          "沉浸式",
+          "唐风",
+          "市井"
+        ]
+      }
+    },
+    {
+      "id": "XA-TOUR-014",
+      "name": "茯茶镇",
+      "type": "文旅",
+      "attributes": {
+        "scenic_type": "特色小镇",
+        "district": "西咸新区",
+        "keywords": [
+          "茯茶",
+          "茶文化",
+          "特色小镇",
+          "丝路"
+        ]
+      }
+    },
+    {
+      "id": "XA-TOUR-015",
+      "name": "楼观台",
+      "type": "文旅",
+      "attributes": {
+        "scenic_type": "AAAA级景区",
+        "district": "周至县",
+        "keywords": [
+          "楼观台",
+          "道教",
+          "老子",
+          "终南山"
+        ]
+      }
+    },
+    {
+      "id": "XA-TOUR-016",
+      "name": "骊山",
+      "type": "文旅",
+      "attributes": {
+        "scenic_type": "AAAA级景区",
+        "district": "临潼区",
+        "keywords": [
+          "骊山",
+          "华清宫",
+          "烽火台",
+          "兵谏亭"
+        ]
+      }
+    },
+    {
+      "id": "DYNASTY_多朝代",
+      "name": "多朝代",
+      "type": "朝代",
+      "attributes": {}
+    },
+    {
+      "id": "DYNASTY_汉",
+      "name": "汉",
+      "type": "朝代",
+      "attributes": {}
+    },
+    {
+      "id": "DYNASTY_唐",
+      "name": "唐",
+      "type": "朝代",
+      "attributes": {}
+    },
+    {
+      "id": "DYNASTY_明",
+      "name": "明",
+      "type": "朝代",
+      "attributes": {}
+    },
+    {
+      "id": "DYNASTY_秦",
+      "name": "秦",
+      "type": "朝代",
+      "attributes": {}
+    },
+    {
+      "id": "DYNASTY_隋唐",
+      "name": "隋唐",
+      "type": "朝代",
+      "attributes": {}
+    },
+    {
+      "id": "DYNASTY_新石器时代",
+      "name": "新石器时代",
+      "type": "朝代",
+      "attributes": {}
+    },
+    {
+      "id": "ICH_CAT_传统音乐",
+      "name": "传统音乐",
+      "type": "非遗类别",
+      "attributes": {}
+    },
+    {
+      "id": "ICH_CAT_传统美术",
+      "name": "传统美术",
+      "type": "非遗类别",
+      "attributes": {}
+    },
+    {
+      "id": "ICH_CAT_传统舞蹈",
+      "name": "传统舞蹈",
+      "type": "非遗类别",
+      "attributes": {}
+    },
+    {
+      "id": "ICH_CAT_传统戏剧",
+      "name": "传统戏剧",
+      "type": "非遗类别",
+      "attributes": {}
+    },
+    {
+      "id": "ICH_CAT_传统技艺",
+      "name": "传统技艺",
+      "type": "非遗类别",
+      "attributes": {}
+    },
+    {
+      "id": "DISTRICT_莲湖区",
+      "name": "莲湖区",
+      "type": "区域",
+      "attributes": {}
+    },
+    {
+      "id": "DISTRICT_雁塔区",
+      "name": "雁塔区",
+      "type": "区域",
+      "attributes": {}
+    },
+    {
+      "id": "DISTRICT_周至县",
+      "name": "周至县",
+      "type": "区域",
+      "attributes": {}
+    },
+    {
+      "id": "DISTRICT_临潼区",
+      "name": "临潼区",
+      "type": "区域",
+      "attributes": {}
+    },
+    {
+      "id": "DISTRICT_灞桥区",
+      "name": "灞桥区",
+      "type": "区域",
+      "attributes": {}
+    },
+    {
+      "id": "DISTRICT_新城区",
+      "name": "新城区",
+      "type": "区域",
+      "attributes": {}
+    },
+    {
+      "id": "DISTRICT_碑林区",
+      "name": "碑林区",
+      "type": "区域",
+      "attributes": {}
+    },
+    {
+      "id": "DISTRICT_长安区",
+      "name": "长安区",
+      "type": "区域",
+      "attributes": {}
+    },
+    {
+      "id": "DISTRICT_西咸新区",
+      "name": "西咸新区",
+      "type": "区域",
+      "attributes": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "XA-REL-004",
+      "target": "XA-TOUR-005",
+      "relation": "cultural_link",
+      "label": "文化关联(城墙,古城)"
+    },
+    {
+      "source": "XA-REL-007",
+      "target": "XA-ICH-005",
+      "relation": "cultural_link",
+      "label": "文化关联(唐代)"
+    },
+    {
+      "source": "XA-REL-008",
+      "target": "XA-TOUR-016",
+      "relation": "cultural_link",
+      "label": "文化关联(华清宫)"
+    },
+    {
+      "source": "XA-REL-015",
+      "target": "XA-ICH-016",
+      "relation": "cultural_link",
+      "label": "文化关联(古建筑)"
+    },
+    {
+      "source": "XA-REL-019",
+      "target": "XA-ICH-005",
+      "relation": "cultural_link",
+      "label": "文化关联(唐代)"
+    },
+    {
+      "source": "XA-REL-020",
+      "target": "XA-ICH-005",
+      "relation": "cultural_link",
+      "label": "文化关联(唐代)"
+    },
+    {
+      "source": "XA-REL-020",
+      "target": "XA-TOUR-010",
+      "relation": "cultural_link",
+      "label": "文化关联(园林)"
+    },
+    {
+      "source": "XA-ICH-002",
+      "target": "XA-TOUR-004",
+      "relation": "cultural_link",
+      "label": "文化关联(秦腔)"
+    },
+    {
+      "source": "XA-ICH-010",
+      "target": "XA-TOUR-002",
+      "relation": "cultural_link",
+      "label": "文化关联(清真,美食)"
+    },
+    {
+      "source": "XA-ICH-011",
+      "target": "XA-TOUR-002",
+      "relation": "cultural_link",
+      "label": "文化关联(美食)"
+    },
+    {
+      "source": "XA-ICH-017",
+      "target": "XA-TOUR-002",
+      "relation": "cultural_link",
+      "label": "文化关联(美食)"
+    },
+    {
+      "source": "DYNASTY_多朝代",
+      "target": "XA-REL-009",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "DYNASTY_多朝代",
+      "target": "XA-REL-010",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "DYNASTY_多朝代",
+      "target": "XA-REL-018",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "DYNASTY_汉",
+      "target": "XA-REL-012",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "DYNASTY_汉",
+      "target": "DYNASTY_唐",
+      "relation": "precedes",
+      "label": "早于"
+    },
+    {
+      "source": "DYNASTY_唐",
+      "target": "XA-REL-002",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "DYNASTY_唐",
+      "target": "XA-REL-003",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "DYNASTY_唐",
+      "target": "XA-REL-007",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "DYNASTY_唐",
+      "target": "XA-REL-008",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "DYNASTY_唐",
+      "target": "XA-REL-014",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "DYNASTY_唐",
+      "target": "XA-REL-017",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "DYNASTY_唐",
+      "target": "XA-REL-019",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "DYNASTY_唐",
+      "target": "XA-REL-020",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "DYNASTY_唐",
+      "target": "DYNASTY_明",
+      "relation": "precedes",
+      "label": "早于"
+    },
+    {
+      "source": "DYNASTY_明",
+      "target": "XA-REL-004",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "DYNASTY_明",
+      "target": "XA-REL-005",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "DYNASTY_明",
+      "target": "XA-REL-006",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "DYNASTY_明",
+      "target": "XA-REL-015",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "DYNASTY_秦",
+      "target": "XA-REL-001",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "DYNASTY_秦",
+      "target": "XA-REL-013",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "DYNASTY_秦",
+      "target": "DYNASTY_汉",
+      "relation": "precedes",
+      "label": "早于"
+    },
+    {
+      "source": "DYNASTY_隋唐",
+      "target": "XA-REL-016",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "DYNASTY_新石器时代",
+      "target": "XA-REL-011",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "DYNASTY_新石器时代",
+      "target": "DYNASTY_秦",
+      "relation": "precedes",
+      "label": "早于"
+    },
+    {
+      "source": "ICH_CAT_传统音乐",
+      "target": "XA-ICH-001",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "ICH_CAT_传统音乐",
+      "target": "XA-ICH-006",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "ICH_CAT_传统美术",
+      "target": "XA-ICH-004",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "ICH_CAT_传统美术",
+      "target": "XA-ICH-008",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "ICH_CAT_传统美术",
+      "target": "XA-ICH-009",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "ICH_CAT_传统美术",
+      "target": "XA-ICH-012",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "ICH_CAT_传统美术",
+      "target": "XA-ICH-013",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "ICH_CAT_传统美术",
+      "target": "XA-ICH-014",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "ICH_CAT_传统美术",
+      "target": "XA-ICH-015",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "ICH_CAT_传统舞蹈",
+      "target": "XA-ICH-007",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "ICH_CAT_传统戏剧",
+      "target": "XA-ICH-002",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "ICH_CAT_传统戏剧",
+      "target": "XA-ICH-003",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "ICH_CAT_传统技艺",
+      "target": "XA-ICH-005",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "ICH_CAT_传统技艺",
+      "target": "XA-ICH-010",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "ICH_CAT_传统技艺",
+      "target": "XA-ICH-011",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "ICH_CAT_传统技艺",
+      "target": "XA-ICH-016",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "ICH_CAT_传统技艺",
+      "target": "XA-ICH-017",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "ICH_CAT_传统技艺",
+      "target": "XA-ICH-018",
+      "relation": "contains",
+      "label": "包含"
+    },
+    {
+      "source": "DISTRICT_莲湖区",
+      "target": "XA-TOUR-002",
+      "relation": "contains",
+      "label": "位于"
+    },
+    {
+      "source": "DISTRICT_莲湖区",
+      "target": "DISTRICT_新城区",
+      "relation": "adjacent",
+      "label": "毗邻"
+    },
+    {
+      "source": "DISTRICT_雁塔区",
+      "target": "XA-TOUR-001",
+      "relation": "contains",
+      "label": "位于"
+    },
+    {
+      "source": "DISTRICT_雁塔区",
+      "target": "XA-TOUR-006",
+      "relation": "contains",
+      "label": "位于"
+    },
+    {
+      "source": "DISTRICT_雁塔区",
+      "target": "XA-TOUR-013",
+      "relation": "contains",
+      "label": "位于"
+    },
+    {
+      "source": "DISTRICT_雁塔区",
+      "target": "DISTRICT_碑林区",
+      "relation": "adjacent",
+      "label": "毗邻"
+    },
+    {
+      "source": "DISTRICT_雁塔区",
+      "target": "DISTRICT_长安区",
+      "relation": "adjacent",
+      "label": "毗邻"
+    },
+    {
+      "source": "DISTRICT_雁塔区",
+      "target": "DISTRICT_莲湖区",
+      "relation": "adjacent",
+      "label": "毗邻"
+    },
+    {
+      "source": "DISTRICT_周至县",
+      "target": "XA-TOUR-015",
+      "relation": "contains",
+      "label": "位于"
+    },
+    {
+      "source": "DISTRICT_临潼区",
+      "target": "XA-TOUR-016",
+      "relation": "contains",
+      "label": "位于"
+    },
+    {
+      "source": "DISTRICT_灞桥区",
+      "target": "XA-TOUR-009",
+      "relation": "contains",
+      "label": "位于"
+    },
+    {
+      "source": "DISTRICT_灞桥区",
+      "target": "XA-TOUR-010",
+      "relation": "contains",
+      "label": "位于"
+    },
+    {
+      "source": "DISTRICT_新城区",
+      "target": "XA-TOUR-003",
+      "relation": "contains",
+      "label": "位于"
+    },
+    {
+      "source": "DISTRICT_新城区",
+      "target": "XA-TOUR-004",
+      "relation": "contains",
+      "label": "位于"
+    },
+    {
+      "source": "DISTRICT_新城区",
+      "target": "DISTRICT_灞桥区",
+      "relation": "adjacent",
+      "label": "毗邻"
+    },
+    {
+      "source": "DISTRICT_碑林区",
+      "target": "XA-TOUR-005",
+      "relation": "contains",
+      "label": "位于"
+    },
+    {
+      "source": "DISTRICT_碑林区",
+      "target": "DISTRICT_莲湖区",
+      "relation": "adjacent",
+      "label": "毗邻"
+    },
+    {
+      "source": "DISTRICT_碑林区",
+      "target": "DISTRICT_新城区",
+      "relation": "adjacent",
+      "label": "毗邻"
+    },
+    {
+      "source": "DISTRICT_长安区",
+      "target": "XA-TOUR-007",
+      "relation": "contains",
+      "label": "位于"
+    },
+    {
+      "source": "DISTRICT_长安区",
+      "target": "XA-TOUR-008",
+      "relation": "contains",
+      "label": "位于"
+    },
+    {
+      "source": "DISTRICT_长安区",
+      "target": "XA-TOUR-011",
+      "relation": "contains",
+      "label": "位于"
+    },
+    {
+      "source": "DISTRICT_长安区",
+      "target": "XA-TOUR-012",
+      "relation": "contains",
+      "label": "位于"
+    },
+    {
+      "source": "DISTRICT_长安区",
+      "target": "DISTRICT_灞桥区",
+      "relation": "adjacent",
+      "label": "毗邻"
+    },
+    {
+      "source": "DISTRICT_西咸新区",
+      "target": "XA-TOUR-014",
+      "relation": "contains",
+      "label": "位于"
+    }
+  ]
+}

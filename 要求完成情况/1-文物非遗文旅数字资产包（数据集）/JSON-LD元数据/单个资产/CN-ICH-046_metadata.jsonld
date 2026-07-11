@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:f3c44637c0779310ec6b26df80e64848f36564ed69ed25530a0ecfbf8b4e7e05",
+  "schema:identifier": "CN-ICH-046",
+  "schema:name": "潍坊风筝",
+  "schema:description": "潍坊风筝起源于明清时期，最初用于军事侦察与祈福驱邪，后逐渐演变为民间节庆娱乐活动。其文化价值体现在融合木版年画、刺绣等传统技艺，以扎、糊、绘、放四艺著称，承载了齐鲁大地的民俗信仰与审美情趣。目前，潍坊已完成风筝制作工艺的数字化记录，建立纹样数据库，并通过AR技术推出虚拟风筝互动体验，让用户通过手机屏幕即可操控风筝飞行，实现非遗技艺的活态传承。",
+  "schema:keywords": [
+    "潍坊风筝",
+    "制作工艺",
+    "纹样数据库",
+    "AR互动"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "明清至今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "山东",
+    "schema:addressLocality": "潍坊市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "潍坊市非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "潍坊市非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:f3c44637c0779310ec6b26df80e64848f36564ed69ed25530a0ecfbf8b4e7e05",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

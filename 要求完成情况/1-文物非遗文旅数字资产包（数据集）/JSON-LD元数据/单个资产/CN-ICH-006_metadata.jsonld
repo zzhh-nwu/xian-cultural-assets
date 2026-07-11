@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:60ac6c6a6518a1999654e991db0e8f64acdb288fa3fd54f8d615dbd6c6a589c8",
+  "schema:identifier": "CN-ICH-006",
+  "schema:name": "非遗多模态数字资产知识工程",
+  "schema:description": "中国人民大学艺术学院非遗多模态数字资产知识工程，运用高斯泼溅、体积视频等前沿技术，全景记录传承人技艺精髓。该项目通过MR、VR技术构建非遗数字孪生系统，实现非遗文化的沉浸式体验与知识传承。作为学术驱动非遗数字化最高水平的代表，它开创了非遗数据标准化、知识图谱化的先河，为非遗保护提供了可量化、可交互、可复现的全新范式，推动非遗从静态记录迈向动态活态传承。",
+  "schema:keywords": [
+    "人大",
+    "多模态",
+    "高斯泼溅",
+    "体积视频",
+    "数字孪生",
+    "MR",
+    "VR"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "当代",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "北京",
+    "schema:addressLocality": "北京市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "中国人民大学/第二届人民艺术论坛"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "中国人民大学/第二届人民艺术论坛"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:60ac6c6a6518a1999654e991db0e8f64acdb288fa3fd54f8d615dbd6c6a589c8",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

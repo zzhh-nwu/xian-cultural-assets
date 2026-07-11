@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalTourism",
+  "@id": "urn:sha256:5cd1d28bcf0c82b39f91b3f8b6b08bcdc9631dfb1514b2ac5fe65dcab3536f22",
+  "schema:identifier": "SA-WN-TOUR-001",
+  "schema:name": "洽川湿地",
+  "schema:description": "洽川湿地坐落于陕西合阳，是中国最大的黄河湿地之一，拥有丰富的生态资源和深厚的文化底蕴。这里是《诗经》首篇《关雎》中“关关雎鸠，在河之洲”的灵感来源，被誉为“中国爱情诗之源”。数字化现状包括湿地生态数字监测系统，实时追踪水质、植被和鸟类迁徙；同时，开发了《诗经》文化VR体验项目，让游客沉浸式感受古诗词中的自然意境，实现生态保护与文化传播的融合。",
+  "schema:keywords": [
+    "洽川",
+    "黄河湿地",
+    "诗经",
+    "关关雎鸠",
+    "VR体验"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "古今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "渭南市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "洽川景区管委会"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "洽川景区管委会"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:5cd1d28bcf0c82b39f91b3f8b6b08bcdc9631dfb1514b2ac5fe65dcab3536f22",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

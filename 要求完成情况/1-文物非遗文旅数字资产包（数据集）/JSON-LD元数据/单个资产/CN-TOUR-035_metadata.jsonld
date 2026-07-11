@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalTourism",
+  "@id": "urn:sha256:ed4f7408425ffb9d8722706d75e4bf0a81a3cc38cb540d4608062639a27c8ea8",
+  "schema:identifier": "CN-TOUR-035",
+  "schema:name": "天山天池",
+  "schema:description": "天山天池，古称“瑶池”，位于新疆阜康市境内的博格达峰下，是典型的高山冰碛湖。其历史可追溯至西王母神话传说，唐代以来便是道教文化与西域文明交融的圣地。作为世界自然遗产和国家5A级景区，天池不仅以冰川、森林、草甸构成的垂直生态景观闻名，更承载着游牧文明与天山丝路的深厚记忆。目前，已完成天池流域高精度数字测绘，并构建了地质演变动态数字模型，通过三维可视化技术还原冰碛湖形成过程，为生态保护与遗产监测提供实时数据支撑。",
+  "schema:keywords": [
+    "天山天池",
+    "数字测绘",
+    "地质模型"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "古今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "新疆",
+    "schema:addressLocality": "昌吉州",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "天山天池管委会"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "天山天池管委会"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:ed4f7408425ffb9d8722706d75e4bf0a81a3cc38cb540d4608062639a27c8ea8",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

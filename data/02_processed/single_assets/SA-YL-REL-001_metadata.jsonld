@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:43848575cbcab8bd29416fc62ac4633f39d31f6ae0770b8ce5e8e356f2c4fafd",
+  "schema:identifier": "SA-YL-REL-001",
+  "schema:name": "统万城遗址",
+  "schema:description": "统万城遗址位于榆林市靖边县，是全国重点文物保护单位，始建于公元413年，由匈奴贵族赫连勃勃建造，是匈奴族在人类历史中留下的唯一都城遗址。城墙以白土夯筑而成，坚固如石，故称“白城子”，展现了匈奴建筑与军事防御的独特成就。已完成遗址全域数字测绘，建立了高精度三维模型，并建立了匈奴文化数字档案，详细记录其历史变迁，为学术研究和公众教育提供了沉浸式数字化体验。",
+  "schema:keywords": [
+    "统万城",
+    "匈奴",
+    "唯一都城",
+    "白土筑城",
+    "数字测绘"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "十六国",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "榆林市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "靖边县文物局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "靖边县文物局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:43848575cbcab8bd29416fc62ac4633f39d31f6ae0770b8ce5e8e356f2c4fafd",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

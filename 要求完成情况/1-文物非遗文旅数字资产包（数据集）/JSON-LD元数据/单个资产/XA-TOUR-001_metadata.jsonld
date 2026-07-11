@@ -1,0 +1,107 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalTourism",
+  "@id": "urn:sha256:05f4ca05aabba6cf2c567d3b34650150bdb50f72fdca6a2dcffb0fd4ca2a6a74",
+  "schema:identifier": "XA-TOUR-001",
+  "schema:name": "西安城墙",
+  "schema:description": "西安城墙是中国现存规模最大、保存最完整的古代城垣，始建于明洪武三年（1370年），全长13.74公里，高12米，有城门18座。1988年被列为全国重点文物保护单位，是国家AAAAA级旅游景区。「骑城墙、看灯会」已成为西安最具代表性的文旅体验项目。",
+  "schema:keywords": [
+    "明代",
+    "古城墙",
+    "AAAAA景区",
+    "灯会",
+    "骑行",
+    "护城河",
+    "古代军事防御",
+    "环城公园"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "明代（洪武三年-十一年，1370-1378年），基础为隋唐皇城",
+    "cultural:material": "外壁青砖包砌 + 内壁夯土 + 垛口砖石",
+    "cultural:technique": "砖石砌筑、包砖工艺、夯土芯体、瓮城防御工事",
+    "cultural:iconography": "方形古城格局、城门四向对称、垛口整齐排列",
+    "cultural:style": "明代军事防御建筑风格",
+    "cultural:function": "城市防御 + 现代文旅体验"
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西省",
+    "schema:addressLocality": "西安市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "西安城墙景区（环城一周）",
+    "schema:latitude": "34.2610",
+    "schema:longitude": "108.9420"
+  },
+  "cultural:relatedFigures": [
+    {
+      "schema:Person": {
+        "schema:name": "明太祖朱元璋（下诏修建）"
+      }
+    },
+    {
+      "schema:Person": {
+        "schema:name": "秦王朱樉（督建）"
+      }
+    }
+  ],
+  "cultural:relatedEvents": [
+    "582年 隋建大兴城（唐长安城前身）",
+    "1370-1378年 明代扩建城墙",
+    "1983年 大规模修缮+环城公园",
+    "1988年 全国重点文保",
+    "2018年 AAAAA景区"
+  ],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "西安城墙管理委员会"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "https://www.xacitywall.com/ 西安城墙官网",
+    "https://baike.baidu.com/item/西安城墙"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:05f4ca05aabba6cf2c567d3b34650150bdb50f72fdca6a2dcffb0fd4ca2a6a74",
+  "dcterms:created": "2026-07-09T23:35:49Z",
+  "schema:alternateName": "Xi'an City Wall",
+  "schema:additionalDescription": "西安城墙是在唐长安城皇城基础上，于明洪武三年至十一年（1370-1378年）扩建而成。城墙平面呈长方形，东西长4.25公里，南北长2.9公里，周长13.74公里。墙体外壁用青砖包砌，内壁为夯土，墙上设有垛口5984个。城墙的防御体系包括：护城河、吊桥、闸楼、箭楼、正楼、角楼、敌台、女儿墙等多重军事设施。主要城门：长乐门（东门）、永宁门（南门）、安定门（西门）、安远门（北门），取「长安永定」之意。1983年起，西安市对城墙进行大规模修缮，恢复护城河，建成环城公园。近年来依托城墙打造的西安城墙新春灯会、城墙马拉松、夜间光影秀等项目使古城焕发新生。城墙上可骑行游览全长约14公里，是中国最具特色的古城体验之一。",
+  "schema:sameAs": [
+    "《西安城墙》- 西安城墙管理委员会",
+    "《西安城墙历史与保护》"
+  ],
+  "x9p:digitalRepresentation": {
+    "images": {
+      "@type": "schema:MediaObject",
+      "schema:encodingFormat": "image",
+      "schema:url": [
+        "西安城墙官网图库",
+        "Wikimedia Commons"
+      ],
+      "schema:description": "城墙全景、城门特写、灯会夜景、骑行体验",
+      "schema:license": "CC BY-SA / 官方授权"
+    },
+    "video": {
+      "@type": "schema:MediaObject",
+      "schema:encodingFormat": "video",
+      "schema:url": [
+        "西安城墙官方宣传片"
+      ],
+      "schema:description": "城墙航拍、灯会盛况、马拉松",
+      "schema:license": "官方授权"
+    },
+    "3d_models": {
+      "@type": "schema:MediaObject",
+      "schema:encodingFormat": "3d_model",
+      "schema:url": [
+        "Google Earth 3D建筑 西安城墙区域"
+      ],
+      "schema:description": "城市级3D模型（Google Earth公开数据）",
+      "schema:license": "CC / 公开数据"
+    }
+  }
+}

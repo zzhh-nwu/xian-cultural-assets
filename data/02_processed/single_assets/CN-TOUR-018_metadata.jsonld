@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalTourism",
+  "@id": "urn:sha256:5c598ae10bdd9b8b481ca7bf47013958b26c031aa973b0a09234f3f731f16ad0",
+  "schema:identifier": "CN-TOUR-018",
+  "schema:name": "大连老虎滩",
+  "schema:description": "大连老虎滩坐落于大连南部海滨，始建于19世纪末，原为军事防御要地，后于20世纪90年代转型为海洋主题公园，承载着近代海防与城市发展的历史印记。作为国家5A级景区，其文化价值在于融合了海洋生态保护与旅游体验，展现了人与自然的共生理念。数字化现状方面，景区已完成智慧化改造，推出AR海洋生物互动体验，游客可通过手机与虚拟鲸鱼、海豚实时互动；同时发行数字纪念票，结合区块链技术记录游览足迹，提升了文旅体验的科技感与可持续性。",
+  "schema:keywords": [
+    "老虎滩",
+    "智慧景区",
+    "AR互动",
+    "数字纪念票"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "当代",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "辽宁",
+    "schema:addressLocality": "大连市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "大连市文旅局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "大连市文旅局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:5c598ae10bdd9b8b481ca7bf47013958b26c031aa973b0a09234f3f731f16ad0",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

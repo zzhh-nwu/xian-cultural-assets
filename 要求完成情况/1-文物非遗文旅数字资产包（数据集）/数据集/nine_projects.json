@@ -1,0 +1,493 @@
+{
+  "metadata": {
+    "title": "西安文化数字资产数据集（九大项目）",
+    "description": "聚焦西安9个最具代表性的文物、非遗、文旅项目，含多媒体数据和JSON-LD元数据，对标数字资产登记标准v1.0",
+    "version": "2.0.0",
+    "created_at": "2025-07-05T00:00:00Z",
+    "total_projects": 9,
+    "project_types": {
+      "cultural_relic": 3,
+      "intangible_heritage": 3,
+      "cultural_tourism": 3
+    }
+  },
+  "projects": [
+    {
+      "asset_id": "XA-REL-001",
+      "asset_type": "cultural_relic",
+      "title": "秦始皇兵马俑",
+      "title_en": "Terracotta Army of Qin Shi Huang",
+      "description": "秦始皇兵马俑是秦始皇帝陵的陪葬坑，位于西安市临潼区，被誉为「世界第八大奇迹」。目前已发现四个俑坑，出土陶俑、陶马约8000件，每件陶俑身高约1.8米，千人千面，是研究秦代军事、艺术和科学技术的珍贵实物资料。",
+      "detailed_description": "秦始皇兵马俑是中国古代规模最大、内涵最丰富的帝王陵墓陪葬坑，1974年由当地农民打井时意外发现。兵马俑坑分为一号、二号、三号坑和一个未建成的四号坑。一号坑面积1.4万平方米，排列着由步兵和战车组成的军阵；二号坑呈曲尺形，由骑兵、弩兵、战车混编；三号坑为军阵指挥部。兵马俑采用模制与手塑结合的工艺，先分段模制身体各部件，再手工修饰面部细节，每件陶俑的发髻、胡须、铠甲均不相同。原为彩绘，因出土后氧化迅速褪色。1987年，秦始皇陵及兵马俑坑被列入《世界遗产名录》，成为首批中国世界文化遗产之一。每年吸引超过800万游客参观，是西安最具国际知名度的文化符号。",
+      "category_tags": ["陶俑", "秦朝", "世界文化遗产", "陵墓", "军事", "彩绘", "写实主义", "考古重大发现"],
+      "cultural_elements": {
+        "period": "秦（公元前221-前207年）",
+        "material": "陶（灰陶为主）",
+        "technique": "模制分段成型 + 手工雕塑 + 矿物颜料彩绘",
+        "iconography": "写实人像、军队阵列、车马仪仗、等级服饰",
+        "style": "秦代写实主义",
+        "function": "陵墓陪葬、帝王卫队象征"
+      },
+      "geolocation": {
+        "province": "陕西省",
+        "city": "西安市",
+        "district": "临潼区",
+        "site": "秦始皇兵马俑博物馆",
+        "lat": "34.3852",
+        "lng": "109.2731"
+      },
+      "historical_figures": ["秦始皇嬴政", "李斯", "袁仲一（首任馆长）"],
+      "historical_events": [
+        "公元前246年 秦始皇即位始建陵",
+        "1974年 打井发现兵马俑",
+        "1979年 秦始皇兵马俑博物馆开馆",
+        "1987年 列入世界遗产名录"
+      ],
+      "copyright_holder": "秦始皇帝陵博物院",
+      "license": "CC BY-NC-ND 4.0",
+      "data_provenance": [
+        "https://www.bmy.com.cn/ 秦始皇帝陵博物院官网",
+        "https://baike.baidu.com/item/秦始皇兵马俑",
+        "https://whc.unesco.org/en/list/441 UNESCO世界遗产页",
+        "https://commons.wikimedia.org/wiki/Category:Terracotta_Army Wikimedia Commons (CC)"
+      ],
+      "multimedia": {
+        "images": {
+          "asset_type": "image",
+          "urls": [
+            "https://commons.wikimedia.org/wiki/File:Terracotta_Army_Panorama.jpg",
+            "https://commons.wikimedia.org/wiki/File:Xian_terracotta_warriors.jpg"
+          ],
+          "description": "兵马俑全景、一号坑军阵、陶俑特写",
+          "license_info": "CC BY-SA 4.0 / 博物院官方授权"
+        },
+        "video": {
+          "asset_type": "video",
+          "urls": ["博物院官方宣传片 (bmy.com.cn)"],
+          "description": "兵马俑发掘纪录片、官方宣传片",
+          "license_info": "博物院官方授权"
+        },
+        "3d_models": {
+          "asset_type": "3d_model",
+          "urls": [
+            "https://sketchfab.com/3d-models/terracotta-warrior",
+            "https://sketchfab.com/search?q=terracotta+army"
+          ],
+          "description": "Sketchfab公开3D模型（CC授权）",
+          "license_info": "CC BY / CC BY-SA"
+        }
+      },
+      "references": ["《秦始皇陵兵马俑》- 文物出版社", "《秦兵马俑的考古发现与研究》- 袁仲一"],
+      "registration_standard": "数字资产登记标准 v1.0"
+    },
+    {
+      "asset_id": "XA-REL-002",
+      "asset_type": "cultural_relic",
+      "title": "西安碑林·石台孝经",
+      "title_en": "Stone Platform Classic of Filial Piety, Xi'an Beilin Museum",
+      "description": "石台孝经是西安碑林博物馆的镇馆之宝，刻于唐天宝四年（745年），由唐玄宗李隆基亲自作序、注解并书写，以隶书体镌刻。石碑通高620厘米，由四块巨石拼接而成，被誉为「迎客第一碑」。石台孝经是现存最早、体量最大的石刻孝经，兼具极高的历史、书法和文献学价值。",
+      "detailed_description": "石台孝经刻成于唐天宝四年（745年），碑文内容为《孝经》全文，由唐玄宗李隆基亲自作序并注解。唐玄宗以隶书书写正文，碑额则为太子李亨（后来的唐肃宗）篆书题写。石碑高6.2米，宽1.2米，四面刻字，共计6000余字。碑座为三层石台，雕刻有瑞兽、蔓草花纹，精美绝伦。此碑原立于长安城国子监内，北宋时期移至现址，成为西安碑林的开篇之碑。西安碑林博物馆始建于北宋元祐二年（1087年），是中国第一座大型专题性石刻艺术博物馆，收藏汉唐至近代碑石4000余方，被誉为「中国书法艺术的圣殿」。石台孝经不仅是孝文化的经典载体，也是唐代「以孝治天下」政治理念的重要实物证据。",
+      "category_tags": ["石刻", "唐代", "隶书", "孝经", "碑林", "书法", "唐玄宗", "国宝级文物"],
+      "cultural_elements": {
+        "period": "唐天宝四年（745年）",
+        "material": "青石",
+        "technique": "平面阴刻 + 高浮雕碑座 + 石构建筑",
+        "iconography": "隶书文字、瑞兽纹、蔓草纹、三层石台结构",
+        "style": "盛唐官方刻碑风格",
+        "function": "儒家经典载体、孝道教育、皇家权威宣示"
+      },
+      "geolocation": {
+        "province": "陕西省",
+        "city": "西安市",
+        "district": "碑林区",
+        "site": "西安碑林博物馆",
+        "lat": "34.2555",
+        "lng": "108.9480"
+      },
+      "historical_figures": ["唐玄宗李隆基", "唐肃宗李亨", "吕大忠（碑林创建者）"],
+      "historical_events": ["745年 石台孝经刻成", "1087年 碑林始建", "1961年 列入首批全国重点文物保护单位"],
+      "copyright_holder": "西安碑林博物馆",
+      "data_provenance": [
+        "https://www.beilinmuseum.com/ 西安碑林博物馆官网",
+        "https://baike.baidu.com/item/石台孝经"
+      ],
+      "multimedia": {
+        "images": {
+          "asset_type": "image",
+          "urls": ["https://commons.wikimedia.org/wiki/Category:Stele_Forest"],
+          "description": "石台孝经全景、碑文拓片、高浮雕细节",
+          "license_info": "CC BY-SA / 博物馆官方授权"
+        }
+      },
+      "references": ["《西安碑林全集》", "《石台孝经研究》- 路远"],
+      "registration_standard": "数字资产登记标准 v1.0"
+    },
+    {
+      "asset_id": "XA-REL-003",
+      "asset_type": "cultural_relic",
+      "title": "镶金兽首玛瑙杯",
+      "title_en": "Gold-Inlaid Agate Cup with Beast-Head Design",
+      "description": "镶金兽首玛瑙杯是陕西历史博物馆的镇馆之宝，1970年出土于西安市南郊何家村唐代窖藏。杯体高6.5厘米，长15.6厘米，用一整块极其罕见的红褐色缠丝玛瑙雕琢而成，兽首部分镶有金箔。这件器物是唐代中西文化交流的绝佳实物见证，被列为中国首批禁止出境展览的64件国宝级文物之一。",
+      "detailed_description": "镶金兽首玛瑙杯是唐代何家村窖藏中最负盛名的文物。何家村窖藏1970年在西安南郊何家村发现，出土金银器、玉器、宝石等各类文物1000余件，是20世纪中国最重大的考古发现之一。此杯选用产自西域的优质缠丝玛瑙，由中亚或波斯传入的工艺技巧制作，造型与古希腊「来通」（Rhyton）仪式用杯极为相似。杯体呈角状，口部雕作兽首形——似牛而带角，口鼻镶金箔，兽眼圆睁，神态威猛而生动。红色玛瑙的天然纹理经巧妙利用，使兽首的肌肉线条自然呈现。学者认为此杯可能来自波斯或中亚，或为唐代宫廷匠师吸收西方技艺制作，是大唐开放包容、丝绸之路文明交流互鉴的物质见证。",
+      "category_tags": ["金银器", "唐代", "丝绸之路", "玛瑙", "中西交流", "何家村窖藏", "国宝级", "禁止出境展览"],
+      "cultural_elements": {
+        "period": "唐（约7-8世纪）",
+        "material": "缠丝玛瑙（红褐色）+ 黄金（兽首镶金）",
+        "technique": "俏色巧雕 + 鎏金工艺 + 宝石加工",
+        "iconography": "牛首/兽首造型、角状杯体、希腊来通(Rhyton)仪式风格",
+        "style": "萨珊波斯-唐代融合风格",
+        "function": "皇家仪式酒器、中西文化交流象征"
+      },
+      "geolocation": {
+        "province": "陕西省",
+        "city": "西安市",
+        "district": "雁塔区",
+        "site": "陕西历史博物馆",
+        "lat": "34.2180",
+        "lng": "108.9482"
+      },
+      "historical_figures": ["（推测）唐玄宗/唐代皇室"],
+      "historical_events": ["1970年 何家村窖藏发现", "2013年 列入禁止出境展览文物"],
+      "copyright_holder": "陕西历史博物馆",
+      "data_provenance": [
+        "https://www.sxhm.com/ 陕西历史博物馆官网",
+        "https://baike.baidu.com/item/镶金兽首玛瑙杯"
+      ],
+      "multimedia": {
+        "images": {
+          "asset_type": "image",
+          "urls": ["https://www.sxhm.com/ 陕历博官网图库"],
+          "description": "多角度拍摄、尺寸参照、工艺细节",
+          "license_info": "博物馆官方授权"
+        }
+      },
+      "references": ["《花舞大唐春——何家村遗宝精粹》- 陕西历史博物馆", "《唐代金银器研究》- 齐东方"],
+      "registration_standard": "数字资产登记标准 v1.0"
+    },
+    {
+      "asset_id": "XA-ICH-001",
+      "asset_type": "intangible_heritage",
+      "title": "西安鼓乐",
+      "title_en": "Xi'an Drum Music",
+      "description": "西安鼓乐是流传于西安及周边地区的传统音乐形式，是迄今为止中国境内保存最为完整的大型民间器乐乐种之一，被誉为「中国古代音乐的活化石」。2009年被列入联合国教科文组织人类非物质文化遗产代表作名录。西安鼓乐源于唐代宫廷燕乐，后融入民间音乐元素，形成了坐乐和行乐两大演奏体系。",
+      "detailed_description": "西安鼓乐，又称长安古乐，是流传在西安及周边地区的传统民间大型鼓吹乐。它起源于隋唐，历经宋、元、明、清各代的演变，至今仍保留着相当完整的唐代燕乐和宋代教坊音乐的遗制。西安鼓乐分为坐乐和行乐两种演奏形式。坐乐在室内演奏，使用笛、笙、管、双云锣等旋律乐器，及座鼓、战鼓、乐鼓、独鼓等打击乐器，编制规模较大，曲式结构严谨。行乐则在行进中演奏，编制较小。现存保留曲目达3000余首，包含大型套曲和大量独立乐曲。代表性乐社有：何家营鼓乐社、南集贤东村乐社、大吉昌鼓乐社等。西安鼓乐的乐谱采用宋代俗字谱记写方式，与敦煌曲谱一脉相承。主要传承人包括：赵庚辰（已故）、何忠信、顾景昭等。",
+      "category_tags": ["传统音乐", "唐代燕乐", "坐乐", "行乐", "俗字谱", "非遗音乐", "丝路音乐"],
+      "cultural_elements": {
+        "period": "隋唐起源，历经宋元明清演变至今",
+        "material": "",
+        "technique": "坐乐（室内大编制）与行乐（行进小编制）两大演奏体系；使用笛、笙、管、双云锣、座鼓等乐器；宋代俗字谱记谱法",
+        "iconography": "宫廷燕乐遗风、大型套曲曲式结构",
+        "style": "唐代宫廷音乐遗韵 + 民间化演变",
+        "function": "祭祀、庆典、民间礼仪音乐"
+      },
+      "geolocation": {
+        "province": "陕西省",
+        "city": "西安市",
+        "district": "",
+        "site": "何家营、南集贤等鼓乐社",
+        "lat": "",
+        "lng": ""
+      },
+      "historical_figures": ["赵庚辰（国家级传承人，已故）", "何忠信（国家级传承人）"],
+      "historical_events": ["2006年 列入国家级非遗", "2009年 列入UNESCO人类非遗代表作名录"],
+      "copyright_holder": "陕西省非物质文化遗产保护中心",
+      "data_provenance": [
+        "https://www.ihchina.cn/ 中国非物质文化遗产网",
+        "https://ich.unesco.org/ UNESCO非遗页",
+        "https://baike.baidu.com/item/西安鼓乐"
+      ],
+      "multimedia": {
+        "audio": {
+          "asset_type": "audio",
+          "urls": ["中国非遗网音频库", "B站 西安鼓乐演奏视频音频轨道"],
+          "description": "坐乐、行乐演奏录音片段（<=30秒）",
+          "license_info": "非遗保护中心授权"
+        },
+        "video": {
+          "asset_type": "video",
+          "urls": ["央视纪录片《西安鼓乐》"],
+          "description": "鼓乐演奏记录、传承人口述",
+          "license_info": "合理引用"
+        },
+        "scores": {
+          "asset_type": "score",
+          "urls": ["《西安鼓乐曲集》", "俗字谱手抄本扫描件"],
+          "description": "传统俗字谱乐谱",
+          "license_info": "非遗保护中心授权"
+        }
+      },
+      "references": ["《西安鼓乐全书》- 李石根", "《长安古乐研究》"],
+      "registration_standard": "数字资产登记标准 v1.0"
+    },
+    {
+      "asset_id": "XA-ICH-002",
+      "asset_type": "intangible_heritage",
+      "title": "华阴老腔",
+      "title_en": "Huayin Old Tune (Laoqiang)",
+      "description": "华阴老腔是流传于陕西省华阴市双泉村的一种皮影戏曲声腔，被誉为「中国最古老的摇滚乐」。其唱腔高亢激昂、气势磅礴，伴奏以月琴、板胡和独特的长凳击打为特色。2006年被列入首批国家级非物质文化遗产名录。2016年登上央视春晚后走红全国，成为跨界融合的传统文化创新典范。",
+      "detailed_description": "华阴老腔发源于华阴市双泉村，距今已有两千余年历史，与汉代漕运号子有渊源关系。最初是皮影戏的幕后伴唱声腔，被称为老腔皮影，表演者以皮影为媒介，用高亢的唱腔讲述历史演义故事。老腔的唱腔体系分为苦音（悲凉）和欢音（欢快）两大类，板式包括慢板、二六板、快板、箭板等多种。伴奏乐器以月琴为主，辅以板胡、二胡、梆子等，最具特色的是长凳——表演者手持长凳，用石块猛烈击打凳面，发出激昂的节奏声，配合呐喊式的演唱，形成震撼人心的感染力。代表性传承人有：张喜民（国家级传承人，双泉村老腔班社掌门人）、王振中等。",
+      "category_tags": ["传统戏剧", "皮影戏声腔", "月琴", "汉代漕运号子", "春晚", "跨界融合"],
+      "cultural_elements": {
+        "period": "起源于汉代，传承至今两千余年",
+        "material": "",
+        "technique": "一人唱众人合帮腔形式；月琴主奏+板胡+长凳打击特色伴奏；苦音/欢音两大情感体系",
+        "iconography": "皮影戏幕后伴唱、长凳击打气势",
+        "style": "高亢激昂，气势磅礴；被称为「最古老的中国摇滚」",
+        "function": "皮影戏伴唱、民间娱乐、历史故事传播"
+      },
+      "geolocation": {
+        "province": "陕西省",
+        "city": "华阴市",
+        "district": "",
+        "site": "双泉村",
+        "lat": "",
+        "lng": ""
+      },
+      "historical_figures": ["张喜民（国家级传承人）", "王振中（传承人）", "谭维维（联合推广者）"],
+      "historical_events": ["2006年 列入首批国家级非遗", "2016年 央视春晚引爆全国"],
+      "copyright_holder": "华阴市非物质文化遗产保护中心",
+      "data_provenance": [
+        "https://www.ihchina.cn/ 中国非遗网",
+        "https://baike.baidu.com/item/华阴老腔"
+      ],
+      "multimedia": {
+        "audio": {
+          "asset_type": "audio",
+          "urls": ["B站 华阴老腔经典唱段", "网易云/QQ音乐 谭维维合作版"],
+          "description": "经典老腔唱段、张喜民版、春晚版",
+          "license_info": "合理引用/版权方授权"
+        },
+        "video": {
+          "asset_type": "video",
+          "urls": ["央视春晚2016《华阴老腔一声喊》"],
+          "description": "华阴老腔演出视频、传承人纪录",
+          "license_info": "合理引用"
+        }
+      },
+      "references": ["《华阴老腔》- 华阴市政协文史资料"],
+      "registration_standard": "数字资产登记标准 v1.0"
+    },
+    {
+      "asset_id": "XA-ICH-003",
+      "asset_type": "intangible_heritage",
+      "title": "陕西皮影戏",
+      "title_en": "Shaanxi Shadow Puppetry",
+      "description": "陕西皮影戏是中国皮影艺术的重要流派，以华县皮影最具代表性，2011年被列入人类非物质文化遗产代表作名录。陕西皮影雕刻工艺精湛，以牛皮为材，经选皮、制皮、画稿、雕刻、敷色、熨平、缀结等二十余道工序完成，是集绘画、雕刻、表演、音乐于一体的综合艺术。",
+      "detailed_description": "陕西皮影戏历史悠久，是中国皮影艺术的主要发源地之一，起源于汉代，成熟于唐宋，繁荣于明清。华县（今渭南市华州区）是陕西皮影的核心传承区域，被誉为「中国皮影艺术之乡」。陕西皮影的制作工艺极为讲究：选用上等秦川牛皮，经浸泡、刮毛、去脂、拉撑、晾晒等工序制成透明皮料；再用钢针刻刀在皮料上雕刻出人物、动物、场景等图案，要求刀口整齐、线条流畅；敷色使用矿物和植物染料；最后用丝线缀结各部件，使影人可灵活活动。表演时，艺人在白色幕布后操纵影人，用当地唱腔讲述历史演义，配以灯光投射，形成「一口叙说千古事，双手对舞百万兵」的艺术效果。代表流派：东路（碗碗腔皮影）、西路（弦板腔皮影）、北路（阿宫腔皮影）。代表性传承人：汪天稳（国家级传承人，华县皮影雕刻大师）、薛宏权等。",
+      "category_tags": ["传统戏剧", "皮影", "雕刻", "牛皮", "华县", "UNESCO非遗", "综合艺术"],
+      "cultural_elements": {
+        "period": "起源于汉代，成熟于唐宋，繁荣于明清",
+        "material": "秦川牛皮 + 矿物/植物染料 + 丝线",
+        "technique": "选皮-制皮-画稿-雕刻（推皮走刀技法）-敷色-熨平-缀结，共二十余道工序",
+        "iconography": "影人造型：五分面/七分面、武将/旦角/丑角等类别；纹样：雪花纹、万字纹、梅花纹等",
+        "style": "陕西东路皮影精细华美、西路皮影粗犷豪放",
+        "function": "民间戏剧演出、历史故事传播、祭祀酬神"
+      },
+      "geolocation": {
+        "province": "陕西省",
+        "city": "渭南市华州区",
+        "district": "",
+        "site": "华县皮影文化生态保护区",
+        "lat": "",
+        "lng": ""
+      },
+      "historical_figures": ["汪天稳（国家级传承人/雕刻大师）", "薛宏权（省级传承人）"],
+      "historical_events": ["2006年 列入国家级非遗", "2011年 列入UNESCO人类非遗代表作名录"],
+      "copyright_holder": "华州区非物质文化遗产保护中心",
+      "data_provenance": [
+        "https://www.ihchina.cn/ 中国非遗网",
+        "https://ich.unesco.org/ UNESCO非遗页"
+      ],
+      "multimedia": {
+        "images": {
+          "asset_type": "image",
+          "urls": ["中国非遗网 皮影图片库"],
+          "description": "皮影制作过程、经典影人、演出场景",
+          "license_info": "非遗保护中心授权"
+        },
+        "audio": {
+          "asset_type": "audio",
+          "urls": ["B站 陕西皮影戏唱腔录音"],
+          "description": "碗碗腔/弦板腔皮影唱段",
+          "license_info": "合理引用"
+        },
+        "video": {
+          "asset_type": "video",
+          "urls": ["央视纪录片《皮影戏》"],
+          "description": "皮影戏表演及制作纪录片",
+          "license_info": "合理引用"
+        }
+      },
+      "references": ["《陕西皮影》- 陕西省文化厅", "《华县皮影志》"],
+      "registration_standard": "数字资产登记标准 v1.0"
+    },
+    {
+      "asset_id": "XA-TOUR-001",
+      "asset_type": "cultural_tourism",
+      "title": "西安城墙",
+      "title_en": "Xi'an City Wall",
+      "description": "西安城墙是中国现存规模最大、保存最完整的古代城垣，始建于明洪武三年（1370年），全长13.74公里，高12米，有城门18座。1988年被列为全国重点文物保护单位，是国家AAAAA级旅游景区。「骑城墙、看灯会」已成为西安最具代表性的文旅体验项目。",
+      "detailed_description": "西安城墙是在唐长安城皇城基础上，于明洪武三年至十一年（1370-1378年）扩建而成。城墙平面呈长方形，东西长4.25公里，南北长2.9公里，周长13.74公里。墙体外壁用青砖包砌，内壁为夯土，墙上设有垛口5984个。城墙的防御体系包括：护城河、吊桥、闸楼、箭楼、正楼、角楼、敌台、女儿墙等多重军事设施。主要城门：长乐门（东门）、永宁门（南门）、安定门（西门）、安远门（北门），取「长安永定」之意。1983年起，西安市对城墙进行大规模修缮，恢复护城河，建成环城公园。近年来依托城墙打造的西安城墙新春灯会、城墙马拉松、夜间光影秀等项目使古城焕发新生。城墙上可骑行游览全长约14公里，是中国最具特色的古城体验之一。",
+      "category_tags": ["明代", "古城墙", "AAAAA景区", "灯会", "骑行", "护城河", "古代军事防御", "环城公园"],
+      "cultural_elements": {
+        "period": "明代（洪武三年-十一年，1370-1378年），基础为隋唐皇城",
+        "material": "外壁青砖包砌 + 内壁夯土 + 垛口砖石",
+        "technique": "砖石砌筑、包砖工艺、夯土芯体、瓮城防御工事",
+        "iconography": "方形古城格局、城门四向对称、垛口整齐排列",
+        "style": "明代军事防御建筑风格",
+        "function": "城市防御 + 现代文旅体验"
+      },
+      "geolocation": {
+        "province": "陕西省",
+        "city": "西安市",
+        "district": "",
+        "site": "西安城墙景区（环城一周）",
+        "lat": "34.2610",
+        "lng": "108.9420"
+      },
+      "historical_figures": ["明太祖朱元璋（下诏修建）", "秦王朱樉（督建）"],
+      "historical_events": [
+        "582年 隋建大兴城（唐长安城前身）",
+        "1370-1378年 明代扩建城墙",
+        "1983年 大规模修缮+环城公园",
+        "1988年 全国重点文保",
+        "2018年 AAAAA景区"
+      ],
+      "copyright_holder": "西安城墙管理委员会",
+      "data_provenance": [
+        "https://www.xacitywall.com/ 西安城墙官网",
+        "https://baike.baidu.com/item/西安城墙"
+      ],
+      "multimedia": {
+        "images": {
+          "asset_type": "image",
+          "urls": ["西安城墙官网图库", "Wikimedia Commons"],
+          "description": "城墙全景、城门特写、灯会夜景、骑行体验",
+          "license_info": "CC BY-SA / 官方授权"
+        },
+        "video": {
+          "asset_type": "video",
+          "urls": ["西安城墙官方宣传片"],
+          "description": "城墙航拍、灯会盛况、马拉松",
+          "license_info": "官方授权"
+        },
+        "3d_models": {
+          "asset_type": "3d_model",
+          "urls": ["Google Earth 3D建筑 西安城墙区域"],
+          "description": "城市级3D模型（Google Earth公开数据）",
+          "license_info": "CC / 公开数据"
+        }
+      },
+      "references": ["《西安城墙》- 西安城墙管理委员会", "《西安城墙历史与保护》"],
+      "registration_standard": "数字资产登记标准 v1.0"
+    },
+    {
+      "asset_id": "XA-TOUR-002",
+      "asset_type": "cultural_tourism",
+      "title": "大唐不夜城",
+      "title_en": "Great Tang All Day Mall",
+      "description": "大唐不夜城位于西安市雁塔区大雁塔脚下，是以盛唐文化为主题的大型商业步行街和国家级夜间文旅消费集聚区。不倒翁小姐姐等创新IP现象级走红，使大唐不夜城成为西安文旅新名片和中国夜间经济的标杆。",
+      "detailed_description": "大唐不夜城位于大雁塔脚下，北起大雁塔南广场，南至开元广场，全长2100米，宽500米，总建筑面积65万平方米。项目以盛唐文化为灵魂、商业街区为载体，规划了一轴、两带、三区、多节点的空间布局。一轴：大唐不夜城核心景观轴（含贞观之治、开元盛世等主题雕塑群）；两带：大雁塔南北广场文化展示带；三区：唐文化体验区、国际时尚商业区、文化艺术休闲区。核心特色项目包括：不倒翁行为艺术（冯佳晨，全网播放超百亿次）、石头人、盛唐女神花车巡游、唐食坊美食街、长安十二时辰唐风市井文化街区等。2020年获评首批全国示范步行街；2021年入选国家级夜间文化和旅游消费集聚区；每年接待游客超过1亿人次。",
+      "category_tags": ["盛唐文化", "商业步行街", "夜间经济", "不倒翁", "大雁塔", "网红打卡", "沉浸式", "国风"],
+      "cultural_elements": {
+        "period": "现代（2010年开街），文化主题为唐代（618-907年）",
+        "material": "",
+        "technique": "唐风建筑群（仿古）+ 现代商业综合体 + 灯光秀 + 行为艺术 + 沉浸式演艺",
+        "iconography": "盛唐主题雕塑群、唐风灯饰、辇车花车、唐装巡游",
+        "style": "唐风与现代商业的融合风格",
+        "function": "文化旅游体验 + 夜间消费 + 城市品牌传播"
+      },
+      "geolocation": {
+        "province": "陕西省",
+        "city": "西安市",
+        "district": "雁塔区",
+        "site": "大唐不夜城步行街",
+        "lat": "34.2180",
+        "lng": "108.9610"
+      },
+      "historical_figures": [],
+      "historical_events": [
+        "2010年 大唐不夜城开街",
+        "2020年 首批全国示范步行街",
+        "2021年 国家级夜间文旅消费集聚区",
+        "2019年 不倒翁小姐姐现象级走红"
+      ],
+      "copyright_holder": "西安曲江新区管理委员会 / 曲江文旅集团",
+      "data_provenance": [
+        "https://www.qujiang.com/ 曲江新区管委会",
+        "https://baike.baidu.com/item/大唐不夜城"
+      ],
+      "multimedia": {
+        "images": {
+          "asset_type": "image",
+          "urls": ["视觉中国/新华社 大唐不夜城夜景图"],
+          "description": "街区夜景、不倒翁、花车巡游、主题雕塑",
+          "license_info": "官方授权 / 合理引用"
+        },
+        "video": {
+          "asset_type": "video",
+          "urls": ["央视报道视频", "抖音官方宣传片"],
+          "description": "不倒翁表演、街区航拍、夜间盛况",
+          "license_info": "官方授权 / 合理引用"
+        }
+      },
+      "references": ["《大唐不夜城运营管理白皮书》- 曲江文旅"],
+      "registration_standard": "数字资产登记标准 v1.0"
+    },
+    {
+      "asset_id": "XA-TOUR-003",
+      "asset_type": "cultural_tourism",
+      "title": "华清宫·《长恨歌》实景演出",
+      "title_en": "Huaqing Palace - Song of Everlasting Sorrow Live Performance",
+      "description": "华清宫位于西安市临潼区骊山北麓，是唐代皇家温泉园林，以唐玄宗与杨贵妃的爱情故事而闻名。长恨歌大型实景历史舞剧以骊山为背景、华清宫九龙湖为舞台，运用水幕、激光、投影等科技手段，再现白居易《长恨歌》的千古绝唱。",
+      "detailed_description": "华清宫始建于唐贞观十八年（644年），唐玄宗时期大规模扩建，成为唐代皇家温泉离宫。以温泉闻名，共有汤池18处，水温常年保持43℃。白居易《长恨歌》描写的唐玄宗与杨贵妃爱情故事即以此地为背景。1982年列入全国重点文物保护单位，2007年评为国家AAAAA级旅游景区。长恨歌大型实景历史舞剧自2006年首演以来，以骊山为幕、九龙湖为台，运用3000盏特效灯光、巨型水幕、裸眼3D投影、数控装置等现代舞台科技，分为多个章节演绎。演出时长约70分钟，年演出超300场，观演人次超百万。2016年被评为中国旅游演出票房十强。",
+      "category_tags": ["唐代", "温泉", "实景演出", "长恨歌", "杨贵妃", "华清池", "AAAAA景区", "舞剧"],
+      "cultural_elements": {
+        "period": "唐（644年始建，天宝年间兴盛）",
+        "material": "",
+        "technique": "温泉汤池建筑 + 实景舞台科技（水幕/激光/3D投影/数控）+ 大型历史舞剧编排",
+        "iconography": "骊山晚照、九龙湖舞台、唐宫建筑群、霓裳羽衣",
+        "style": "唐风皇家园林 + 现代实景演艺",
+        "function": "唐文化体验 + 温泉旅游 + 实景演艺"
+      },
+      "geolocation": {
+        "province": "陕西省",
+        "city": "西安市",
+        "district": "临潼区",
+        "site": "华清宫景区 九龙湖剧场",
+        "lat": "34.3630",
+        "lng": "109.2070"
+      },
+      "historical_figures": ["唐玄宗李隆基", "杨贵妃（杨玉环）", "白居易"],
+      "historical_events": [
+        "644年 华清宫始建",
+        "806年 白居易作《长恨歌》",
+        "1936年 西安事变（兵谏亭）",
+        "1982年 全国重点文保",
+        "2006年 《长恨歌》实景舞剧首演"
+      ],
+      "copyright_holder": "陕西旅游集团有限公司 / 华清宫文化旅游有限公司",
+      "data_provenance": [
+        "https://www.hqc.cn/ 华清宫景区官网",
+        "https://baike.baidu.com/item/华清宫",
+        "陕旅集团公开信息、媒体报道"
+      ],
+      "multimedia": {
+        "images": {
+          "asset_type": "image",
+          "urls": ["华清宫官网宣传剧照", "视觉中国 长恨歌演出剧照"],
+          "description": "骊山全景、九龙湖舞台、演出剧照、宣传海报",
+          "license_info": "官方授权 / 合理引用"
+        },
+        "video": {
+          "asset_type": "video",
+          "urls": ["华清宫《长恨歌》官方宣传片"],
+          "description": "演出精华片段、幕后花絮",
+          "license_info": "官方授权 / 合理引用"
+        }
+      },
+      "references": ["《长恨歌》- 白居易", "《华清宫志》"],
+      "registration_standard": "数字资产登记标准 v1.0"
+    }
+  ]
+}

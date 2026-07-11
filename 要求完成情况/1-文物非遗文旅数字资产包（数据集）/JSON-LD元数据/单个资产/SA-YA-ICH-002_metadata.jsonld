@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:afe045f8fa83d8c51b0ec9637e82f676db3e6fd9ce22882c112fc29602972672",
+  "schema:identifier": "SA-YA-ICH-002",
+  "schema:name": "陕北民歌",
+  "schema:description": "陕北民歌，国家级非物质文化遗产，包括信天游、山曲、小调三大体裁。这些歌曲源于陕北人民的日常生活，情感真挚，旋律悠扬，反映了黄土高原的风土人情。数字化方面，已完成传承人全量数字化录音和AI民歌旋律分析，为这一口耳相传的艺术形式建立了永久性数字档案，并利用人工智能技术分析其音乐特征。",
+  "schema:keywords": [
+    "陕北民歌",
+    "信天游",
+    "国家级非遗",
+    "数字化录音",
+    "AI旋律"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "千年传承",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "延安市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "延安市非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "延安市非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:afe045f8fa83d8c51b0ec9637e82f676db3e6fd9ce22882c112fc29602972672",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

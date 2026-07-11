@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalTourism",
+  "@id": "urn:sha256:06f88446aa714d3e796bcb00f78ffcea90e50fb0fd8f2e5da33e763b3f12f9bf",
+  "schema:identifier": "SA-SL-TOUR-002",
+  "schema:name": "柞水溶洞",
+  "schema:description": "柞水溶洞是西北地区最大的喀斯特溶洞群，位于陕西柞水，形成于数亿年前的石灰岩溶蚀过程。洞内钟乳石、石笋、石幔等形态各异，被誉为“地下艺术宫殿”。其文化价值在于展现了地球地质演化的奇迹，同时是古代人类活动的见证地。数字化方面，已完成溶洞的三维激光扫描和地下世界VR探险体验，游客可沉浸式探索洞内奇观，突破了传统游览的物理限制，促进了科学普及与旅游发展。",
+  "schema:keywords": [
+    "柞水溶洞",
+    "喀斯特",
+    "西北最大",
+    "三维扫描",
+    "VR探险"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "亿万年",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "商洛市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "柞水县文旅局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "柞水县文旅局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:06f88446aa714d3e796bcb00f78ffcea90e50fb0fd8f2e5da33e763b3f12f9bf",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

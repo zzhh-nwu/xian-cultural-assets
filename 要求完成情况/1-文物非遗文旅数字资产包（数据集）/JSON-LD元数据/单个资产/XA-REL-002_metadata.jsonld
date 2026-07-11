@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:afdd6b73f571c595898a9c732f2db740833e8937b2069e8584ec94b2795a6c58",
+  "schema:identifier": "XA-REL-002",
+  "schema:name": "西安碑林·石台孝经",
+  "schema:description": "石台孝经是西安碑林博物馆的镇馆之宝，刻于唐天宝四年（745年），由唐玄宗李隆基亲自作序、注解并书写，以隶书体镌刻。石碑通高620厘米，由四块巨石拼接而成，被誉为「迎客第一碑」。石台孝经是现存最早、体量最大的石刻孝经，兼具极高的历史、书法和文献学价值。",
+  "schema:keywords": [
+    "石刻",
+    "唐代",
+    "隶书",
+    "孝经",
+    "碑林",
+    "书法",
+    "唐玄宗",
+    "国宝级文物"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "唐天宝四年（745年）",
+    "cultural:material": "青石",
+    "cultural:technique": "平面阴刻 + 高浮雕碑座 + 石构建筑",
+    "cultural:iconography": "隶书文字、瑞兽纹、蔓草纹、三层石台结构",
+    "cultural:style": "盛唐官方刻碑风格",
+    "cultural:function": "儒家经典载体、孝道教育、皇家权威宣示"
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西省",
+    "schema:addressLocality": "西安市",
+    "schema:addressDistrict": "碑林区",
+    "schema:locationName": "西安碑林博物馆",
+    "schema:latitude": "34.2555",
+    "schema:longitude": "108.9480"
+  },
+  "cultural:relatedFigures": [
+    {
+      "schema:Person": {
+        "schema:name": "唐玄宗李隆基"
+      }
+    },
+    {
+      "schema:Person": {
+        "schema:name": "唐肃宗李亨"
+      }
+    },
+    {
+      "schema:Person": {
+        "schema:name": "吕大忠（碑林创建者）"
+      }
+    }
+  ],
+  "cultural:relatedEvents": [
+    "745年 石台孝经刻成",
+    "1087年 碑林始建",
+    "1961年 列入首批全国重点文物保护单位"
+  ],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "西安碑林博物馆"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "https://www.beilinmuseum.com/ 西安碑林博物馆官网",
+    "https://baike.baidu.com/item/石台孝经"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:afdd6b73f571c595898a9c732f2db740833e8937b2069e8584ec94b2795a6c58",
+  "dcterms:created": "2026-07-09T23:35:49Z",
+  "schema:alternateName": "Stone Platform Classic of Filial Piety, Xi'an Beilin Museum",
+  "schema:additionalDescription": "石台孝经刻成于唐天宝四年（745年），碑文内容为《孝经》全文，由唐玄宗李隆基亲自作序并注解。唐玄宗以隶书书写正文，碑额则为太子李亨（后来的唐肃宗）篆书题写。石碑高6.2米，宽1.2米，四面刻字，共计6000余字。碑座为三层石台，雕刻有瑞兽、蔓草花纹，精美绝伦。此碑原立于长安城国子监内，北宋时期移至现址，成为西安碑林的开篇之碑。西安碑林博物馆始建于北宋元祐二年（1087年），是中国第一座大型专题性石刻艺术博物馆，收藏汉唐至近代碑石4000余方，被誉为「中国书法艺术的圣殿」。石台孝经不仅是孝文化的经典载体，也是唐代「以孝治天下」政治理念的重要实物证据。",
+  "schema:sameAs": [
+    "《西安碑林全集》",
+    "《石台孝经研究》- 路远"
+  ],
+  "x9p:digitalRepresentation": {
+    "images": {
+      "@type": "schema:MediaObject",
+      "schema:encodingFormat": "image",
+      "schema:url": [
+        "https://commons.wikimedia.org/wiki/Category:Stele_Forest"
+      ],
+      "schema:description": "石台孝经全景、碑文拓片、高浮雕细节",
+      "schema:license": "CC BY-SA / 博物馆官方授权"
+    }
+  }
+}

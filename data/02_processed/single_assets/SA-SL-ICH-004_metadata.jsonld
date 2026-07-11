@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:deb778c66b79b70cb6eb6904ef95613fa9c054e9c48eba37aa2a5e87ade5596a",
+  "schema:identifier": "SA-SL-ICH-004",
+  "schema:name": "丹凤葡萄酒酿造",
+  "schema:description": "丹凤葡萄酒酿造技艺起源于1911年，由意大利传教士引入中国西北地区，成为中国最早工业化生产的葡萄酒酿造技术。该技艺融合了欧洲传统发酵工艺与当地气候特点，以龙眼葡萄为原料，经过破碎、发酵、陈酿等工序，酿造出具有果香浓郁、口感醇和的独特风味。丹凤葡萄酒曾在上世纪30年代获得国际奖项，见证了中国近代工业化的起步与中西文化交流。其文化价值不仅在于传统酿造知识的传承，还反映了西北地区农业与商业的互动。目前，已完成酿造工艺的数字化记录，包括全流程视频档案和配方数据库，并通过在线平台展示，助力这一非遗技艺的活态保存与推广。",
+  "schema:keywords": [
+    "丹凤葡萄酒",
+    "西北最早",
+    "酿造工艺",
+    "配方数据库"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "近代至今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "商洛市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "丹凤县非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "丹凤县非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:deb778c66b79b70cb6eb6904ef95613fa9c054e9c48eba37aa2a5e87ade5596a",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

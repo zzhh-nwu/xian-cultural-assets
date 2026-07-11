@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:8e2d90f25b46a583214c66c2003aa861e1dee3d32a53d9864b43b82c2cbd1119",
+  "schema:identifier": "CN-ICH-019",
+  "schema:name": "蒙古族长调",
+  "schema:description": "蒙古族长调是蒙古族传统音乐形式，起源于游牧文明，历史可追溯至成吉思汗时期，以悠长、自由的旋律和独特的颤音技法著称。作为人类非物质文化遗产代表作，它承载着草原民族的情感与历史记忆，体现人与自然和谐共生的文化价值观。目前，中国已完成长调演唱数据库建设，利用AI技术进行旋律分析与传承人声纹保护，数字化手段有效记录其复杂韵律，助力这一活态遗产的持续传承与复兴。",
+  "schema:keywords": [
+    "蒙古族长调",
+    "人类非遗",
+    "声纹保护",
+    "AI旋律"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "千年传承",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "内蒙古",
+    "schema:addressLocality": "呼和浩特市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "内蒙古非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "内蒙古非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:8e2d90f25b46a583214c66c2003aa861e1dee3d32a53d9864b43b82c2cbd1119",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

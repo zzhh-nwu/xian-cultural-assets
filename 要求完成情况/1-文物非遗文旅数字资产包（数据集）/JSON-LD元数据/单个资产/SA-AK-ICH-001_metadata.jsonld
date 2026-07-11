@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:5d732b2f08e9cf581672a1a05dd0691d8ab4af005f13d0521f9dfc82895e6d30",
+  "schema:identifier": "SA-AK-ICH-001",
+  "schema:name": "汉调二黄",
+  "schema:description": "汉调二黄是陕西省安康市的传统戏曲，国家级非物质文化遗产，被誉为京剧的重要源头之一，以其独特的二黄腔为核心，融合了南北声腔特点。其历史可追溯至清代，曾广泛流传于陕南及川北地区，代表剧目有《二进宫》《打金枝》等。在数字化方面，已完成经典剧目数字化录制和唱腔AI分析，通过高清视频保存了表演艺术，并利用人工智能技术解析唱腔旋律与节奏，为传承创新提供数据支持。",
+  "schema:keywords": [
+    "汉调二黄",
+    "京剧源头",
+    "国家级非遗",
+    "AI唱腔"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "明清至今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "安康市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "安康市非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "安康市非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:5d732b2f08e9cf581672a1a05dd0691d8ab4af005f13d0521f9dfc82895e6d30",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

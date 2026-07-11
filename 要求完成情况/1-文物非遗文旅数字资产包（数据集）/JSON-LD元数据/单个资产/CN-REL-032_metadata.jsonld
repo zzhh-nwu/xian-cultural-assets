@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:b5a9699b22c8059e779dc184827e7612fb60a09c5f654ad0357a736cdf503e75",
+  "schema:identifier": "CN-REL-032",
+  "schema:name": "岳阳楼",
+  "schema:description": "岳阳楼坐落于湖南省岳阳市古城西门之上，始建于东汉末年，历经唐宋重修，现存建筑为清代光绪年间遗构。作为江南三大名楼之一，它因范仲淹《岳阳楼记》而名垂千古，承载着“先天下之忧而忧”的士人精神，是文人墨客登临赋诗的文化圣地。目前，岳阳楼已完成高精度建筑三维扫描，并建立了历代诗文数字档案，包括唐宋至明清的碑刻、楹联及题咏的数字化存储，为文化遗产保护与传播提供了科技支撑。",
+  "schema:keywords": [
+    "岳阳楼",
+    "三大名楼",
+    "三维扫描",
+    "诗文档案"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "三国至今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "湖南",
+    "schema:addressLocality": "岳阳市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "岳阳市文物局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "岳阳市文物局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:b5a9699b22c8059e779dc184827e7612fb60a09c5f654ad0357a736cdf503e75",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

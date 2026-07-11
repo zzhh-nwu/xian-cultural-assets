@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalTourism",
+  "@id": "urn:sha256:26a2eab5dc2a527d15cf13ceaba1aa61d718c3547fc655716fe14b3d634c5ff1",
+  "schema:identifier": "SA-YA-TOUR-002",
+  "schema:name": "乾坤湾",
+  "schema:description": "乾坤湾，黄河蛇曲国家地质公园核心景观，位于陕西省延川县。黄河在此形成320度大转弯，形似太极图，气势恢宏，是黄河文化的重要象征。数字化方面，已完成蛇曲地貌数字模型和黄河文化数字展馆，通过虚拟技术展示这一自然奇观，让游客深入了解其地质与人文价值。",
+  "schema:keywords": [
+    "乾坤湾",
+    "黄河蛇曲",
+    "320度",
+    "数字模型",
+    "数字展馆"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "古今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "延安市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "延川县文旅局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "延川县文旅局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:26a2eab5dc2a527d15cf13ceaba1aa61d718c3547fc655716fe14b3d634c5ff1",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

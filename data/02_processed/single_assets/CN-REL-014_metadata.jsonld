@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:f024d5178de55f9e3a42352644ae6f5af6e363a69bb1a796dcdc8d40be3b479d",
+  "schema:identifier": "CN-REL-014",
+  "schema:name": "罗星塔",
+  "schema:description": "罗星塔，全国重点文物保护单位，始建于明代，是闽江口的标志性航标，见证了海上丝绸之路的繁荣。2024年重建400周年之际，推出了VR沉浸式数字体验，让游客通过虚拟现实技术探索塔身结构与历史场景。这一数字化活化利用，不仅增强了公众互动性，还为历史建筑的保护与传播开辟了新途径，实现了文化遗产的可持续传承。",
+  "schema:keywords": [
+    "罗星塔",
+    "VR体验",
+    "400周年",
+    "沉浸式",
+    "数字化活化"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "明代",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "福建",
+    "schema:addressLocality": "福州市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "福州市文物局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "福州市文物局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:f024d5178de55f9e3a42352644ae6f5af6e363a69bb1a796dcdc8d40be3b479d",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

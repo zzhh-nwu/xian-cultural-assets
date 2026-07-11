@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:5a5154fe9ed1f5fc62389b7f2122f1881d9364f06708c068b7e73131a6e697f7",
+  "schema:identifier": "CN-ICH-011",
+  "schema:name": "二十四节气",
+  "schema:description": "二十四节气起源于中国黄河流域，是古代先民通过观测太阳周年运动，认知一年中时令、气候、物候变化规律所形成的知识体系，最早可追溯至商周时期，至汉代已完全确立。它指导着传统农业生产和日常生活，被誉为“中国第五大发明”，体现了人与自然和谐共生的哲学智慧。目前，二十四节气已被列入人类非物质文化遗产代表作名录，并构建起完整的知识图谱和数字档案。通过融合气象大数据与农业物联网，这一遗产正转化为智慧农业应用，助力精准播种与灌溉，实现了传统智慧的现代数字化传承。",
+  "schema:keywords": [
+    "二十四节气",
+    "人类非遗",
+    "知识图谱",
+    "气象大数据",
+    "数字档案"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "上古至今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "全国",
+    "schema:addressLocality": "",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "中国非遗网/中国气象局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "中国非遗网/中国气象局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:5a5154fe9ed1f5fc62389b7f2122f1881d9364f06708c068b7e73131a6e697f7",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

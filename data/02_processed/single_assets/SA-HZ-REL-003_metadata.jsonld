@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:db4a2781b2ba6b8e612557c2fe9676df68b5a9183ab390ce43a7ec6b7ee2b6aa",
+  "schema:identifier": "SA-HZ-REL-003",
+  "schema:name": "石门栈道",
+  "schema:description": "石门栈道位于陕西省汉中市，是褒斜道的核心段，全国重点文物保护单位。这条古代栈道是连接关中与巴蜀的重要通道，其上的“石门十三品”被誉为汉隶书法瑰宝，具有极高的历史与艺术价值。通过三维复原技术，栈道的原始风貌得以重现，同时石刻书法数字化分析系统精准解析了每一笔画的细节，为书法研究和文物保护提供了创新工具，让这一千年古道在数字世界中焕发新生。",
+  "schema:keywords": [
+    "石门栈道",
+    "褒斜道",
+    "石门十三品",
+    "汉隶",
+    "数字化分析"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "汉",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "汉中市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "汉中市文物局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "汉中市文物局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:db4a2781b2ba6b8e612557c2fe9676df68b5a9183ab390ce43a7ec6b7ee2b6aa",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

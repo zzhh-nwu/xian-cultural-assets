@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:421ddb9e2643f1deb2e71052c8fee1af3acc862cd4cbb1938f722add1b56db98",
+  "schema:identifier": "CN-ICH-005",
+  "schema:name": "群仙贺寿图雕版印刷",
+  "schema:description": "群仙贺寿图雕版印刷源自世界级非物质文化遗产中国雕版印刷技艺，其历史可追溯至唐代，明清时期在扬州达到鼎盛，常用于民间祝寿仪式，承载着祈福纳祥的深厚寓意。文化价值上，此作品以精细刀法刻画群仙献寿场景，融合道教神话与民俗艺术，体现了古代匠人的高超技艺与集体审美，是传统印刷工艺的活态见证。数字化现状方面，扬州运河文投集团已将其制作为面向全球发行的数字藏品，通过区块链技术确权传播，成为传统印刷类非遗国际化数字传播的典范，有效拓宽了文化传承的边界。",
+  "schema:keywords": [
+    "雕版印刷",
+    "群仙贺寿图",
+    "全球发行",
+    "数字藏品",
+    "扬州"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "传统",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "江苏",
+    "schema:addressLocality": "扬州市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "扬州运河文投集团"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "扬州运河文投集团"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:421ddb9e2643f1deb2e71052c8fee1af3acc862cd4cbb1938f722add1b56db98",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

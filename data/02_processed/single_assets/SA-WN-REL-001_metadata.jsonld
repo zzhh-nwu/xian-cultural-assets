@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:9f36712bee0329ee3a5ff393e3b2ba81f479a8f9760a2c699fa2d3fccfa9af20",
+  "schema:identifier": "SA-WN-REL-001",
+  "schema:name": "华山",
+  "schema:description": "华山，五岳之西岳，以“天下第一险”著称，是道教第四洞天，历史上为帝王祭祀与文人墨客所推崇。华山不仅自然景观险峻奇绝，还承载着丰富的道教文化与神话传说。如今，华山已完成全山数字测绘，推出险峰VR全景体验，让游客足不出户即可领略华山之险。同时，AI登山安全预警系统已上线，通过实时监测与智能分析，提升游客安全体验。",
+  "schema:keywords": [
+    "华山",
+    "西岳",
+    "天下第一险",
+    "道教洞天",
+    "VR全景",
+    "AI预警"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "古今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "渭南市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "华山景区管委会"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "华山景区管委会"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:9f36712bee0329ee3a5ff393e3b2ba81f479a8f9760a2c699fa2d3fccfa9af20",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

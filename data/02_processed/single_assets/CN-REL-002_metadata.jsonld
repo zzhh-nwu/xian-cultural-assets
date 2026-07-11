@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:7ea051091c5fd2780955b8029dede94ba851356ef527dc283a72c70c0385ce43",
+  "schema:identifier": "CN-REL-002",
+  "schema:name": "云冈石窟",
+  "schema:description": "云冈石窟位于山西大同，开凿于北魏时期（公元5-6世纪），现存主要洞窟45个，石雕造像5.9万余尊，是佛教艺术中国化的早期典范，体现了鲜卑文化与中原、西域文化的融合。其文化价值在于雕刻的雄浑风格和丰富历史信息。当前，数字化精度全国领先，三维重建误差小于0.1毫米，并利用缪子成像技术识别内部结构地层，实现砂岩雕刻的毫米级还原，为古代石质文物无损探测树立新标准。",
+  "schema:keywords": [
+    "云冈石窟",
+    "三维重建",
+    "0.1mm精度",
+    "缪子成像",
+    "砂岩雕刻"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "北魏",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "山西",
+    "schema:addressLocality": "大同市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "云冈石窟研究院"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "云冈石窟研究院"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:7ea051091c5fd2780955b8029dede94ba851356ef527dc283a72c70c0385ce43",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

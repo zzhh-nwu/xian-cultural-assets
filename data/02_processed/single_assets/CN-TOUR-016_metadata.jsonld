@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalTourism",
+  "@id": "urn:sha256:fff380362d71db6374ee2ca1b2a49f4e3e6ef2a81c8ab1eb15a0606ebd9ec753",
+  "schema:identifier": "CN-TOUR-016",
+  "schema:name": "山海关",
+  "schema:description": "山海关始建于明洪武十四年（1381年），由大将军徐达主持修筑，是万里长城东端的重要关隘，因依山襟海而得名“天下第一关”。它不仅是军事防御体系的核心，更见证了明清更迭、近代烽火等重大历史事件，承载着中华民族戍边卫国的精神象征。其文化价值体现在宏伟的城楼建筑、精湛的防御工事设计，以及“两京锁钥无双地”的独特地理意义。目前，山海关已完成城墙数字测绘，并推出AR历史战场复原体验，游客可通过手机扫描实景，沉浸式感受古战场硝烟与戍边生活，实现文化遗产的活态传承。",
+  "schema:keywords": [
+    "山海关",
+    "天下第一关",
+    "AR战场",
+    "数字测绘"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "明",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "河北",
+    "schema:addressLocality": "秦皇岛市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "山海关景区"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "山海关景区"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:fff380362d71db6374ee2ca1b2a49f4e3e6ef2a81c8ab1eb15a0606ebd9ec753",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

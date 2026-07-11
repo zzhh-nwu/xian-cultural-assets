@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:96194997d8174fd66fbc9ea3a8675003f179b4cad8a7f81c8e325f02054c0a96",
+  "schema:identifier": "CN-ICH-050",
+  "schema:name": "白族扎染",
+  "schema:description": "白族扎染起源于唐代，盛行于云南大理白族地区，以天然植物染料和手工扎结技法闻名，是国家级非物质文化遗产。其历史可追溯至南诏时期，承载着白族人民对自然与生活的审美表达，纹样多取材于花卉、鸟兽和几何图案，具有独特的民族艺术价值。目前，扎染工艺已完成数字化记录，建立了纹样数据库，并推出AI扎染纹样生成系统，通过技术手段实现传统纹样的创新与传承，让古老技艺在数字时代焕发新生。",
+  "schema:keywords": [
+    "白族扎染",
+    "工艺记录",
+    "纹样数据库",
+    "AI生成"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "千年传承",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "云南",
+    "schema:addressLocality": "大理州",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "云南省非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "云南省非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:96194997d8174fd66fbc9ea3a8675003f179b4cad8a7f81c8e325f02054c0a96",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

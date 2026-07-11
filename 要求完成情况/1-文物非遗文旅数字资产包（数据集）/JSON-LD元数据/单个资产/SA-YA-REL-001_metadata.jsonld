@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:422801a5b0c42a6ea4267308e240f96aaaf6040fd77819a49dba10621b640eeb",
+  "schema:identifier": "SA-YA-REL-001",
+  "schema:name": "黄帝陵",
+  "schema:description": "黄帝陵位于陕西黄陵县，是中华民族人文初祖轩辕黄帝的陵寝，被列为全国重点文物保护单位，自古为历代帝王和华夏儿女祭祀圣地。其历史可追溯至春秋时期，汉武帝曾率18万大军在此祭拜，彰显了中华文明的精神传承。陵区古柏参天，其中“黄帝手植柏”树龄超五千年，被誉为“世界柏树之父”。数字化保护已覆盖陵区高精度测绘与祭陵文化数字档案建设，并推出VR祭祖体验，让全球华人可通过虚拟现实技术参与祭祀仪式，延续民族情感纽带。",
+  "schema:keywords": [
+    "黄帝陵",
+    "轩辕黄帝",
+    "中华文明标识",
+    "VR祭祖",
+    "数字档案"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "上古至今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "延安市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "黄帝陵管理局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "黄帝陵管理局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:422801a5b0c42a6ea4267308e240f96aaaf6040fd77819a49dba10621b640eeb",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

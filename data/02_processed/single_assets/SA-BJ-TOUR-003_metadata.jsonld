@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalTourism",
+  "@id": "urn:sha256:82289d26058396ad22d696f7721e68b086b68fbdfcf42a1c51d55f081894f35a",
+  "schema:identifier": "SA-BJ-TOUR-003",
+  "schema:name": "关山草原",
+  "schema:description": "关山草原位于中国西北内陆，是秦人先祖的牧马之地，承载着两千余年的游牧与农耕文化交融历史。作为该地区唯一的山地草原，其自然景观与秦文化遗存相得益彰，体现了古代边疆畜牧业与军事防御的独特价值。目前，该地已实现草原生态数字监测系统，通过遥感技术实时保护草场资源；同时推出秦文化VR体验项目，以沉浸式技术还原秦人牧马场景，推动文化遗产的数字化传承与公众教育。",
+  "schema:keywords": [
+    "关山草原",
+    "秦人牧马",
+    "山地草原",
+    "VR体验"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "古今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "宝鸡市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "关山草原景区管委会"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "关山草原景区管委会"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:82289d26058396ad22d696f7721e68b086b68fbdfcf42a1c51d55f081894f35a",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

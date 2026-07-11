@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalTourism",
+  "@id": "urn:sha256:3e28b39029bbb848bcd5f11626b48b0de4d4f15d229ade5328b2555a638711ab",
+  "schema:identifier": "CN-TOUR-020",
+  "schema:name": "哈尔滨冰雪大世界",
+  "schema:description": "哈尔滨冰雪大世界位于黑龙江省哈尔滨市，是全球规模最大的冰雪主题乐园，自1999年创办以来，每年冬季以松花江天然冰雪为原料，结合传统冰雕技艺与现代灯光艺术，打造出梦幻的冰雪王国。其文化价值在于传承中国北方冰雪民俗，展现冰雪艺术的独特魅力，并成为哈尔滨国际冰雪节的核心载体。当前，园区已实现冰雪建筑的数字设计与虚拟现实体验平台，游客可通过VR技术沉浸式观赏冰景，数字化手段不仅优化了冰雪构件的预制精度，还助力文化遗产的远程传播与保护。",
+  "schema:keywords": [
+    "冰雪大世界",
+    "数字设计",
+    "VR冰雪"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "当代",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "黑龙江",
+    "schema:addressLocality": "哈尔滨市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "哈尔滨市文旅局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "哈尔滨市文旅局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:3e28b39029bbb848bcd5f11626b48b0de4d4f15d229ade5328b2555a638711ab",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

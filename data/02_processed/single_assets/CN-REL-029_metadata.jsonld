@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:0c8abcb8a85a3944ceac79509ead87f0a42156f3d798dc9982ab439802468a7f",
+  "schema:identifier": "CN-REL-029",
+  "schema:name": "圣索菲亚教堂",
+  "schema:description": "圣索菲亚教堂始建于1907年，原为沙俄随军教堂，后经两次重建，成为远东地区最大的东正教堂。其拜占庭式建筑风格融合了俄罗斯传统与东方元素，绿色洋葱头穹顶与红砖墙体交相辉映，是哈尔滨多元文化交融的象征。作为全国重点文物保护单位，教堂不仅承载着中东铁路时期的历史记忆，更体现了东西方建筑艺术的碰撞。目前，该建筑已完成高精度三维扫描，内部壁画经数字化修复技术还原了褪色的圣像与宗教纹饰，为文化遗产的永久保存与虚拟展示提供了技术支撑。",
+  "schema:keywords": [
+    "圣索菲亚",
+    "东正教堂",
+    "三维扫描",
+    "壁画修复"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "1907年",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "黑龙江",
+    "schema:addressLocality": "哈尔滨市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "哈尔滨市文物局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "哈尔滨市文物局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:0c8abcb8a85a3944ceac79509ead87f0a42156f3d798dc9982ab439802468a7f",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

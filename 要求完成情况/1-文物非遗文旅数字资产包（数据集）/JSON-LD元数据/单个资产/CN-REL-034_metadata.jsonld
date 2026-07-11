@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:855c9f604cad95568bfe9772fa955ef2d11d38aba602c3eded7481d60965db87",
+  "schema:identifier": "CN-REL-034",
+  "schema:name": "遵义会议会址",
+  "schema:description": "遵义会议会址位于贵州省遵义市红花岗区，原为黔军师长柏辉章私邸，建于20世纪30年代初。1935年1月，中共中央在此召开政治局扩大会议，确立了毛泽东的领导地位，挽救了党和红军，成为中国革命生死攸关的转折点。作为全国重点文物保护单位，它承载着厚重的红色文化价值，是研究中共党史和长征历史的重要实物见证。目前，会址已完成三维扫描数字化保护，并建成红色文化数字展馆，利用VR、AR技术复原历史场景，让游客沉浸式体验会议实况，实现了文物活化与教育传播的有机结合。",
+  "schema:keywords": [
+    "遵义会议",
+    "红色文化",
+    "三维扫描",
+    "数字展馆"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "1935年",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "贵州",
+    "schema:addressLocality": "遵义市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "遵义会议纪念馆"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "遵义会议纪念馆"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:855c9f604cad95568bfe9772fa955ef2d11d38aba602c3eded7481d60965db87",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

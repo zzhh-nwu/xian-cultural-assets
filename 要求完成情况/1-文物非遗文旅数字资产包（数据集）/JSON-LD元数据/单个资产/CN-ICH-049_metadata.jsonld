@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:8ce5dee243aecc323b257da4a2cfc3e4cfc6f9642004953af6af16f08971ef36",
+  "schema:identifier": "CN-ICH-049",
+  "schema:name": "重庆火锅",
+  "schema:description": "重庆火锅起源于清末民初的长江码头文化，最初是船工纤夫将牛杂、辣椒等廉价食材混煮的粗放饮食。作为国家级非物质文化遗产，它承载着巴渝地区人民豪爽热辣的集体记忆，其底料配方中三十余种香料的配伍智慧与九宫格分烫技艺，体现了民间饮食的生态智慧与社群凝聚力。目前已完成火锅底料配方数据库建设，通过动作捕捉技术记录炒制工艺的精准火候，并上线火锅文化数字博物馆，以三维建模还原百年老灶场景，用户可在线体验虚拟涮煮流程。",
+  "schema:keywords": [
+    "重庆火锅",
+    "配方数据库",
+    "炒制工艺",
+    "数字博物馆"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "近代至今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "重庆",
+    "schema:addressLocality": "重庆市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "重庆市非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "重庆市非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:8ce5dee243aecc323b257da4a2cfc3e4cfc6f9642004953af6af16f08971ef36",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

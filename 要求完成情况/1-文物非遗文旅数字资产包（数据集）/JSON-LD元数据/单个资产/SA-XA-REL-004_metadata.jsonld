@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:a52d794c45363c8a16a563a660c8f4636e20e42f88fc2295d3d1773231d8444f",
+  "schema:identifier": "SA-XA-REL-004",
+  "schema:name": "大雁塔",
+  "schema:description": "大雁塔坐落于陕西西安，始建于唐代永徽三年（652年），由高僧玄奘为保存从天竺带回的佛经与佛像而主持修建。作为世界文化遗产“丝绸之路”的重要组成部分，它不仅是佛教东传的历史见证，更是唐代建筑艺术的杰出代表。塔高64.5米，为七层方塔，结构严谨，气势恢宏。目前，大雁塔已完成毫米级三维激光扫描，并建立了建筑结构数字孪生模型，实现了对塔体形变的实时监测，成为西安城市地标和丝路文化核心符号。",
+  "schema:keywords": [
+    "大雁塔",
+    "玄奘",
+    "丝绸之路",
+    "世界遗产",
+    "三维扫描",
+    "数字孪生",
+    "唐代砖塔"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "唐",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "西安市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "大雁塔保管所"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "大雁塔保管所"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:a52d794c45363c8a16a563a660c8f4636e20e42f88fc2295d3d1773231d8444f",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

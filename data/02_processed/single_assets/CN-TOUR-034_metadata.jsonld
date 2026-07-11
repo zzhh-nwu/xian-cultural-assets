@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalTourism",
+  "@id": "urn:sha256:f3b6fa1000f6261a1d47dad4e85c9268e3fac21fc9dfe19a961bb3dd8b25408f",
+  "schema:identifier": "CN-TOUR-034",
+  "schema:name": "沙坡头",
+  "schema:description": "沙坡头位于宁夏中卫，地处腾格里沙漠东南缘，是古代丝绸之路的重要驿站。其历史可追溯至汉代，因黄河与沙漠交汇的独特地貌，成为中原农耕文明与游牧文明的交融地带。作为国家5A级景区，沙坡头不仅展现了“大漠孤烟直，长河落日圆”的壮丽景观，还承载着黄河文化、西夏文化等多元遗产。目前，景区已完成沙漠生态数字监测系统，实时追踪植被与风沙动态；同时推出黄河文化VR体验，让游客沉浸式感受千年航运与治沙历史，科技与自然在此和谐共生。",
+  "schema:keywords": [
+    "沙坡头",
+    "沙漠监测",
+    "黄河文化",
+    "VR体验"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "古今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "宁夏",
+    "schema:addressLocality": "中卫市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "沙坡头景区"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "沙坡头景区"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:f3b6fa1000f6261a1d47dad4e85c9268e3fac21fc9dfe19a961bb3dd8b25408f",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

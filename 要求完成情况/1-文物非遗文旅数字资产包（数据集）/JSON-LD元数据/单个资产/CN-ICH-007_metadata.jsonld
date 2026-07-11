@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:c20a964862570cf40e177acf42290f4e00cc442b700877a35e7a819cdc98f0a2",
+  "schema:identifier": "CN-ICH-007",
+  "schema:name": "景德镇手工制瓷技艺",
+  "schema:description": "景德镇手工制瓷技艺是国家级非物质文化遗产，被誉为全球陶瓷文化圣地。其历史可追溯至汉代，宋代以来成为皇家御窑，以“白如玉、明如镜、薄如纸、声如磬”闻名。景德镇陶瓷大学联合科技企业，已开展制瓷全流程数字化记录、釉料配方AI优化及柴窑烧制数字孪生项目，实现传统工艺的精准复刻与创新。数字化手段不仅保存了72道工序的完整技艺，更通过AI分析提升成品率，让千年窑火在数字时代焕发新生。",
+  "schema:keywords": [
+    "景德镇",
+    "制瓷",
+    "非遗",
+    "釉料AI",
+    "柴窑",
+    "数字孪生"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "千年传承",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "江西",
+    "schema:addressLocality": "景德镇市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "景德镇陶瓷大学"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "景德镇陶瓷大学"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:c20a964862570cf40e177acf42290f4e00cc442b700877a35e7a819cdc98f0a2",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

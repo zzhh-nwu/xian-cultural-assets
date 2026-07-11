@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalTourism",
+  "@id": "urn:sha256:81e531335b2051147cc8b45c1323a533c1b8089a233a39176065dcc523a1a553",
+  "schema:identifier": "SA-XA-TOUR-004",
+  "schema:name": "钟鼓楼广场",
+  "schema:description": "西安钟鼓楼广场是城市文化核心地标，钟楼建于明洪武十七年，是中国现存最大最完整的钟楼；鼓楼建于明洪武十三年，为全国最大的鼓楼。两者共同见证了西安作为古都的辉煌历史，是明清城市布局的经典代表。数字化方面，已完成双楼三维扫描和AR历史场景重现，游客可通过手机体验古代报时仪式，这一技术复原了历史风貌，提升了文化传播的沉浸感。",
+  "schema:keywords": [
+    "钟楼",
+    "鼓楼",
+    "明代",
+    "三维扫描",
+    "AR重现",
+    "城市地标"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "明",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "西安市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "西安钟鼓楼博物馆"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "西安钟鼓楼博物馆"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:81e531335b2051147cc8b45c1323a533c1b8089a233a39176065dcc523a1a553",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

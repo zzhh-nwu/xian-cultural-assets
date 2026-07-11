@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:806bfa5a99d31cde27990aea2003d935ded672131eec903bb11449042fc263d5",
+  "schema:identifier": "CN-ICH-018",
+  "schema:name": "河北梆子",
+  "schema:description": "河北梆子源于清代山陕梆子，融合燕赵地域特色，形成于道光年间，是北方梆子腔系的重要分支。其唱腔高亢激越，表演粗犷豪放，承载着冀中平原的农耕文化与民间信仰，深刻反映了百姓的生活情感与历史记忆，2006年被列入国家级非物质文化遗产名录。目前，已完成《宝莲灯》《蝴蝶杯》等经典剧目高清数字化录制，并建立梆子腔声腔数据库，依托AI唱腔分析系统对唱腔韵律进行量化研究，为传承保护提供了科技支撑。",
+  "schema:keywords": [
+    "河北梆子",
+    "声腔数据库",
+    "AI唱腔分析"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "清代至今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "河北",
+    "schema:addressLocality": "石家庄市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "河北省非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "河北省非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:806bfa5a99d31cde27990aea2003d935ded672131eec903bb11449042fc263d5",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

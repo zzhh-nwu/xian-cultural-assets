@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:4f89e57976440b0b3b24ce9f3e3fae312f1a449c35abdb1841d0f486b91a1961",
+  "schema:identifier": "SA-YA-ICH-003",
+  "schema:name": "陕北剪纸",
+  "schema:description": "陕北剪纸，国家级非物质文化遗产，以红色文化和黄土风情为主题。这种民间艺术形式历史悠久，技法精湛，通过剪刀在纸上剪出各种图案，表达了陕北人民对生活的热爱与祈愿。数字化方面，已完成剪纸纹样数字化采集和AI剪纸生成系统，可自动生成符合传统风格的剪纸作品，助力非遗创新与传播。",
+  "schema:keywords": [
+    "陕北剪纸",
+    "红色文化",
+    "黄土风情",
+    "纹样数字化",
+    "AI生成"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "千年传承",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "延安市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "延安市非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "延安市非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:4f89e57976440b0b3b24ce9f3e3fae312f1a449c35abdb1841d0f486b91a1961",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

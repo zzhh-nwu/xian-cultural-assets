@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:2d719809ad3a28009afb07021fabf37d3a6e1c8a82f679213d7cee0b83900e89",
+  "schema:identifier": "SA-WN-ICH-002",
+  "schema:name": "合阳提线木偶",
+  "schema:description": "合阳提线木偶是中国最古老的木偶戏种之一，历史可追溯至汉代，以提线操纵木偶进行唱、念、做、打等表演，技艺精湛、动作传神。作为国家级非遗，它融合了民间美术、音乐和戏剧，是黄河流域民俗文化的生动体现。数字化方面，已完成提线技法的全流程记录和经典剧目的3D动作捕捉，通过数字化保存其复杂操纵手法，为后世传承留下精准数据。",
+  "schema:keywords": [
+    "提线木偶",
+    "国家级非遗",
+    "合阳",
+    "3D动作捕捉",
+    "数字化记录"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "汉代至今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "渭南市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "合阳县非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "合阳县非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:2d719809ad3a28009afb07021fabf37d3a6e1c8a82f679213d7cee0b83900e89",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

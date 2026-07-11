@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:02528d9398cc2e68c0778920650caf76765df7b47dc3c9ab9dbb735d4dac19d0",
+  "schema:identifier": "SA-YA-REL-002",
+  "schema:name": "延安革命旧址群",
+  "schema:description": "延安革命旧址群位于陕西延安，涵盖枣园、杨家岭、王家坪等445处革命旧址，是全国重点文物保护单位。这里是中共中央在陕北13年（1935-1948）的所在地，见证了抗日战争与解放战争的关键决策，孕育了光照千秋的延安精神。旧址群内保留了大量窑洞、会议厅与领导人旧居，是红色文化的核心载体。数字化保护已完成全域数字测绘，并建成红色文化数字展馆，通过3D建模与沉浸式导览，生动再现革命历史场景，为公众提供永不落幕的红色教育课堂。",
+  "schema:keywords": [
+    "延安",
+    "革命旧址",
+    "445处",
+    "枣园",
+    "数字展馆"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "1935-1948",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "延安市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "延安革命纪念地管理局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "延安革命纪念地管理局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:02528d9398cc2e68c0778920650caf76765df7b47dc3c9ab9dbb735d4dac19d0",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalTourism",
+  "@id": "urn:sha256:69e8a304b0a8f0f2eb1b1680c5bdccfccbdf5c23d617e9251b44593b345456a3",
+  "schema:identifier": "CN-TOUR-009",
+  "schema:name": "良渚遗址数字公园",
+  "schema:description": "良渚遗址位于中国浙江杭州，是距今约5300至4300年的新石器时代晚期文化遗址，2019年被列入世界文化遗产。它实证了中华五千年文明史，拥有宏大的古城结构、复杂的水利系统和精美的玉器文化，反映了早期国家的社会分层与信仰体系。如今，良渚遗址数字公园通过5G和AI技术构建了古城数字孪生，并推出AR沉浸式体验，让游客在虚拟环境中复原5000年前的宫殿、祭坛与生活场景，实现历史与科技的生动互动，既保护了脆弱遗址，又提升了文化传播的深度与广度。",
+  "schema:keywords": [
+    "良渚",
+    "数字孪生",
+    "5G",
+    "AR",
+    "5000年",
+    "古城复原"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "新石器时代",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "浙江",
+    "schema:addressLocality": "杭州市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "良渚遗址管理区管委会"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "良渚遗址管理区管委会"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:69e8a304b0a8f0f2eb1b1680c5bdccfccbdf5c23d617e9251b44593b345456a3",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:562142e6d7737987a5dab61d70eb3ecdc2c8de14eaf007f0216f809c3120f48e",
+  "schema:identifier": "SA-WN-ICH-003",
+  "schema:name": "富平石刻",
+  "schema:description": "富平石刻源自陕西富平，历史逾千年，以当地特有的墨玉为原料，石材细腻如墨，被誉为“中国十大名石”之一。作为国家级非遗，它承载着石刻艺术的传统技艺和地域文化，广泛应用于建筑装饰和碑刻。数字化现状包括石刻技法全流程的数字化记录，从选材到雕刻的每一步均被高清捕捉，同时建立了名石地质数字档案，以科学手段解析墨玉的矿物特性，确保技艺与石材的永续传承。",
+  "schema:keywords": [
+    "富平石刻",
+    "国家级非遗",
+    "墨玉",
+    "十大名石",
+    "数字档案"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "秦汉至今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "渭南市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "富平县非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "富平县非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:562142e6d7737987a5dab61d70eb3ecdc2c8de14eaf007f0216f809c3120f48e",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:de3b1e2de00c1e18a259a1449efd204f78d39feb885e5af023d896798cb56ddc",
+  "schema:identifier": "SA-XA-REL-005",
+  "schema:name": "小雁塔",
+  "schema:description": "小雁塔位于西安荐福寺内，始建于唐代景龙年间（707-709年），是密檐式砖塔的典型代表。作为世界文化遗产，它历经70余次地震考验，塔身曾出现“三裂三合”的奇迹，展现了古代工匠卓越的建筑智慧。小雁塔造型秀丽，与荐福寺钟楼共同构成“雁塔晨钟”的著名景观。目前，该塔已完成结构变形数字监测系统，并建立了抗震数字模拟模型，为文物保护和防灾研究提供了科学依据。",
+  "schema:keywords": [
+    "小雁塔",
+    "荐福寺",
+    "密檐式砖塔",
+    "抗震奇迹",
+    "结构监测",
+    "数字模拟"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "唐",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "西安市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "西安博物院"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "西安博物院"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:de3b1e2de00c1e18a259a1449efd204f78d39feb885e5af023d896798cb56ddc",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

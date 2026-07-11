@@ -1,0 +1,9 @@
+Bag-Size: 0.0 MB
+Bag-Software-Agent: bagit.py v1.9.0 <https://github.com/LibraryOfCongress/bagit-python>
+BagIt-Profile-Identifier: 西部九省数字资产登记标准 v1.0
+Bagging-Date: 2026-07-05
+Contact-Name: 大学生数据要素素质大赛参赛团队
+External-Description: 西安文物/非遗/文旅数字资产包
+External-Identifier: XA-CULTURE-2025-001
+Payload-Oxum: 50510.2
+Source-Organization: 西安文化产权交易中心(适配)

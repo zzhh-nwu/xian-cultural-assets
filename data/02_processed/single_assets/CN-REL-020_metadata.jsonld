@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:8e616fa82a6576fb26e3df29e6229263fed8823f382d44cf15a4c8b31c74bb28",
+  "schema:identifier": "CN-REL-020",
+  "schema:name": "大足石刻",
+  "schema:description": "大足石刻位于重庆市大足区，始建于初唐，历经晚唐、五代至南宋，是中国晚期石窟艺术的代表。其以佛教造像为主，融合儒道文化，展现了“三教合一”的独特思想体系，被誉为“世界文化遗产”。在文化价值上，石刻细腻写实，蕴含丰富的社会生活与哲学内涵，是研究古代艺术与宗教的重要实物。目前，宝顶山、北山等主要石窟区已完成8K超高清数字化采集，并利用AI技术辅助监测石刻风化与病害，为遗产保护提供了创新手段。",
+  "schema:keywords": [
+    "大足石刻",
+    "8K",
+    "AI监测",
+    "风化分析",
+    "病害"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "唐至清",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "重庆",
+    "schema:addressLocality": "大足区",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "大足石刻研究院"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "大足石刻研究院"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:8e616fa82a6576fb26e3df29e6229263fed8823f382d44cf15a4c8b31c74bb28",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:7a0d2dff8a61261a04a8e38268d13d1894bbd411280db5a0cfda54ab3e2a9d77",
+  "schema:identifier": "CN-REL-004",
+  "schema:name": "泉州府文庙大成殿",
+  "schema:description": "泉州府文庙大成殿是泉州世界文化遗产22处遗产点之一，始建于北宋（976年），是儒家文化在闽南传播的象征，建筑融合宋元风格与地方特色。其文化价值在于见证古代海上丝绸之路的学术交流。2025年，启动福建省首个不可移动文物数字化保护项目，聚焦高精度数字信息留存与展示，利用激光扫描和摄影测量技术，未来将推广至全部22处遗产点，构建泉州文化数字档案体系。",
+  "schema:keywords": [
+    "泉州",
+    "文庙",
+    "世遗",
+    "不可移动文物",
+    "数字化保护",
+    "福建首个"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "北宋",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "福建",
+    "schema:addressLocality": "泉州市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "福建省文物局/泉州府文庙管理处"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "福建省文物局/泉州府文庙管理处"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:7a0d2dff8a61261a04a8e38268d13d1894bbd411280db5a0cfda54ab3e2a9d77",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

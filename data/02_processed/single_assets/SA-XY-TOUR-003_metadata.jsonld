@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalTourism",
+  "@id": "urn:sha256:227fd10fada3285c3962f509224572ce4d8d001b1e1dc19c3a74929afb91c353",
+  "schema:identifier": "SA-XY-TOUR-003",
+  "schema:name": "汉阳陵",
+  "schema:description": "汉阳陵是汉景帝刘启与王皇后的合葬陵园，始建于公元前153年，历时28年建成，是中国历史上规模宏大、保存完整的帝王陵墓之一。作为中国第一座地下遗址博物馆，它通过原址保护与展示，生动再现了西汉时期的丧葬文化与宫廷生活。目前，汉阳陵已完成地下展厅的数字化升级，游客可通过VR技术沉浸式体验外藏坑的考古现场，感受汉代文明的辉煌与神秘。",
+  "schema:keywords": [
+    "汉阳陵",
+    "汉景帝",
+    "地下遗址博物馆",
+    "VR体验"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "汉",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "咸阳市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "汉阳陵博物馆"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "汉阳陵博物馆"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:227fd10fada3285c3962f509224572ce4d8d001b1e1dc19c3a74929afb91c353",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

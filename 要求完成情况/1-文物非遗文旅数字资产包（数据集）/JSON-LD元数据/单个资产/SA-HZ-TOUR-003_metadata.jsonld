@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalTourism",
+  "@id": "urn:sha256:3ff625bf29a442c43accc265448cb48b0bed9d2b1b80a8c6306b9b79b469cbf5",
+  "schema:identifier": "SA-HZ-TOUR-003",
+  "schema:name": "华阳古镇",
+  "schema:description": "华阳古镇位于汉中市洋县，是中国历史文化名镇，历史可追溯至秦汉时期，作为傥骆古道上的重要驿站，曾是连接关中与巴蜀的交通枢纽，商贸繁荣，文化交融。古镇保存了明清时期的街巷格局和传统民居，承载着古道商贸与军事防御的深厚底蕴。目前，已完成古镇数字测绘，建立了三维模型，并打造了古道文化数字展馆，通过虚拟现实技术重现傥骆古道的历史风貌，游客可在线体验千年古镇的变迁与生机。",
+  "schema:keywords": [
+    "华阳古镇",
+    "傥骆古道",
+    "千年古镇",
+    "数字测绘"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "秦汉至今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "汉中市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "洋县文旅局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "洋县文旅局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:3ff625bf29a442c43accc265448cb48b0bed9d2b1b80a8c6306b9b79b469cbf5",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

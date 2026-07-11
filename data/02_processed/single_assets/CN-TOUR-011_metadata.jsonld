@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalTourism",
+  "@id": "urn:sha256:894a2c2d3651e1e3c5f8475993fa020ff2bb4da4c905f9451243e816c556a288",
+  "schema:identifier": "CN-TOUR-011",
+  "schema:name": "清明上河园数字文旅",
+  "schema:description": "清明上河园坐落于河南开封，以北宋张择端传世名画《清明上河图》为蓝本，再现了汴京繁华的市井风情与运河盛景。作为大型宋文化主题公园，它承载着千年古都的历史记忆，通过建筑、民俗与技艺的活态传承，深刻展现宋代社会的经济繁荣与文化底蕴。在数字化浪潮下，园区已实现沉浸式数字演艺、全息投影演出及宋文化数字IP开发，如虚拟游船体验与云端导览，将古画意境转化为交互场景，成为文旅数字化融合的标杆，让文化遗产在科技加持下焕发新生。",
+  "schema:keywords": [
+    "清明上河园",
+    "全息投影",
+    "沉浸式",
+    "宋文化",
+    "数字IP"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "当代",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "河南",
+    "schema:addressLocality": "开封市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "清明上河园景区"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "清明上河园景区"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:894a2c2d3651e1e3c5f8475993fa020ff2bb4da4c905f9451243e816c556a288",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

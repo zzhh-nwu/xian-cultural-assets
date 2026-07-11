@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:74196c9a65b2028b582670cc2dcdb8b36894c2dda247e41b1b6156b937a80e4c",
+  "schema:identifier": "CN-ICH-048",
+  "schema:name": "湘剧",
+  "schema:description": "湘剧是湖南省的传统戏曲剧种，起源于明代，融合弋阳腔、昆腔等元素，形成以高腔、低牌子、昆腔、弹腔为主的声腔体系，已有近六百年历史。作为国家级非物质文化遗产，它承载着湖湘文化的深厚底蕴，剧目多取材于历史故事与民间传说，语言生动，表演粗犷豪放，被誉为“楚南梨园之冠”。目前，湘剧已完成经典剧目的数字化录制，并开发了湘剧声腔AI分析系统，通过技术手段保存濒危唱腔与表演细节，为传承与研究提供数据支持。",
+  "schema:keywords": [
+    "湘剧",
+    "数字化录制",
+    "AI声腔分析"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "明清至今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "湖南",
+    "schema:addressLocality": "长沙市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "湖南省非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "湖南省非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:74196c9a65b2028b582670cc2dcdb8b36894c2dda247e41b1b6156b937a80e4c",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:38a3148a31045e4d74b51c9e26703ba715458648c9a8fdde5cd238236b7b047c",
+  "schema:identifier": "CN-ICH-031",
+  "schema:name": "湘绣",
+  "schema:description": "湘绣起源于湖南民间刺绣，已有两千余年历史，清代时与苏绣、粤绣、蜀绣并称中国四大名绣。其以丝绒线在缎料上施针，独创“鬅毛针”等针法，擅长表现狮虎等动物毛发质感，作品色彩鲜明、构图严谨，承载着湖湘文化的审美与技艺传承。目前，湘绣已完成针法数字化记录，并开发出纹样AI设计辅助系统，既保存了濒临失传的传统针法，又通过人工智能生成创新图案，推动非遗技艺在当代设计中的活态传承。",
+  "schema:keywords": [
+    "湘绣",
+    "四大名绣",
+    "针法数字化",
+    "AI设计"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "千年传承",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "湖南",
+    "schema:addressLocality": "长沙市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "湖南省非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "湖南省非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:38a3148a31045e4d74b51c9e26703ba715458648c9a8fdde5cd238236b7b047c",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

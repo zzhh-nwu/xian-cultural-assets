@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:d3577d820fa6a6c2eeda1269f4d5b10f182e6dad0d3098eef41fa7b3aca0495b",
+  "schema:identifier": "SA-HZ-ICH-001",
+  "schema:name": "洋县皮影",
+  "schema:description": "洋县皮影是国家级非物质文化遗产，陕西皮影戏南路的重要代表。其历史可追溯至明清时期，以碗碗腔为主要唱腔，融合地方戏曲与民间艺术精髓。文化价值在于展现陕南独特的表演美学和手工雕刻技艺，皮影造型细腻、色彩绚丽。数字化现状方面，已完成皮影雕刻过程和表演艺术的数字化记录，为传统技艺的传承和保护提供了可靠数据支持。",
+  "schema:keywords": [
+    "洋县皮影",
+    "碗碗腔",
+    "南路皮影",
+    "数字化记录"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "明清至今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "汉中市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "洋县非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "洋县非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:d3577d820fa6a6c2eeda1269f4d5b10f182e6dad0d3098eef41fa7b3aca0495b",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

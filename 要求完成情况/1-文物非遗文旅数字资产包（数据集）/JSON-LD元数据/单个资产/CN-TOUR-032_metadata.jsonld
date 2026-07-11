@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalTourism",
+  "@id": "urn:sha256:9814f3d27c6f7dc07ed6f9d6e6acbfdc43c299967a892707f9f4b1b3f5e6b68a",
+  "schema:identifier": "CN-TOUR-032",
+  "schema:name": "张掖丹霞",
+  "schema:description": "张掖丹霞位于甘肃省张掖市，是中国西北干旱地区最典型的丹霞地貌景观，形成于约6000万年前的白垩纪，以色彩斑斓、层理交错的彩色丘陵闻名于世。作为世界地质公园，其地质遗迹记录了古气候变迁和板块运动历史，具有极高的科研价值。目前，已完成全域数字测绘，并开发了地质演变VR体验系统，游客可沉浸式感受亿万年的地貌形成过程，实现了自然遗产与数字技术的深度融合。",
+  "schema:keywords": [
+    "张掖丹霞",
+    "世界地质公园",
+    "数字测绘",
+    "VR地质"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "古今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "甘肃",
+    "schema:addressLocality": "张掖市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "张掖丹霞景区"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "张掖丹霞景区"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:9814f3d27c6f7dc07ed6f9d6e6acbfdc43c299967a892707f9f4b1b3f5e6b68a",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

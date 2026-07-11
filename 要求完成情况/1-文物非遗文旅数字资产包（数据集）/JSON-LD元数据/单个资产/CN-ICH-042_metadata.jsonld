@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:6dea7e92fc0033862a03735fd26182716b12ba78d23c59b45d963464a27aa1f1",
+  "schema:identifier": "CN-ICH-042",
+  "schema:name": "格萨尔史诗",
+  "schema:description": "格萨尔史诗起源于公元11世纪前后的藏族地区，是一部以英雄格萨尔王为核心的宏大叙事，被誉为世界最长史诗，流传于中国西藏、青海、四川等地的藏、蒙、土等民族中。它融合了神话、历史与民间传说，承载着藏族人民的世界观、道德观和艺术智慧，是研究古代青藏高原社会与文化的活态瑰宝。目前，该史诗已完成全量数字录音，涵盖数百位说唱艺人的表演，并构建了史诗知识图谱，通过数字化技术永久保存其口头传统，为全球学者和公众提供便捷的检索与学习平台。",
+  "schema:keywords": [
+    "格萨尔",
+    "人类非遗",
+    "数字录音",
+    "知识图谱"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "千年传承",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "西藏",
+    "schema:addressLocality": "拉萨市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "西藏非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "西藏非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:6dea7e92fc0033862a03735fd26182716b12ba78d23c59b45d963464a27aa1f1",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

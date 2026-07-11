@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:5b1816e9930d36ce66d13742c65020779e37561e067103951c1c92e7707ced63",
+  "schema:identifier": "SA-XY-REL-003",
+  "schema:name": "昭陵",
+  "schema:description": "昭陵是唐太宗李世民与文德皇后长孙氏的合葬陵墓，位于陕西省礼泉县九嵕山，开创了唐代“因山为陵”的丧葬制度，体现了帝王“以山为陵，以彰其德”的雄浑理念。作为唐代帝王陵寝典范，昭陵融合了政治象征与艺术成就，其昭陵六骏浮雕以六匹战马形象再现李世民征战历程，堪称唐代石刻艺术巅峰。目前，已完成陵区高精度数字测绘与六骏浮雕的三维数字化复原，为文物保护与虚拟展示提供了坚实数据基础。",
+  "schema:keywords": [
+    "昭陵",
+    "唐太宗",
+    "昭陵六骏",
+    "因山为陵",
+    "数字化复原"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "唐",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "咸阳市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "昭陵博物馆"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "昭陵博物馆"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:5b1816e9930d36ce66d13742c65020779e37561e067103951c1c92e7707ced63",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

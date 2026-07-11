@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&family=Ma+Shan+Zheng&family=ZCOOL+KuaiLe&family=Noto+Serif+SC:wght@400;500;600;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #8B3A3A;
+  --color-primary-light: #C9A96E;
+  --color-secondary: #1A1A2E;
+  --color-accent-1: #C9A96E;
+  --color-accent-2: #B8A99A;
+  --color-accent-3: #D4A574;
+  --color-accent-4: #A78BFA;
+  --color-surface: #252538;
+  --color-surface-light: #2D2D42;
+  --color-ink: #E8E0D5;
+  --color-ink-dim: #9B8E82;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --font-heading: 'Noto Serif SC', 'Ma Shan Zheng', serif;
+}
+
+/* ===== 基础 ===== */
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: #1A1A2E;
+  color: #E8E0D5;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* 宣纸纹理 */
+body::before {
+  content: '';
+  position: fixed; inset: 0; z-index: 0; pointer-events: none; opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg width='400' height='400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.8'/%3E%3C/svg%3E");
+  background-size: 400px 400px;
+}
+
+/* ===== 边框阴影体系 ===== */
+.oriental     { box-shadow: 0 0 0 1px rgba(201,169,110,0.2), 0 4px 24px rgba(0,0,0,0.3); }
+.oriental-gold { box-shadow: 0 0 0 1px rgba(201,169,110,0.35), 0 4px 24px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.04); }
+.oriental-glow { box-shadow: 0 0 0 1px rgba(201,169,110,0.25), 0 4px 32px rgba(139,58,58,0.15), 0 0 60px rgba(201,169,110,0.06); }
+
+/* ===== 毛玻璃体系 ===== */
+.glass     { background: rgba(37,37,56,0.55); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border: 1px solid rgba(201,169,110,0.12); border-radius: 20px; }
+.glass-strong { background: rgba(30,30,50,0.75); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); border: 1px solid rgba(201,169,110,0.18); border-radius: 20px; }
+.glass-light { background: rgba(45,45,66,0.5); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border: 1px solid rgba(201,169,110,0.15); border-radius: 16px; }
+
+/* ===== 按钮 ===== */
+.btn-primary {
+  background: linear-gradient(135deg, #8B3A3A 0%, #6B2A2A 100%);
+  color: #fff; font-weight: 600; border-radius: 14px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 0 1px rgba(201,169,110,0.3), 0 4px 16px rgba(139,58,58,0.2);
+}
+.btn-primary:hover { opacity: 0.9; transform: translateY(-1px); box-shadow: 0 0 0 1px rgba(201,169,110,0.5), 0 6px 24px rgba(139,58,58,0.3); }
+
+.btn-gold {
+  background: linear-gradient(135deg, #C9A96E 0%, #D4A574 100%);
+  color: #1A1A2E; font-weight: 600; border-radius: 14px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 0 1px rgba(201,169,110,0.4), 0 4px 16px rgba(201,169,110,0.2);
+}
+.btn-gold:hover { opacity: 0.9; transform: translateY(-1px); }
+
+.btn-ghost {
+  background: rgba(201,169,110,0.08); color: #C9A96E; font-weight: 600;
+  border: 1px solid rgba(201,169,110,0.2); border-radius: 14px;
+  transition: all 0.3s ease;
+}
+.btn-ghost:hover { background: rgba(201,169,110,0.15); border-color: rgba(201,169,110,0.35); }
+
+/* ===== 博物馆展品卡片 ===== */
+.museum-card {
+  background: rgba(37,37,56,0.5);
+  backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(201,169,110,0.12);
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.museum-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(201,169,110,0.35);
+  box-shadow: 0 0 0 1px rgba(201,169,110,0.25), 0 16px 48px rgba(0,0,0,0.4), 0 0 80px rgba(201,169,110,0.06);
+}
+
+/* ===== 金边分割线 ===== */
+.hr-gold { border: none; height: 1px; background: linear-gradient(90deg, transparent, rgba(201,169,110,0.2), transparent); }
+
+/* ===== 动画 ===== */
+@keyframes ink-spread {
+  0%   { opacity: 0; filter: blur(12px); transform: scale(0.95); }
+  60%  { opacity: 0.8; filter: blur(2px); }
+  100% { opacity: 1; filter: blur(0); transform: scale(1); }
+}
+.ink-reveal { animation: ink-spread 0.7s cubic-bezier(0.22, 0.61, 0.36, 1) both; }
+
+@keyframes gold-shimmer {
+  0%, 100% { opacity: 0.5; }
+  50%      { opacity: 1; }
+}
+.gold-shimmer { animation: gold-shimmer 3s ease-in-out infinite; }
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-6px); }
+}
+.float-slow { animation: float 6s ease-in-out infinite; }
+
+@keyframes border-glow {
+  0%, 100% { border-color: rgba(201,169,110,0.12); }
+  50%      { border-color: rgba(201,169,110,0.3); }
+}
+.border-pulse { animation: border-glow 4s ease-in-out infinite; }
+
+/* ===== 滚动条 ===== */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #1A1A2E; }
+::-webkit-scrollbar-thumb { background: rgba(201,169,110,0.2); border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(201,169,110,0.35); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:35ad21dea246c5cefd33158966a5ce94dfc60df748132324a79b151cc5ed49b1",
+  "schema:identifier": "CN-REL-012",
+  "schema:name": "普光塔",
+  "schema:description": "普光塔，一座历史悠久的古塔，原貌因岁月侵蚀而模糊。通过数字考古方法，专家推测其原为七层结构，并利用近景摄影测量和三维激光扫描（每秒50万点，精度约2mm）完成了精确的数字复原。这一创新实践不仅还原了塔身细节，还开创了数字考古新路径，为古塔研究提供了非接触式解决方案。数字化现状中，其三维模型已用于学术分析与公众展示。",
+  "schema:keywords": [
+    "普光塔",
+    "数字考古",
+    "七层结构",
+    "近景摄影测量",
+    "激光扫描"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "宋代",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "福建",
+    "schema:addressLocality": "福州市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "福州市文物局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "福州市文物局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:35ad21dea246c5cefd33158966a5ce94dfc60df748132324a79b151cc5ed49b1",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

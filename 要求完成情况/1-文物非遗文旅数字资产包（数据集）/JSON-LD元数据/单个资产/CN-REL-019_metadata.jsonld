@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:2a7a871ed1708083cbcea0bbf7819767af2d3ea6466ef7ef804f6e9fb468894a",
+  "schema:identifier": "CN-REL-019",
+  "schema:name": "武当山古建筑群",
+  "schema:description": "武当山古建筑群坐落于湖北省十堰市，始建于唐代，鼎盛于明代，是道教圣地与皇家建筑结合的典范。其历史背景融合了道教文化、明代政治与建筑技艺，被誉为“亘古无双胜境”。文化价值上，它体现了“天人合一”的哲学思想，建筑布局依山就势，金殿、紫霄宫等殿宇以铜铸鎏金、石雕木刻闻名，是研究中国古代宗教、艺术与工程的活化石。数字化现状方面，已完成紫霄宫、金殿等核心建筑的毫米级三维扫描，构建了武当山道教建筑数字档案库，为古建筑预防性保护提供精准数据支撑，推动文化遗产的永续传承。",
+  "schema:keywords": [
+    "武当山",
+    "道教建筑",
+    "毫米级",
+    "三维扫描",
+    "紫霄宫"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "明",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "湖北",
+    "schema:addressLocality": "十堰市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "武当山特区管委会"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "武当山特区管委会"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:2a7a871ed1708083cbcea0bbf7819767af2d3ea6466ef7ef804f6e9fb468894a",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

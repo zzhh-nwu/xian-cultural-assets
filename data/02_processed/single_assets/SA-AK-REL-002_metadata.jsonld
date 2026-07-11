@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:c9eb566c24dc695142babf3f131426937be8846d2611983af52706d4882596b4",
+  "schema:identifier": "SA-AK-REL-002",
+  "schema:name": "汉阴古城墙",
+  "schema:description": "汉阴古城墙位于陕西省汉阴县，是陕南保存最完整的明代城墙，始建于明成化年间，周长约4公里，采用砖石结构，设有城门和敌楼。城墙曾是防御匪患和洪水的重要屏障，见证了汉阴地区的历史变迁。在数字化方面，已完成城墙三维扫描和历史沿革数字档案，通过激光雷达和摄影测量技术，精确记录了城墙的形制与损毁状况，并整合历史文献，构建了时空演变数字模型，为保护修复提供了科学依据。",
+  "schema:keywords": [
+    "汉阴古城墙",
+    "明代",
+    "陕南最完整",
+    "三维扫描"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "明",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "安康市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "汉阴县文物局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "汉阴县文物局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:c9eb566c24dc695142babf3f131426937be8846d2611983af52706d4882596b4",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

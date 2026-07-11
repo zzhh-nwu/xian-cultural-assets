@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:93455ab6f75aa35e0ce64ab49eb7ed39c4147adc6a7b398c95b81b9798f28fd7",
+  "schema:identifier": "CN-REL-035",
+  "schema:name": "塔尔寺",
+  "schema:description": "塔尔寺位于青海省湟中县，始建于明嘉靖年间，是全国重点文物保护单位，也是藏传佛教格鲁派六大寺院之一。其历史可追溯至宗喀巴大师的诞生地，融合汉藏建筑风格，以壁画、堆绣、酥油花“艺术三绝”闻名，承载着深厚的宗教文化与民族交融价值。当前，寺院已完成三维扫描和酥油花数字档案建设，通过高精度建模与数据存储，为文化遗产保护与数字化传播奠定基础。",
+  "schema:keywords": [
+    "塔尔寺",
+    "格鲁派",
+    "三维扫描",
+    "酥油花"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "明代至今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "青海",
+    "schema:addressLocality": "西宁市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "塔尔寺管委会"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "塔尔寺管委会"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:93455ab6f75aa35e0ce64ab49eb7ed39c4147adc6a7b398c95b81b9798f28fd7",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

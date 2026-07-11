@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:16913efd4c458c21429e673bbd69a69f6651d28abc539a058fc8d0ab174b53a2",
+  "schema:identifier": "SA-YL-REL-004",
+  "schema:name": "石峁遗址",
+  "schema:description": "石峁遗址位于陕西省神木市，是中国史前最大的石城遗址，距今约4300年，属于中华文明探源工程的核心遗址。其宏大的石砌城墙和玉器、石雕等出土文物，揭示了早期国家的雏形，对研究中华文明起源具有重要价值。在数字化方面，已完成遗址全域数字测绘和史前文明数字复原，通过高精度建模和虚拟现实技术，还原了石峁先民的生活场景和城防结构，为学术研究和公众教育提供了直观的数字资源。",
+  "schema:keywords": [
+    "石峁遗址",
+    "史前最大石城",
+    "探源工程",
+    "数字复原"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "新石器时代",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "榆林市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "神木市文物局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "神木市文物局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:16913efd4c458c21429e673bbd69a69f6651d28abc539a058fc8d0ab174b53a2",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

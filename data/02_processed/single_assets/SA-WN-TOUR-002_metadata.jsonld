@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalTourism",
+  "@id": "urn:sha256:dcb020870005697c0e50a2fb0206a36ba7571da86f08c94e6a2a309668b418fd",
+  "schema:identifier": "SA-WN-TOUR-002",
+  "schema:name": "少华山",
+  "schema:description": "少华山位于陕西省华州区，与西岳华山并称“二华”，自古便是道教文化与自然景观交融的胜地。其历史可追溯至秦汉时期，唐代诗人杜甫曾留下“西岳崚嶒竦处尊，诸峰罗立如儿孙”的咏叹。作为国家森林公园，少华山以险峻奇峰和茂密森林著称，近年更以惊险刺激的玻璃栈道吸引游客。数字化方面，景区已实现全山高精度数字测绘，并推出玻璃栈道VR惊险体验，游客可足不出户感受凌空漫步的震撼，极大提升了文旅融合的互动性与传播力。",
+  "schema:keywords": [
+    "少华山",
+    "二华",
+    "玻璃栈道",
+    "数字测绘",
+    "VR体验"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "古今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "渭南市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "少华山景区管委会"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "少华山景区管委会"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:dcb020870005697c0e50a2fb0206a36ba7571da86f08c94e6a2a309668b418fd",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

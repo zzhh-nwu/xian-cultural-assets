@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:f41a947ec5cab3e8dace7ea437bdf936bfdb295e94dafef9c82ee4301b7a9738",
+  "schema:identifier": "SA-HZ-REL-001",
+  "schema:name": "武侯墓",
+  "schema:description": "武侯墓位于陕西省汉中市，是三国时期蜀汉丞相诸葛亮的安葬之地，全国重点文物保护单位。这里不仅是诸葛亮“鞠躬尽瘁，死而后已”精神的象征，也是三国文化的重要载体。墓区已完成三维扫描，建立了精确的数字模型，同时结合三国文化数字知识库，系统整理了相关历史文献和传说故事，为游客和教育机构提供了沉浸式的文化体验，推动了历史遗产的数字化传承。",
+  "schema:keywords": [
+    "武侯墓",
+    "诸葛亮",
+    "三国文化",
+    "三维扫描",
+    "数字知识库"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "三国",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "汉中市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "勉县文物局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "勉县文物局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:f41a947ec5cab3e8dace7ea437bdf936bfdb295e94dafef9c82ee4301b7a9738",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

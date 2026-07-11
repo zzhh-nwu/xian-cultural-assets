@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:8941fe6001f3a8e5fe83c169465109b35db6dbb656de74ab8748c0e067688c77",
+  "schema:identifier": "CN-ICH-012",
+  "schema:name": "中国传统制茶技艺",
+  "schema:description": "中国传统制茶技艺于2022年被列入联合国教科文组织人类非物质文化遗产代表作名录，涵盖44个国家级非遗项目，系统呈现了从种植、采摘到炒制、品鉴的完整工序。其历史可追溯至唐代陆羽《茶经》，融合了儒释道哲学与农耕智慧，成为中华文明中“以茶修身”的文化象征。目前，我国已启动茶文化知识图谱建设，通过数字化手段记录传统制茶工艺，包括3D建模、工艺分解影像及数据库整理，既保护了濒危技艺，也为全球茶文化研究提供了可共享的数字资源。",
+  "schema:keywords": [
+    "制茶",
+    "人类非遗",
+    "44项目",
+    "茶文化",
+    "知识图谱"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "千年传承",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "多省",
+    "schema:addressLocality": "",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "中国非遗网/UNESCO"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "中国非遗网/UNESCO"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:8941fe6001f3a8e5fe83c169465109b35db6dbb656de74ab8748c0e067688c77",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

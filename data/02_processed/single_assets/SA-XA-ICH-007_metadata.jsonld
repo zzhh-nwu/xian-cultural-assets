@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:3a8e7b2d43196f1051a810bf74eb9ce39eaaf9bb19df9caeeca2ea235eeac54f",
+  "schema:identifier": "SA-XA-ICH-007",
+  "schema:name": "秦腔",
+  "schema:description": "秦腔起源于西周时期，是中国最古老的戏曲剧种之一，被誉为梆子腔的鼻祖，2006年被列入国家级非物质文化遗产。它承载着西北地区深厚的历史文化，融合了慷慨激昂的唱腔与粗犷豪放的表演风格，反映了古代民间生活的喜怒哀乐，具有极高的艺术与民俗研究价值。目前，秦腔已完成300余部经典剧目的数字化录制，并开发出AI唱腔分析系统，同时建立了秦腔脸谱数字库，通过现代技术手段有效保存和传承了这一珍贵文化遗产。",
+  "schema:keywords": [
+    "秦腔",
+    "梆子腔鼻祖",
+    "国家级非遗",
+    "300部",
+    "脸谱数字库",
+    "AI唱腔"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "明清至今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "西安市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "陕西省非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "陕西省非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:3a8e7b2d43196f1051a810bf74eb9ce39eaaf9bb19df9caeeca2ea235eeac54f",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

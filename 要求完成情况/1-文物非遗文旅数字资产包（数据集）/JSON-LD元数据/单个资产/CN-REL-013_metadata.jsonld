@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:59df7147c217757d72c85884434c62d2f7fcba978f38f216480257da1717e1e0",
+  "schema:identifier": "CN-REL-013",
+  "schema:name": "李耕壁画",
+  "schema:description": "李耕壁画，源自地方寺观，是传统绘画艺术的珍贵遗存，融合了明清画风与民间信仰。2024年启动的数字化保护项目，综合运用近景摄影测量、三维激光扫描和高光谱成像技术，成功解析了隐藏的线条与原始色彩，揭示了壁画的历史层次。这成为壁画类文物数字化技术综合应用的典范，为后续保护与修复提供了详尽数据，并提升了公众对文化遗产的认知。",
+  "schema:keywords": [
+    "李耕壁画",
+    "高光谱成像",
+    "隐藏线条",
+    "近景摄影测量",
+    "综合应用"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "近代",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "福建",
+    "schema:addressLocality": "仙游县",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "仙游县文物局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "仙游县文物局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:59df7147c217757d72c85884434c62d2f7fcba978f38f216480257da1717e1e0",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalTourism",
+  "@id": "urn:sha256:a0982232b7876e1790648d04e6e838a663b07875ea00b7360bd9f1fe30ef887d",
+  "schema:identifier": "CN-TOUR-026",
+  "schema:name": "三亚南山文化旅游区",
+  "schema:description": "三亚南山文化旅游区坐落于中国海南岛三亚市西南部，是国家5A级景区。其历史可追溯至唐代，因佛教文化兴盛而闻名，南山寺始建于唐代，后经现代重建，成为汉传佛教与南海观音文化的重要载体。文化价值上，景区融合了佛教艺术、生态景观与海南本土民俗，尤以高108米的海上观音圣像为核心，象征慈悲与和平，吸引全球信众与游客。数字化方面，已完成海上观音的三维建模，并通过智慧景区系统实现实时导览、在线预约和虚拟漫游，提升了文化保护与游客体验的现代化水平。",
+  "schema:keywords": [
+    "南山",
+    "海上观音",
+    "三维建模",
+    "智慧景区"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "当代",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "海南",
+    "schema:addressLocality": "三亚市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "三亚市文旅局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "三亚市文旅局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:a0982232b7876e1790648d04e6e838a663b07875ea00b7360bd9f1fe30ef887d",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

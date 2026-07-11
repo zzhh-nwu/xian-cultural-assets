@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:aec9b56c012fb2b10793d0191d540209a52f544f8da614234cc14bca6f904a80",
+  "schema:identifier": "SA-BJ-REL-002",
+  "schema:name": "宝鸡青铜器博物院",
+  "schema:description": "宝鸡青铜器博物院坐落于陕西宝鸡，是中国最大的青铜器专题博物馆，馆藏何尊等国宝级青铜器15000余件。何尊铭文中首次出现“中国”二字，印证了西周时期“宅兹中国”的文明起源，具有不可替代的历史价值。这些青铜器承载礼制、铭文与工艺，是研究先秦社会、文字演变的核心实物。目前，博物院已完成万件青铜器三维建模，并开发铭文AI识别系统，通过数字化技术实现文物高精度保存与智能解读，让千年青铜文化在虚拟空间中焕发新生。",
+  "schema:keywords": [
+    "青铜器",
+    "何尊",
+    "中国二字",
+    "15000件",
+    "AI铭文识别",
+    "三维建模"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "商周",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "宝鸡市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "宝鸡青铜器博物院"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "宝鸡青铜器博物院"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:aec9b56c012fb2b10793d0191d540209a52f544f8da614234cc14bca6f904a80",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

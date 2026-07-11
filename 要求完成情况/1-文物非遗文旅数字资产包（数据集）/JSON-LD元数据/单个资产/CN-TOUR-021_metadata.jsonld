@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalTourism",
+  "@id": "urn:sha256:a8c3eb1e5913c0cf9b184b919c3c55ef5304d4040a7e8ba706bc5d2ffa294d72",
+  "schema:identifier": "CN-TOUR-021",
+  "schema:name": "上海外滩历史建筑群",
+  "schema:description": "上海外滩历史建筑群始建于19世纪中叶至20世纪初，是近代中国金融与贸易中心的见证，融合了新古典主义、哥特式、巴洛克等多种西方建筑风格，被誉为“万国建筑博览”。这些建筑承载了上海开埠以来的城市记忆，具有极高的历史与艺术价值。目前，作为全国重点文物保护单位，已完成52幢历史建筑的三维扫描，并开发AR历史导览系统，推出外滩数字孪生平台，实现虚拟与现实融合的沉浸式体验，有效促进文化遗产的保护与传播。",
+  "schema:keywords": [
+    "外滩",
+    "52幢",
+    "三维扫描",
+    "AR导览",
+    "数字孪生"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "近代",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "上海",
+    "schema:addressLocality": "上海市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "上海市文旅局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "上海市文旅局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:a8c3eb1e5913c0cf9b184b919c3c55ef5304d4040a7e8ba706bc5d2ffa294d72",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

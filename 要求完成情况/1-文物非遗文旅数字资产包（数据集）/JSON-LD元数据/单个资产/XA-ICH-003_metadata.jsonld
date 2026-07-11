@@ -1,0 +1,102 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:8aef25079bf67b14acd3a0f85a1ae00081ffb9025c4a8172dee4c47333912b90",
+  "schema:identifier": "XA-ICH-003",
+  "schema:name": "陕西皮影戏",
+  "schema:description": "陕西皮影戏是中国皮影艺术的重要流派，以华县皮影最具代表性，2011年被列入人类非物质文化遗产代表作名录。陕西皮影雕刻工艺精湛，以牛皮为材，经选皮、制皮、画稿、雕刻、敷色、熨平、缀结等二十余道工序完成，是集绘画、雕刻、表演、音乐于一体的综合艺术。",
+  "schema:keywords": [
+    "传统戏剧",
+    "皮影",
+    "雕刻",
+    "牛皮",
+    "华县",
+    "UNESCO非遗",
+    "综合艺术"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "起源于汉代，成熟于唐宋，繁荣于明清",
+    "cultural:material": "秦川牛皮 + 矿物/植物染料 + 丝线",
+    "cultural:technique": "选皮-制皮-画稿-雕刻（推皮走刀技法）-敷色-熨平-缀结，共二十余道工序",
+    "cultural:iconography": "影人造型：五分面/七分面、武将/旦角/丑角等类别；纹样：雪花纹、万字纹、梅花纹等",
+    "cultural:style": "陕西东路皮影精细华美、西路皮影粗犷豪放",
+    "cultural:function": "民间戏剧演出、历史故事传播、祭祀酬神"
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西省",
+    "schema:addressLocality": "渭南市华州区",
+    "schema:addressDistrict": "",
+    "schema:locationName": "华县皮影文化生态保护区",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [
+    {
+      "schema:Person": {
+        "schema:name": "汪天稳（国家级传承人/雕刻大师）"
+      }
+    },
+    {
+      "schema:Person": {
+        "schema:name": "薛宏权（省级传承人）"
+      }
+    }
+  ],
+  "cultural:relatedEvents": [
+    "2006年 列入国家级非遗",
+    "2011年 列入UNESCO人类非遗代表作名录"
+  ],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "华州区非物质文化遗产保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "https://www.ihchina.cn/ 中国非遗网",
+    "https://ich.unesco.org/ UNESCO非遗页"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:8aef25079bf67b14acd3a0f85a1ae00081ffb9025c4a8172dee4c47333912b90",
+  "dcterms:created": "2026-07-09T23:35:49Z",
+  "schema:alternateName": "Shaanxi Shadow Puppetry",
+  "schema:additionalDescription": "陕西皮影戏历史悠久，是中国皮影艺术的主要发源地之一，起源于汉代，成熟于唐宋，繁荣于明清。华县（今渭南市华州区）是陕西皮影的核心传承区域，被誉为「中国皮影艺术之乡」。陕西皮影的制作工艺极为讲究：选用上等秦川牛皮，经浸泡、刮毛、去脂、拉撑、晾晒等工序制成透明皮料；再用钢针刻刀在皮料上雕刻出人物、动物、场景等图案，要求刀口整齐、线条流畅；敷色使用矿物和植物染料；最后用丝线缀结各部件，使影人可灵活活动。表演时，艺人在白色幕布后操纵影人，用当地唱腔讲述历史演义，配以灯光投射，形成「一口叙说千古事，双手对舞百万兵」的艺术效果。代表流派：东路（碗碗腔皮影）、西路（弦板腔皮影）、北路（阿宫腔皮影）。代表性传承人：汪天稳（国家级传承人，华县皮影雕刻大师）、薛宏权等。",
+  "schema:sameAs": [
+    "《陕西皮影》- 陕西省文化厅",
+    "《华县皮影志》"
+  ],
+  "x9p:digitalRepresentation": {
+    "images": {
+      "@type": "schema:MediaObject",
+      "schema:encodingFormat": "image",
+      "schema:url": [
+        "中国非遗网 皮影图片库"
+      ],
+      "schema:description": "皮影制作过程、经典影人、演出场景",
+      "schema:license": "非遗保护中心授权"
+    },
+    "audio": {
+      "@type": "schema:MediaObject",
+      "schema:encodingFormat": "audio",
+      "schema:url": [
+        "B站 陕西皮影戏唱腔录音"
+      ],
+      "schema:description": "碗碗腔/弦板腔皮影唱段",
+      "schema:license": "合理引用"
+    },
+    "video": {
+      "@type": "schema:MediaObject",
+      "schema:encodingFormat": "video",
+      "schema:url": [
+        "央视纪录片《皮影戏》"
+      ],
+      "schema:description": "皮影戏表演及制作纪录片",
+      "schema:license": "合理引用"
+    }
+  }
+}

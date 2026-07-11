@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:d9a9eaec3333e7671a97ce136ec39d2da713dd80e0a3419f63d13a5d0cb5b4fc",
+  "schema:identifier": "SA-SL-REL-002",
+  "schema:name": "商州古城",
+  "schema:description": "商州古城，位于秦楚文化交汇之地，历史可上溯至战国时期，曾是商於古道上的军事重镇。古城墙、街巷和古建筑群融合了中原与荆楚特色，见证了南北文化交融的千年历程。文化价值上，它是研究古代军事防御和区域交流的活化石。数字化方面，已完成古城三维扫描和秦楚文化数字档案建设，通过虚拟现实技术还原了历史风貌，为公众提供了沉浸式体验。",
+  "schema:keywords": [
+    "商州古城",
+    "秦楚文化",
+    "三维扫描",
+    "数字档案"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "明至今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "商洛市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "商洛市文物局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "商洛市文物局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:d9a9eaec3333e7671a97ce136ec39d2da713dd80e0a3419f63d13a5d0cb5b4fc",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

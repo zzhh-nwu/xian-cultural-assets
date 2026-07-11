@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:522a7768bc1aed646af4cb71fe280771b77ac241817625790ad4566f6de63563",
+  "schema:identifier": "CN-ICH-045",
+  "schema:name": "宁夏花儿",
+  "schema:description": "宁夏花儿是流传于宁夏回族自治区的民间口头歌唱艺术，源于明清时期西北高原的农耕与游牧文化交融，承载着回族、汉族等民族的集体记忆。作为人类非物质文化遗产代表作，它以高亢悠扬的曲调、即兴对唱的形式，反映劳动、爱情与生活，被誉为“西北之魂”，是研究民族音乐与民俗的活态文本。当前，已完成花儿传承人的数字化录音，并利用AI技术对旋律进行深度分析，旨在保护其原生韵味的同时，探索曲调演变规律，为濒危传统注入科技活力。",
+  "schema:keywords": [
+    "花儿",
+    "人类非遗",
+    "数字化录音",
+    "AI旋律"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "千年传承",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "宁夏",
+    "schema:addressLocality": "固原市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "宁夏非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "宁夏非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:522a7768bc1aed646af4cb71fe280771b77ac241817625790ad4566f6de63563",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

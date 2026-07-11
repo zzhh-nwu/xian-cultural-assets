@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:38e351db9a24f483d548836568ac399df0ea00014f0883b5fe802384eb40e1c2",
+  "schema:identifier": "CN-ICH-025",
+  "schema:name": "上海顾绣",
+  "schema:description": "上海顾绣源于明代嘉靖年间，由上海露香园顾氏家族创制，距今已有四百余年历史。作为国家级非物质文化遗产，顾绣位列中国四大名绣之一，以绣绘结合、针法细腻著称，被誉为“画绣”。其文化价值在于将传统刺绣技艺与文人画意境融合，通过劈丝、配色等手法再现书画神韵，是江南工艺与审美的高度结晶。目前，顾绣已完成针法数字化记录和纹样数据库建设，利用高精度影像与三维扫描技术保存了百余种经典针法及五百余件纹样，为技艺传承与创新提供了数据支撑。",
+  "schema:keywords": [
+    "顾绣",
+    "四大名绣",
+    "针法数字化"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "明代至今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "上海",
+    "schema:addressLocality": "上海市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "上海市非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "上海市非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:38e351db9a24f483d548836568ac399df0ea00014f0883b5fe802384eb40e1c2",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

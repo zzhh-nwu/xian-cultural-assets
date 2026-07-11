@@ -1,0 +1,104 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalTourism",
+  "@id": "urn:sha256:f2e6629241900aa22880116d9b4e59043794fba86a875ecde077a0b0e7278b9c",
+  "schema:identifier": "XA-TOUR-003",
+  "schema:name": "华清宫·《长恨歌》实景演出",
+  "schema:description": "华清宫位于西安市临潼区骊山北麓，是唐代皇家温泉园林，以唐玄宗与杨贵妃的爱情故事而闻名。长恨歌大型实景历史舞剧以骊山为背景、华清宫九龙湖为舞台，运用水幕、激光、投影等科技手段，再现白居易《长恨歌》的千古绝唱。",
+  "schema:keywords": [
+    "唐代",
+    "温泉",
+    "实景演出",
+    "长恨歌",
+    "杨贵妃",
+    "华清池",
+    "AAAAA景区",
+    "舞剧"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "唐（644年始建，天宝年间兴盛）",
+    "cultural:material": "",
+    "cultural:technique": "温泉汤池建筑 + 实景舞台科技（水幕/激光/3D投影/数控）+ 大型历史舞剧编排",
+    "cultural:iconography": "骊山晚照、九龙湖舞台、唐宫建筑群、霓裳羽衣",
+    "cultural:style": "唐风皇家园林 + 现代实景演艺",
+    "cultural:function": "唐文化体验 + 温泉旅游 + 实景演艺"
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西省",
+    "schema:addressLocality": "西安市",
+    "schema:addressDistrict": "临潼区",
+    "schema:locationName": "华清宫景区 九龙湖剧场",
+    "schema:latitude": "34.3630",
+    "schema:longitude": "109.2070"
+  },
+  "cultural:relatedFigures": [
+    {
+      "schema:Person": {
+        "schema:name": "唐玄宗李隆基"
+      }
+    },
+    {
+      "schema:Person": {
+        "schema:name": "杨贵妃（杨玉环）"
+      }
+    },
+    {
+      "schema:Person": {
+        "schema:name": "白居易"
+      }
+    }
+  ],
+  "cultural:relatedEvents": [
+    "644年 华清宫始建",
+    "806年 白居易作《长恨歌》",
+    "1936年 西安事变（兵谏亭）",
+    "1982年 全国重点文保",
+    "2006年 《长恨歌》实景舞剧首演"
+  ],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "陕西旅游集团有限公司 / 华清宫文化旅游有限公司"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "https://www.hqc.cn/ 华清宫景区官网",
+    "https://baike.baidu.com/item/华清宫",
+    "陕旅集团公开信息、媒体报道"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:f2e6629241900aa22880116d9b4e59043794fba86a875ecde077a0b0e7278b9c",
+  "dcterms:created": "2026-07-09T23:35:49Z",
+  "schema:alternateName": "Huaqing Palace - Song of Everlasting Sorrow Live Performance",
+  "schema:additionalDescription": "华清宫始建于唐贞观十八年（644年），唐玄宗时期大规模扩建，成为唐代皇家温泉离宫。以温泉闻名，共有汤池18处，水温常年保持43℃。白居易《长恨歌》描写的唐玄宗与杨贵妃爱情故事即以此地为背景。1982年列入全国重点文物保护单位，2007年评为国家AAAAA级旅游景区。长恨歌大型实景历史舞剧自2006年首演以来，以骊山为幕、九龙湖为台，运用3000盏特效灯光、巨型水幕、裸眼3D投影、数控装置等现代舞台科技，分为多个章节演绎。演出时长约70分钟，年演出超300场，观演人次超百万。2016年被评为中国旅游演出票房十强。",
+  "schema:sameAs": [
+    "《长恨歌》- 白居易",
+    "《华清宫志》"
+  ],
+  "x9p:digitalRepresentation": {
+    "images": {
+      "@type": "schema:MediaObject",
+      "schema:encodingFormat": "image",
+      "schema:url": [
+        "华清宫官网宣传剧照",
+        "视觉中国 长恨歌演出剧照"
+      ],
+      "schema:description": "骊山全景、九龙湖舞台、演出剧照、宣传海报",
+      "schema:license": "官方授权 / 合理引用"
+    },
+    "video": {
+      "@type": "schema:MediaObject",
+      "schema:encodingFormat": "video",
+      "schema:url": [
+        "华清宫《长恨歌》官方宣传片"
+      ],
+      "schema:description": "演出精华片段、幕后花絮",
+      "schema:license": "官方授权 / 合理引用"
+    }
+  }
+}

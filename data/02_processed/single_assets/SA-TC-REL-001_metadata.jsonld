@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:c35388d8c476a78ebaf21002e23484f2550d7c643ed33d7fd0355553615f57db",
+  "schema:identifier": "SA-TC-REL-001",
+  "schema:name": "耀州窑遗址",
+  "schema:description": "耀州窑遗址位于陕西省铜川市黄堡镇，是宋代六大窑系之一的核心遗址，1988年被列为全国重点文物保护单位。该窑创烧于唐代，鼎盛于北宋，以刻花青瓷闻名，其刀锋犀利、纹饰流畅的“半刀泥”技法代表了中国青瓷艺术的巅峰。遗址出土大量窑具和瓷器，为研究古代陶瓷工艺、贸易及社会生活提供了珍贵实物。目前，已完成窑址三维扫描和耀州瓷数字标本库建设，AI辅助釉色复刻研究取得突破，利用机器学习分析釉料配方与烧制参数，成功复现失传的“橄榄青”釉色，为非遗活化开辟了新路径。",
+  "schema:keywords": [
+    "耀州窑",
+    "宋代六大窑系",
+    "刻花青瓷",
+    "数字标本库",
+    "AI釉色"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "唐至元",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "铜川市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "耀州窑博物馆"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "耀州窑博物馆"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:c35388d8c476a78ebaf21002e23484f2550d7c643ed33d7fd0355553615f57db",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

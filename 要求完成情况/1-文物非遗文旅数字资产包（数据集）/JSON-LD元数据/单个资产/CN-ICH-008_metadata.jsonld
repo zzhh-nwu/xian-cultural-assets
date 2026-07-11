@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:1b46c7ca84f4658ff756543044932ee14187724e6d402d6b8e7ab8579c011295",
+  "schema:identifier": "CN-ICH-008",
+  "schema:name": "昆曲",
+  "schema:description": "昆曲是人类非物质文化遗产代表作，起源于元末明初的江苏昆山，被誉为“百戏之祖”。其唱腔婉转、表演细腻，融合文学、音乐、舞蹈于一体。数字化保护方面，已完成大量经典剧目的高清录像、动作捕捉记录及AI辅助表演分析。通过数字技术，昆曲的程式化动作、声腔韵律被精准记录，AI分析为传承人提供表演优化建议，实现口传心授模式与现代科技的深度融合，确保这一古老艺术永续流传。",
+  "schema:keywords": [
+    "昆曲",
+    "人类非遗",
+    "动作捕捉",
+    "AI表演分析",
+    "高清录像"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "元末明初至今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "江苏",
+    "schema:addressLocality": "苏州市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "中国非遗网/苏州昆剧院"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "中国非遗网/苏州昆剧院"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:1b46c7ca84f4658ff756543044932ee14187724e6d402d6b8e7ab8579c011295",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

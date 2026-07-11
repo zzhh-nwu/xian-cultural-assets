@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:db6484c91228b8a90a0523d7d03c39c3936357c5e63dba21fc20b98bde259eba",
+  "schema:identifier": "CN-REL-011",
+  "schema:name": "屏南万安桥",
+  "schema:description": "屏南万安桥，作为全国重点文物保护单位，始建于宋代，是木拱廊桥的杰出代表，承载着闽东地区古代交通与建筑智慧。2022年不幸被烧毁后，通过三维扫描等数字技术精准采集原桥结构数据，成功实现复原重生，彰显了数字化预防性保护在应对突发灾害中的关键价值。目前，该桥已成为文物数字复原的标杆案例，其数字化模型为后续监测与维护提供了坚实基础。",
+  "schema:keywords": [
+    "万安桥",
+    "烧毁",
+    "三维扫描",
+    "数字复原",
+    "预防性保护"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "北宋",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "福建",
+    "schema:addressLocality": "宁德市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "宁德市文物局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "宁德市文物局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:db6484c91228b8a90a0523d7d03c39c3936357c5e63dba21fc20b98bde259eba",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

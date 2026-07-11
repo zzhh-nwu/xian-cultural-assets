@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:6d3d5d6eecbed4643c40884fdb225715bbb06d881f3f0a1ed1540d8aa27845a4",
+  "schema:identifier": "CN-REL-033",
+  "schema:name": "花山岩画",
+  "schema:description": "花山岩画位于广西左江流域，是战国至东汉时期壮族先民骆越人留下的崖壁绘画遗产，距今已有两千多年历史。作为世界文化遗产，它以赭红色人物、铜鼓、刀剑等图像记载了古代祭祀、狩猎与战争场景，展现了南方稻作文明的独特信仰与艺术成就。目前，花山岩画已完成8K超高清数字化采集，并部署AI风化监测系统，通过实时数据追踪岩画褪色与剥落风险，为这一脆弱文化景观的永续保存提供了科技支撑。",
+  "schema:keywords": [
+    "花山岩画",
+    "8K采集",
+    "AI监测"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "战国至东汉",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "广西",
+    "schema:addressLocality": "崇左市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "广西文物局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "广西文物局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:6d3d5d6eecbed4643c40884fdb225715bbb06d881f3f0a1ed1540d8aa27845a4",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

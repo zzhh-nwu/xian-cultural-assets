@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:b4681cc3fd086c5b44521ff8b0c45535c9750cdac2f24dc5444b7134b7c61b6d",
+  "schema:identifier": "SA-WN-REL-002",
+  "schema:name": "韩城古城",
+  "schema:description": "韩城古城是中国历史文化名城，也是史学家司马迁的故里，古城始建于隋唐，明清时期达到鼎盛，保留着完整的古街巷格局和数百座四合院，被誉为“活着的明清古城”。古城内文物古迹众多，包括文庙、城隍庙等，展现了北方传统建筑与民俗文化的精髓。目前，韩城古城已完成全域三维扫描，建立了古建筑数字档案，为保护与修复提供了科学依据。",
+  "schema:keywords": [
+    "韩城古城",
+    "司马迁",
+    "明清古街",
+    "四合院",
+    "三维扫描"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "明清",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "渭南市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "韩城市文物局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "韩城市文物局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:b4681cc3fd086c5b44521ff8b0c45535c9750cdac2f24dc5444b7134b7c61b6d",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

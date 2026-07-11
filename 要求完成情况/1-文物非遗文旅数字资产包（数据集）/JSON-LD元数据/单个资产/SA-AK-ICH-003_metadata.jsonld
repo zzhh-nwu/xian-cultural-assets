@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:fdd6ad017f787017f593d083921a1d37cba705625f43a6cf1bf315854678120b",
+  "schema:identifier": "SA-AK-ICH-003",
+  "schema:name": "平利弦子腔",
+  "schema:description": "平利弦子腔是国家级非物质文化遗产，源自陕南平利县，以弦乐器伴奏的独特戏曲声腔闻名，兼具地方戏曲的叙事性与抒情性。历史可追溯至清代，融合了秦腔与楚剧元素，反映了陕南多元文化交融。文化价值在于其作为稀有地方戏曲形式，体现了民间艺术的多样性和地域特色。数字化现状方面，已完成经典剧目的数字化记录，并借助AI技术进行声腔分析，助力传统艺术的现代传播与研究。",
+  "schema:keywords": [
+    "弦子腔",
+    "国家级非遗",
+    "陕南戏曲",
+    "AI分析"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "明清至今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "安康市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "平利县非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "平利县非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:fdd6ad017f787017f593d083921a1d37cba705625f43a6cf1bf315854678120b",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

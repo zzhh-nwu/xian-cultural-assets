@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalTourism",
+  "@id": "urn:sha256:4a6fb113f552336f9f855725294f62e056483f51bdb22fb74acef336e330a3f8",
+  "schema:identifier": "CN-TOUR-028",
+  "schema:name": "重庆洪崖洞",
+  "schema:description": "洪崖洞位于重庆市渝中区，始建于战国时期，以巴渝传统吊脚楼建筑群闻名，距今已有2300余年历史。其依山而建、临江而立的独特风貌，融合了巴渝文化、码头文化和山地建筑智慧，是重庆城市精神的重要象征。2006年重建后成为国家4A级景区，现存建筑群已完成高精度三维建模，并开发了夜景灯光数字孪生系统，通过实时数据映射实现灯光动态调控与保护监测，为文化遗产的数字化传承提供了创新范例。",
+  "schema:keywords": [
+    "洪崖洞",
+    "吊脚楼",
+    "三维建模",
+    "数字孪生"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "当代",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "重庆",
+    "schema:addressLocality": "重庆市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "重庆市文旅局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "重庆市文旅局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:4a6fb113f552336f9f855725294f62e056483f51bdb22fb74acef336e330a3f8",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

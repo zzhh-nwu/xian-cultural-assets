@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalTourism",
+  "@id": "urn:sha256:e7e197e62e581e480cbdcdc755ff794d251a5d530a2e44f91ff9d8648d436e21",
+  "schema:identifier": "CN-TOUR-029",
+  "schema:name": "峨眉山",
+  "schema:description": "峨眉山位于四川省，是中国四大佛教名山之一，1996年被列入世界文化与自然双重遗产。其历史可追溯至东汉，唐代起佛教兴盛，普贤菩萨道场地位确立，历经千年积淀，山间古刹如报国寺、伏虎寺、金顶华藏寺等承载深厚宗教与建筑艺术价值。文化上，峨眉山融合自然景观与佛教哲学，其云海、佛光等奇观象征禅意，历代文人墨客吟咏无数，被誉为“天下秀”。数字化方面，已完成全山三维测绘，并推出佛教文化遗产AR导览，游客可通过手机实时体验古建筑复原与经文解读，既保护了脆弱遗产，又提升了文化传播的互动性。",
+  "schema:keywords": [
+    "峨眉山",
+    "双重遗产",
+    "数字测绘",
+    "AR导览"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "古今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "四川",
+    "schema:addressLocality": "峨眉山市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "峨眉山管委会"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "峨眉山管委会"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:e7e197e62e581e480cbdcdc755ff794d251a5d530a2e44f91ff9d8648d436e21",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

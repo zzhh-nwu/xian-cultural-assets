@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:fc8d596e0429457a51a7021934d3f525d8dd463edc18163fdb1737ff1dc32804",
+  "schema:identifier": "SA-AK-ICH-004",
+  "schema:name": "旬阳民歌",
+  "schema:description": "旬阳民歌，被列为国家级非物质文化遗产，以劳动号子和情歌为核心，源自陕南山区民众的日常生活。其历史可溯至明清时期，是汉水文化中质朴情感的体现，旋律高亢豪放，歌词多反映农耕、船运和爱情，具有浓厚的地域特色。文化价值上，它是陕南民间音乐活态传承的典范。当前，已完成传承人数字化录音和民歌知识图谱构建，通过音频存档与语义分析，系统保存了这一口头传统的精髓。",
+  "schema:keywords": [
+    "旬阳民歌",
+    "国家级非遗",
+    "劳动号子",
+    "知识图谱"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "千年传承",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "安康市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "旬阳市非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "旬阳市非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:fc8d596e0429457a51a7021934d3f525d8dd463edc18163fdb1737ff1dc32804",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

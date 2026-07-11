@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:23742b6069cb1e7d657fcdb51baebb1046ab64a966ec45303789fa03f73f5bb1",
+  "schema:identifier": "CN-REL-015",
+  "schema:name": "西湖绸伞文化",
+  "schema:description": "西湖绸伞文化，作为国家级非物质文化遗产，源于杭州，融合了丝绸工艺与伞具制作，象征江南雅韵。其数字化保护项目提出了数字化场景、数字交互产品与数字藏品的三维路径，借助区块链、大数据和AI技术，突破传统保护与传承困境。目前，已发表学术研究成果，并通过数字平台实现全球传播，为非遗活态传承提供了创新模式。",
+  "schema:keywords": [
+    "西湖绸伞",
+    "数字藏品",
+    "区块链",
+    "数字化场景",
+    "交互产品"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "现代",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "浙江",
+    "schema:addressLocality": "杭州市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "南宁师范大学学报/中国非遗网"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "南宁师范大学学报/中国非遗网"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:23742b6069cb1e7d657fcdb51baebb1046ab64a966ec45303789fa03f73f5bb1",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

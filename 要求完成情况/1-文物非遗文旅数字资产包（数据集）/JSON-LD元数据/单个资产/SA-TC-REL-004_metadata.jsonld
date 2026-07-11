@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:9b9821dda44418b72d4783c7e30353e2f080fe9402743305eb982f72f729ae64",
+  "schema:identifier": "SA-TC-REL-004",
+  "schema:name": "重兴寺塔",
+  "schema:description": "重兴寺塔为全国重点文物保护单位，始建于宋代，是一座典型的密檐式砖塔，共七层，高约三十米。其建筑风格融合了宋代砖石工艺的精髓，塔身雕饰古朴，反映了当时佛教建筑与地方文化的交融。作为历史遗迹，它承载了宋代宗教、艺术与社会生活的多重信息，具有极高的文化价值。目前，该塔已完成塔体三维扫描，并建立了结构安全数字监测系统，通过数字化手段实现了对塔体变形、裂缝等风险的实时监控，为保护工作提供了科学依据。",
+  "schema:keywords": [
+    "重兴寺塔",
+    "宋代砖塔",
+    "密檐式",
+    "三维扫描",
+    "结构监测"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "宋",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "铜川市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "铜川市文物局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "铜川市文物局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:9b9821dda44418b72d4783c7e30353e2f080fe9402743305eb982f72f729ae64",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:7be047255b680f6c30e069b689d8a98bcb4539e7a0a2cd8327de5985bdaa262c",
+  "schema:identifier": "SA-XA-REL-007",
+  "schema:name": "汉长安城遗址",
+  "schema:description": "汉长安城遗址位于西安西北部，是西汉王朝的都城遗址，始建于公元前202年，作为丝绸之路的起点，它承载了东西方文化交流的千年记忆。该遗址被列为全国重点文物保护单位，其核心未央宫遗址已完成全域数字测绘和宫殿区三维复原，成为中国古代最大的都城遗址数字化保护工程之一，为研究汉代城市规划与建筑艺术提供了珍贵数据。",
+  "schema:keywords": [
+    "汉长安城",
+    "未央宫",
+    "丝绸之路起点",
+    "数字测绘",
+    "三维复原"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "汉",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "西安市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "汉长安城遗址保管所"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "汉长安城遗址保管所"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:7be047255b680f6c30e069b689d8a98bcb4539e7a0a2cd8327de5985bdaa262c",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

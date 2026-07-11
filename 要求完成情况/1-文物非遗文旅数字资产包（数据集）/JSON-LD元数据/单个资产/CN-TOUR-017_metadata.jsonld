@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalTourism",
+  "@id": "urn:sha256:fbbd1e1241b2a0819c15382a7667ce293f2b7318d48ba92b41a7e82660a98b85",
+  "schema:identifier": "CN-TOUR-017",
+  "schema:name": "成吉思汗陵",
+  "schema:description": "成吉思汗陵位于内蒙古鄂尔多斯市伊金霍洛旗，是祭祀一代天骄成吉思汗的圣地，始建于1227年，后经多次迁移与重建，1954年回归原址。作为全国重点文物保护单位，它承载着蒙古族对祖先的崇敬与民族记忆，是研究蒙古帝国历史、萨满信仰和游牧文化的重要载体。目前，已完成祭祀仪式的数字化记录和陵区高精度三维建模，推出数字祭祀体验项目，游客可通过虚拟现实沉浸式参与传统祭祀流程，既保护了文化遗产的原真性，又拓展了公众对草原文明的认知途径。",
+  "schema:keywords": [
+    "成吉思汗陵",
+    "祭祀文化",
+    "三维建模"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "元代至今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "内蒙古",
+    "schema:addressLocality": "鄂尔多斯市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "成吉思汗陵管委会"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "成吉思汗陵管委会"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:fbbd1e1241b2a0819c15382a7667ce293f2b7318d48ba92b41a7e82660a98b85",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

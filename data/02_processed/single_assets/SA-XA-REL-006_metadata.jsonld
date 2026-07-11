@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:d0c9deae7336d4d55cdc4b12c3b3e088914a21253f56a36546ba1093e79b6917",
+  "schema:identifier": "SA-XA-REL-006",
+  "schema:name": "大明宫遗址",
+  "schema:description": "大明宫遗址位于西安城北，是唐代最宏伟的皇家宫殿群，始建于贞观八年（634年），占地3.2平方公里，面积约为紫禁城的4.5倍。作为世界文化遗产，它是唐朝政治、文化中心的象征，见证了盛唐的辉煌与变迁。遗址内含元殿、麟德殿等核心建筑已通过数字化技术完成三维复原，并开发了AR增强现实导览系统，使游客能沉浸式体验千年前的宫廷风貌。",
+  "schema:keywords": [
+    "大明宫",
+    "唐代皇宫",
+    "含元殿",
+    "数字化复原",
+    "AR导览",
+    "3.2平方公里"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "唐",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "西安市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "大明宫遗址保护办公室"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "大明宫遗址保护办公室"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:d0c9deae7336d4d55cdc4b12c3b3e088914a21253f56a36546ba1093e79b6917",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

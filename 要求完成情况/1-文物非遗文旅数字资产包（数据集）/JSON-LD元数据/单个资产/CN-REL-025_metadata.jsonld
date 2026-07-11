@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:3a115b344a3b51f6a69801a0268704741ae8446931190c226f76d5aa435b0781",
+  "schema:identifier": "CN-REL-025",
+  "schema:name": "赵州桥",
+  "schema:description": "赵州桥，又称安济桥，位于河北省赵县，建于隋朝大业年间（公元605-618年），由工匠李春设计建造，是世界上现存最古老、保存最完好的空腹式石拱桥。其独特敞肩拱结构减少了桥身重量，增强了抗洪能力，体现了中国古代桥梁建造的卓越智慧。文化上，赵州桥是隋代工程技术巅峰的象征，承载了千年交通与商贸记忆，被誉为“天下第一桥”。如今，该桥已完成毫米级三维扫描和结构力学数字模型，数字化保护为其长期监测与修复提供了精准数据支持。",
+  "schema:keywords": [
+    "赵州桥",
+    "隋代",
+    "空腹式拱桥",
+    "毫米级"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "隋",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "河北",
+    "schema:addressLocality": "石家庄市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "河北省文物局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "河北省文物局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:3a115b344a3b51f6a69801a0268704741ae8446931190c226f76d5aa435b0781",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalTourism",
+  "@id": "urn:sha256:0b4d532611a3d60ec91e9b5ff49731f5d577163d36d3b7699934c5f253ac733e",
+  "schema:identifier": "CN-TOUR-007",
+  "schema:name": "三星堆数字博物馆",
+  "schema:description": "三星堆遗址位于四川广汉，是距今约3000至5000年的古蜀文明核心遗存，1988年被列为全国重点文物保护单位。其出土的青铜神树、黄金面具等文物，展现了古蜀人独特的宇宙观与高超工艺，填补了中华文明多元一体的重要空白。目前，三星堆数字博物馆运用8K超高清摄影与三维激光扫描技术，对新出土文物进行即时数字化采集，实现全球最快的考古数字化在线展示，让沉睡的文物在虚拟空间焕发新生，为文化遗产保护与传播树立了全球标杆。",
+  "schema:keywords": [
+    "三星堆",
+    "8K",
+    "即时采集",
+    "三维扫描",
+    "考古数字化"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "商代",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "四川",
+    "schema:addressLocality": "广汉市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "三星堆博物馆/四川省文物考古研究院"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "三星堆博物馆/四川省文物考古研究院"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:0b4d532611a3d60ec91e9b5ff49731f5d577163d36d3b7699934c5f253ac733e",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

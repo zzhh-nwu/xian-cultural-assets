@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:6832429846e4107b75c2784018af2e210d0e8af1ce8f40aeedbd7fd4f351ca31",
+  "schema:identifier": "CN-ICH-041",
+  "schema:name": "傣族泼水节",
+  "schema:description": "傣族泼水节是国家级非物质文化遗产，源于傣历新年，相传为纪念七位勇敢少女与恶魔斗争的故事，已有数百年历史。节日期间，人们互相泼水以示祝福，象征洗去厄运、迎接新生，融合了佛教浴佛仪式与农耕祈雨习俗。文化价值上，它体现了傣族“水为圣洁”的生态智慧，强化了社群凝聚力。数字化方面，已完成泼水节文化数字化记录，并构建傣族水文化知识图谱，通过虚拟现实和在线平台保存仪式细节，促进活态传承。",
+  "schema:keywords": [
+    "泼水节",
+    "傣族",
+    "数字化记录",
+    "知识图谱"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "千年传承",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "云南",
+    "schema:addressLocality": "西双版纳州",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "云南省非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "云南省非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:6832429846e4107b75c2784018af2e210d0e8af1ce8f40aeedbd7fd4f351ca31",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

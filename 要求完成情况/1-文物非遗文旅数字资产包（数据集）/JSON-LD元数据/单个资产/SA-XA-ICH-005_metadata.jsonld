@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:5d243bb8d3d9316d3487334a922cce509b106eb689861201f584a7f90bbc92e8",
+  "schema:identifier": "SA-XA-ICH-005",
+  "schema:name": "德发长饺子制作技艺",
+  "schema:description": "德发长饺子制作技艺是国家级非物质文化遗产和中华老字号，起源于1936年，以精湛的饺子制作技艺闻名遐迩。其历史可追溯至明清时期的面点传统，现发展出318种花式饺子，造型各异、馅料丰富，体现了中国饮食文化的博大精深。数字化方面，已完成饺子塑形技法的详细记录，并建立了花式品种数据库，为传承人提供标准化教学资源，同时通过数字平台推广这一独特技艺，确保其活态传承。",
+  "schema:keywords": [
+    "德发长",
+    "饺子宴",
+    "中华老字号",
+    "318种",
+    "花式饺子"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "民国至今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "西安市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "西安市非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "西安市非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:5d243bb8d3d9316d3487334a922cce509b106eb689861201f584a7f90bbc92e8",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

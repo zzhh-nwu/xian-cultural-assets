@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:3a73323df4d60f541f0962f3cd33a56904d303688431ea0432a68280b5cfc646",
+  "schema:identifier": "SA-AK-REL-003",
+  "schema:name": "石泉古城",
+  "schema:description": "石泉古城，坐落于汉江上游，是陕西保存最完整的明清时期古城。其历史可追溯至明代，曾是秦巴古道上的重要商贸枢纽，城墙、古街、民居至今保留着原始风貌，见证了汉水流域的繁荣与变迁。文化价值上，古城融合了南北建筑风格，是研究明清城镇规划和水运文化的珍贵实物。目前，已完成古城三维扫描和汉水文化数字档案建设，通过高精度建模实现虚拟漫游，为文化遗产保护与传承提供了数字化支撑。",
+  "schema:keywords": [
+    "石泉古城",
+    "明清古城",
+    "汉水文化",
+    "三维扫描"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "明清",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "安康市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "石泉县文物局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "石泉县文物局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:3a73323df4d60f541f0962f3cd33a56904d303688431ea0432a68280b5cfc646",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

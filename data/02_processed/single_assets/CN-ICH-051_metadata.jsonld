@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:2933fd5f310015901cb8182094989cdc963f9a9f038772ae4a766a977c976fce",
+  "schema:identifier": "CN-ICH-051",
+  "schema:name": "维吾尔木卡姆艺术",
+  "schema:description": "维吾尔木卡姆艺术源自古代西域，融合了丝绸之路多元文化，于2005年被列入人类非物质文化遗产代表作名录。其历史可追溯至汉唐时期，是维吾尔族人民在长期生活中形成的集歌、舞、乐于一体的综合艺术形式。木卡姆以“十二木卡姆”为核心，包含200多首套曲，被誉为“东方音乐明珠”，深刻反映了维吾尔族的哲学思想、情感表达与生活习俗，具有极高的文化价值。目前，已完成十二木卡姆全量数字化录音和AI音乐分析，通过现代技术保存其旋律结构与音律特征，为传承和研究提供了坚实数据基础。",
+  "schema:keywords": [
+    "木卡姆",
+    "人类非遗",
+    "全量录音",
+    "AI音乐"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "千年传承",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "新疆",
+    "schema:addressLocality": "喀什地区",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "新疆非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "新疆非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:2933fd5f310015901cb8182094989cdc963f9a9f038772ae4a766a977c976fce",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

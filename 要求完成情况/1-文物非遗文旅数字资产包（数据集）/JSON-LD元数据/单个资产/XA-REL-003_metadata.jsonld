@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:c7d0058e1baa1829253052a54fa712b314efc3a4f12b184fce169b6f0921b3f7",
+  "schema:identifier": "XA-REL-003",
+  "schema:name": "镶金兽首玛瑙杯",
+  "schema:description": "镶金兽首玛瑙杯是陕西历史博物馆的镇馆之宝，1970年出土于西安市南郊何家村唐代窖藏。杯体高6.5厘米，长15.6厘米，用一整块极其罕见的红褐色缠丝玛瑙雕琢而成，兽首部分镶有金箔。这件器物是唐代中西文化交流的绝佳实物见证，被列为中国首批禁止出境展览的64件国宝级文物之一。",
+  "schema:keywords": [
+    "金银器",
+    "唐代",
+    "丝绸之路",
+    "玛瑙",
+    "中西交流",
+    "何家村窖藏",
+    "国宝级",
+    "禁止出境展览"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "唐（约7-8世纪）",
+    "cultural:material": "缠丝玛瑙（红褐色）+ 黄金（兽首镶金）",
+    "cultural:technique": "俏色巧雕 + 鎏金工艺 + 宝石加工",
+    "cultural:iconography": "牛首/兽首造型、角状杯体、希腊来通(Rhyton)仪式风格",
+    "cultural:style": "萨珊波斯-唐代融合风格",
+    "cultural:function": "皇家仪式酒器、中西文化交流象征"
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西省",
+    "schema:addressLocality": "西安市",
+    "schema:addressDistrict": "雁塔区",
+    "schema:locationName": "陕西历史博物馆",
+    "schema:latitude": "34.2180",
+    "schema:longitude": "108.9482"
+  },
+  "cultural:relatedFigures": [
+    {
+      "schema:Person": {
+        "schema:name": "（推测）唐玄宗/唐代皇室"
+      }
+    }
+  ],
+  "cultural:relatedEvents": [
+    "1970年 何家村窖藏发现",
+    "2013年 列入禁止出境展览文物"
+  ],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "陕西历史博物馆"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "https://www.sxhm.com/ 陕西历史博物馆官网",
+    "https://baike.baidu.com/item/镶金兽首玛瑙杯"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:c7d0058e1baa1829253052a54fa712b314efc3a4f12b184fce169b6f0921b3f7",
+  "dcterms:created": "2026-07-09T23:35:49Z",
+  "schema:alternateName": "Gold-Inlaid Agate Cup with Beast-Head Design",
+  "schema:additionalDescription": "镶金兽首玛瑙杯是唐代何家村窖藏中最负盛名的文物。何家村窖藏1970年在西安南郊何家村发现，出土金银器、玉器、宝石等各类文物1000余件，是20世纪中国最重大的考古发现之一。此杯选用产自西域的优质缠丝玛瑙，由中亚或波斯传入的工艺技巧制作，造型与古希腊「来通」（Rhyton）仪式用杯极为相似。杯体呈角状，口部雕作兽首形——似牛而带角，口鼻镶金箔，兽眼圆睁，神态威猛而生动。红色玛瑙的天然纹理经巧妙利用，使兽首的肌肉线条自然呈现。学者认为此杯可能来自波斯或中亚，或为唐代宫廷匠师吸收西方技艺制作，是大唐开放包容、丝绸之路文明交流互鉴的物质见证。",
+  "schema:sameAs": [
+    "《花舞大唐春——何家村遗宝精粹》- 陕西历史博物馆",
+    "《唐代金银器研究》- 齐东方"
+  ],
+  "x9p:digitalRepresentation": {
+    "images": {
+      "@type": "schema:MediaObject",
+      "schema:encodingFormat": "image",
+      "schema:url": [
+        "https://www.sxhm.com/ 陕历博官网图库"
+      ],
+      "schema:description": "多角度拍摄、尺寸参照、工艺细节",
+      "schema:license": "博物馆官方授权"
+    }
+  }
+}

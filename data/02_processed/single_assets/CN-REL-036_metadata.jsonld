@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:c57a7275f3190278c103202fd714f2c744536c239109aa73b41d92afd5d57e25",
+  "schema:identifier": "CN-REL-036",
+  "schema:name": "西夏王陵",
+  "schema:description": "西夏王陵位于宁夏银川市西郊贺兰山东麓，是西夏王朝（1038-1227年）的皇家陵园，现存9座帝陵和200余座陪葬墓。作为全国重点文物保护单位，其建筑融合中原汉式陵寝与党项族文化，被誉为“东方金字塔”。陵区布局严谨，出土的鎏金铜牛、石雕力士等文物反映了西夏工艺与佛教艺术的交融。目前已完成9座帝陵的数字测绘，建立了三维模型数据库；同时，依托AI识别技术对西夏文字进行破译，为解读西夏历史及文化基因提供了数字化支撑。",
+  "schema:keywords": [
+    "西夏王陵",
+    "9座帝陵",
+    "数字测绘",
+    "AI文字识别"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "西夏",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "宁夏",
+    "schema:addressLocality": "银川市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "宁夏文物局"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "宁夏文物局"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:c57a7275f3190278c103202fd714f2c744536c239109aa73b41d92afd5d57e25",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

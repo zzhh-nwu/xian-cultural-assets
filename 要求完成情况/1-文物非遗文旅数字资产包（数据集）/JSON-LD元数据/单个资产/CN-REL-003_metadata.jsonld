@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:6469326628a8e4da6e32fd639bc3ef7afcf36eab097b197712767473953ce4ff",
+  "schema:identifier": "CN-REL-003",
+  "schema:name": "龙门石窟",
+  "schema:description": "龙门石窟位于河南洛阳，开凿于北魏至唐代，现存窟龛2345个、造像10万余尊，以卢舍那大佛为代表，展现了盛唐气象和佛教艺术巅峰。其文化价值在于碑刻题记的书法艺术和宗教史研究。2020年，实现国内首次流散石质造像文物的数字修复——通过3D打印佛首复位，开创文物数字修复与实体复原结合的新范式，为散落海外文物回归提供创新路径。",
+  "schema:keywords": [
+    "龙门石窟",
+    "数字修复",
+    "3D打印",
+    "佛首复位",
+    "流散文物"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "北魏至唐",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "河南",
+    "schema:addressLocality": "洛阳市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "龙门石窟研究院"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "龙门石窟研究院"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:6469326628a8e4da6e32fd639bc3ef7afcf36eab097b197712767473953ce4ff",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

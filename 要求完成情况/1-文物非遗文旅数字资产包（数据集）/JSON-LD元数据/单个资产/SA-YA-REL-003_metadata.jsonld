@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:CulturalRelic",
+  "@id": "urn:sha256:b4f9ca1dfd9f8c2a43a4562f16834b78f001dd657090a703ac714d7cb5b7a759",
+  "schema:identifier": "SA-YA-REL-003",
+  "schema:name": "宝塔山",
+  "schema:description": "宝塔山位于陕西延安市中心，是延安的城市标志与精神象征。山上的唐代宝塔历经千年风雨，见证了古代边防要塞的沧桑与近代革命圣地的崛起。1937年，中共中央进驻延安后，宝塔山成为无数进步青年向往的灯塔，其形象被镌刻在革命文献与文艺作品中，凝聚了艰苦奋斗、自强不息的民族气节。数字化保护方面，已完成宝塔三维扫描，并建立延安精神数字教育基地，借助VR技术重现历史场景，让参观者沉浸式感悟红色基因的传承与时代价值。",
+  "schema:keywords": [
+    "宝塔山",
+    "延安精神",
+    "唐代宝塔",
+    "三维扫描",
+    "数字教育基地"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "唐至今",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "陕西",
+    "schema:addressLocality": "延安市",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "宝塔山景区管委会"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "宝塔山景区管委会"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:b4f9ca1dfd9f8c2a43a4562f16834b78f001dd657090a703ac714d7cb5b7a759",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}

@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "dc": "http://purl.org/dc/terms/",
+    "x9p": "http://west9-province.org/standard/v1.0#",
+    "cultural": "http://cultural-asset.org/ns#"
+  },
+  "@type": "cultural:IntangibleHeritage",
+  "@id": "urn:sha256:0b03e8acea0ee3089d76c69b985e376e899ec2528bfe7224076e49cafa184eaf",
+  "schema:identifier": "CN-ICH-044",
+  "schema:name": "热贡艺术",
+  "schema:description": "热贡艺术起源于青海省黄南藏族自治州同仁县，是藏族艺术的重要流派，以唐卡、壁画、堆绣、雕塑等形式闻名，2009年被列入联合国教科文组织人类非物质文化遗产代表作名录。其历史可追溯至公元10世纪，融合藏传佛教、汉地艺术与本土文化，形成色彩绚丽、线条精细的独特风格，具有极高的宗教、艺术与历史研究价值。目前已完成唐卡绘制工艺的数字化记录和天然颜料数据库建设，通过高精度扫描和光谱分析保存传统技法，为传承与学术研究提供了可靠数据支持。",
+  "schema:keywords": [
+    "热贡艺术",
+    "人类非遗",
+    "唐卡",
+    "颜料数据库"
+  ],
+  "cultural:culturalElements": {
+    "cultural:period": "千年传承",
+    "cultural:material": "",
+    "cultural:technique": "",
+    "cultural:iconography": "",
+    "cultural:style": "",
+    "cultural:function": ""
+  },
+  "x9p:geolocation": {
+    "schema:addressRegion": "青海",
+    "schema:addressLocality": "黄南州",
+    "schema:addressDistrict": "",
+    "schema:locationName": "",
+    "schema:latitude": "",
+    "schema:longitude": ""
+  },
+  "cultural:relatedFigures": [],
+  "cultural:relatedEvents": [],
+  "schema:copyrightHolder": {
+    "schema:Organization": {
+      "schema:name": "青海省非遗保护中心"
+    }
+  },
+  "schema:license": "CC BY-NC-ND 4.0",
+  "schema:citation": [
+    "青海省非遗保护中心"
+  ],
+  "x9p:registrationStandard": "数字资产登记标准 v1.0",
+  "x9p:certificationHash": "sha256:0b03e8acea0ee3089d76c69b985e376e899ec2528bfe7224076e49cafa184eaf",
+  "dcterms:created": "2026-07-09T23:35:49Z"
+}
