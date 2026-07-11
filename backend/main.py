@@ -78,9 +78,9 @@ if os.path.exists(kg_json_path):
         KG_DATA = json.load(f)
 
 
-# ===== 首页 =====
-@app.get('/')
-def root():
+# ===== 首页（API文档重定向）=====
+@app.get('/api')
+def api_index():
     return {
         'app': '西安文化数字资产平台 API v2.0',
         'description': '陕西文物/非遗/文旅数字资产生成与内容创作',
@@ -829,6 +829,12 @@ async def admin_review(request: Request):
     db.close()
 
     return {'success': True, 'message': '审核完成', 'new_status': new_status}
+
+
+# ===== 前端静态文件服务 =====
+STATIC_DIR = os.path.join(BASE_DIR, 'static')
+if os.path.exists(STATIC_DIR):
+    app.mount('/', StaticFiles(directory=STATIC_DIR, html=True), name='static')
 
 
 # ===== 启动入口 =====
