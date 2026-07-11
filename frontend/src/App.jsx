@@ -683,6 +683,12 @@ function KnowledgeGraph({ kgStats }) {
   // 初始化 vis-network
   useEffect(() => {
     if (!graphData || !containerRef.current || networkRef.current) return
+    if (typeof vis === 'undefined' || !vis.Network) {
+      setError('vis-network 库未加载，请刷新页面重试')
+      setLoading(false)
+      return
+    }
+    try {
     const nodes = new vis.DataSet(graphData.nodes.map(n => ({
       id: n.id,
       label: n.label,
@@ -784,6 +790,11 @@ function KnowledgeGraph({ kgStats }) {
       })))
       network.fit({ animation: { duration: 800, easingFunction: 'easeInOutQuad' } })
     })
+    } catch(e) {
+      console.error('vis-network init error:', e)
+      setError('图谱渲染失败: ' + (e.message || '未知错误'))
+      setLoading(false)
+    }
   }, [graphData])
 
   // 搜索
@@ -814,7 +825,7 @@ function KnowledgeGraph({ kgStats }) {
     <div className="py-12">
       <div className="text-center mb-8">
         <span className="text-xs font-bold tracking-[0.25em] text-[#C9A96E] uppercase">Knowledge Graph</span>
-        <h1 className="text-4xl md:text-5xl font-black text-[#E8E0D5] mt-3 mb-2" style={{fontFamily:"'Noto Serif SC',serif"}}>知识图谱</h1>
+        <h1 className="text-4xl md:text-5xl font-black text-[#E8E0D5] mt-3 mb-2" style={{fontFamily:"'Noto Serif SC',serif"}}>知识图谱 <span className="text-xs font-mono text-[#C9A96E]/60 align-top">v2</span></h1>
         <p className="text-sm text-[#B8A99A]">{kgStats?.total_nodes||"…"} 节点 · {kgStats?.total_edges||"…"} 条边 · {Object.keys(nt).length||"…"} 种实体 · {Object.keys(et).length||"…"} 种关系</p>
       </div>
 
